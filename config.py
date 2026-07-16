@@ -85,4 +85,5 @@ EXTRACT_MODEL = "claude-opus-4-8"    # Hmall 검색용 핵심 키워드 추출 (
 # ──────────────────────────────────────────────
 RISING_MIN_DELTA = 30     # 순위가 이만큼 이상 상승하면 '급상승'
 RISING_TOP_LIMIT = 40     # 대시보드에 노출할 급상승/신규 키워드 최대 개수 (전 카테고리 합산)
+NEW_RANK_MAX = 100        # '주목할 신규'로 패널에 노출할 신규 진입의 최대 순위 (하위 롱테일 노이즈 제외)
 KEYWORDS_PER_CATEGORY = 100  # latest.json 에 카테고리별로 담을 키워드 수 (수집은 TOP500, 노출은 상위 N)

@@ -55,21 +55,51 @@ def compute_deltas(current: dict[str, list[dict]],
     return out
 
 
+def _flatten(keywords: dict[str, list[dict]]) -> list[tuple[str, dict]]:
+    return [(cat, r) for cat, rows in keywords.items() for r in rows]
+
+
+def count_signals(keywords: dict[str, list[dict]]) -> dict:
+    """전체 데이터(TOP500) 기준 정직한 카운트. 표시 상한(RISING_TOP_LIMIT)과 무관."""
+    rising_total = sum(
+        1 for _, r in _flatten(keywords)
+        if r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA
+    )
+    new_total = sum(1 for _, r in _flatten(keywords) if r["is_new"])
+    return {"rising_count": rising_total, "new_count": new_total}
+
+
 def pick_rising(keywords: dict[str, list[dict]]) -> list[dict]:
-    """급상승(delta >= RISING_MIN_DELTA) + 신규 진입 키워드를 전 카테고리에서 추출."""
-    rising = []
-    for cat, rows in keywords.items():
-        for r in rows:
-            if r["is_new"] or (r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA):
-                rising.append({"category": cat, **{k: r[k] for k in
-                               ("rank", "keyword", "prev_rank", "delta", "is_new")}})
-    # 신규는 현재 순위 오름차순, 급상승은 델타 내림차순 — 섞어서 스코어 정렬
-    def score(x):
-        if x["is_new"]:
-            return 1000 - x["rank"]          # 신규는 상위 진입일수록 높게
-        return x["delta"]                     # 급상승은 델타 크기
-    rising.sort(key=score, reverse=True)
-    return rising[: config.RISING_TOP_LIMIT]
+    """대시보드/인사이트에 노출할 목록.
+
+    급상승(delta 큰 순)과 '주목할 신규'(NEW_RANK_MAX 이내, 상위 진입 순)를
+    번갈아 담아, 신규가 급상승을 밀어내지 않도록 균형을 맞춘다.
+    """
+    def fields(cat, r):
+        return {"category": cat, **{k: r[k] for k in
+                ("rank", "keyword", "prev_rank", "delta", "is_new")}}
+
+    jumps = sorted(
+        (fields(cat, r) for cat, r in _flatten(keywords)
+         if not r["is_new"] and r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA),
+        key=lambda x: x["delta"], reverse=True,
+    )
+    news = sorted(
+        (fields(cat, r) for cat, r in _flatten(keywords)
+         if r["is_new"] and r["rank"] <= config.NEW_RANK_MAX),
+        key=lambda x: x["rank"],
+    )
+
+    # 급상승·신규를 번갈아 인터리브 (한쪽이 부족하면 다른 쪽으로 채움)
+    display, ji, ni = [], 0, 0
+    while len(display) < config.RISING_TOP_LIMIT and (ji < len(jumps) or ni < len(news)):
+        if ji < len(jumps):
+            display.append(jumps[ji]); ji += 1
+            if len(display) >= config.RISING_TOP_LIMIT:
+                break
+        if ni < len(news):
+            display.append(news[ni]); ni += 1
+    return display
 
 
 def analyze(current_snapshot: dict, previous_snapshot: dict | None) -> dict:
@@ -90,9 +120,6 @@ def analyze(current_snapshot: dict, previous_snapshot: dict | None) -> dict:
         cat: rows[: config.KEYWORDS_PER_CATEGORY] for cat, rows in keywords.items()
     }
 
-    stats = {
-        "rising_count": sum(1 for r in rising if not r["is_new"]),
-        "new_count": sum(1 for r in rising if r["is_new"]),
-        "gap_count": None,  # Hmall 체크 활성화 후 채움
-    }
+    stats = count_signals(keywords)      # 전체 데이터 기준 정직한 카운트
+    stats["gap_count"] = None            # Hmall 체크 활성화 후 채움
     return {"keywords": keywords_view, "rising": rising, "stats": stats}
