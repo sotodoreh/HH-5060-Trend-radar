@@ -71,9 +71,6 @@ def generate_insights(rising: list[dict], products: dict | None = None,
         print("[insight] ANTHROPIC_API_KEY 미설정 — 인사이트 생성 건너뜀")
         return {"generated": False, "summary": "", "candidates": []}
 
-    import anthropic
-    client = anthropic.Anthropic()
-
     payload = {"급상승_및_신규진입_키워드": rising}
     if products:
         payload["hype_상품"] = products
@@ -87,21 +84,33 @@ def generate_insights(rising: list[dict], products: dict | None = None,
         + json.dumps(payload, ensure_ascii=False)
     )
 
-    resp = client.messages.create(
-        model=config.INSIGHT_MODEL,
-        max_tokens=16000,
-        thinking={"type": "adaptive"},
-        system=SYSTEM,
-        output_config={"format": {"type": "json_schema", "schema": INSIGHT_SCHEMA}},
-        messages=[{"role": "user", "content": user_msg}],
-    )
-    if resp.stop_reason == "refusal":
-        print("[insight] 요청 거부됨 — 인사이트 없이 진행")
+    # 인사이트 생성 실패(키 오류·크레딧 부족·모델 접근·응답 파싱 등)가
+    # 파이프라인 전체를 죽이지 않도록 방어. 실패해도 데이터/대시보드는 발행된다.
+    try:
+        import anthropic
+        client = anthropic.Anthropic()
+        resp = client.messages.create(
+            model=config.INSIGHT_MODEL,
+            max_tokens=16000,
+            thinking={"type": "adaptive"},
+            system=SYSTEM,
+            output_config={"format": {"type": "json_schema", "schema": INSIGHT_SCHEMA}},
+            messages=[{"role": "user", "content": user_msg}],
+        )
+        if resp.stop_reason == "refusal":
+            print("[insight] 요청 거부됨 — 인사이트 없이 진행")
+            return {"generated": False, "summary": "", "candidates": []}
+        text = next((b.text for b in resp.content if b.type == "text"), None)
+        if not text:
+            print(f"[insight] 텍스트 블록 없음 (stop_reason={resp.stop_reason}) — 인사이트 없이 진행")
+            return {"generated": False, "summary": "", "candidates": []}
+        data = json.loads(text)
+        return {"generated": True, **data}
+    except Exception as e:
+        # 대표 원인: 크레딧 부족/결제 미완(402), 잘못된 키(401), 모델 접근 불가(403/404)
+        print(f"[insight] ⚠️ 생성 실패 — 데이터는 정상 발행, 인사이트만 건너뜀: "
+              f"{type(e).__name__}: {e}")
         return {"generated": False, "summary": "", "candidates": []}
-
-    text = next(b.text for b in resp.content if b.type == "text")
-    data = json.loads(text)
-    return {"generated": True, **data}
 
 
 if __name__ == "__main__":
