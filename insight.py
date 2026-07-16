@@ -88,7 +88,11 @@ def generate_insights(rising: list[dict], products: dict | None = None,
     # 파이프라인 전체를 죽이지 않도록 방어. 실패해도 데이터/대시보드는 발행된다.
     try:
         import anthropic
-        client = anthropic.Anthropic()
+        # Secrets 붙여넣기 시 키 끝에 줄바꿈/공백이 섞이면 HTTP 헤더가 깨져
+        # 'Connection error' 로 위장된 실패가 난다 → 앞뒤 공백 제거 후 사용
+        client = anthropic.Anthropic(
+            api_key=os.environ["ANTHROPIC_API_KEY"].strip()
+        )
         resp = client.messages.create(
             model=config.INSIGHT_MODEL,
             max_tokens=16000,
@@ -107,9 +111,14 @@ def generate_insights(rising: list[dict], products: dict | None = None,
         data = json.loads(text)
         return {"generated": True, **data}
     except Exception as e:
-        # 대표 원인: 크레딧 부족/결제 미완(402), 잘못된 키(401), 모델 접근 불가(403/404)
-        print(f"[insight] ⚠️ 생성 실패 — 데이터는 정상 발행, 인사이트만 건너뜀: "
-              f"{type(e).__name__}: {e}")
+        # 대표 원인: 크레딧 부족/결제 미완(402), 잘못된 키(401), 모델 접근 불가(403/404),
+        # Secret에 섞인 공백/줄바꿈(헤더 오류가 Connection error 로 표시됨)
+        msg = f"{type(e).__name__}: {e}"
+        cause = getattr(e, "__cause__", None)
+        while cause is not None:  # 겉포장이 아니라 진짜 원인을 로그에 남긴다
+            msg += f"\n[insight]   └ 원인: {type(cause).__name__}: {cause}"
+            cause = getattr(cause, "__cause__", None)
+        print(f"[insight] ⚠️ 생성 실패 — 데이터는 정상 발행, 인사이트만 건너뜀: {msg}")
         return {"generated": False, "summary": "", "candidates": []}
 
 
