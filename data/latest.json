@@ -1,15 +1,15 @@
 {
  "meta": {
   "week": "2026-W29",
-  "generated_at": "2026-07-16T10:28:41.835680+09:00",
+  "generated_at": "2026-07-16T14:12:16.789876+09:00",
   "period": "2026-06-15 ~ 2026-07-12",
   "prev_week": "2026-W28",
   "target": "50–60대 여성",
   "sample": false
  },
  "stats": {
-  "rising_count": 587,
-  "new_count": 355,
+  "rising_count": 598,
+  "new_count": 362,
   "gap_count": null
  },
  "categories": [
@@ -4961,24 +4961,16 @@
     "delta": null,
     "is_new": true,
     "source": "여행"
-   },
-   {
-    "rank": 4,
-    "keyword": "정수기렌탈",
-    "prev_rank": 3,
-    "delta": -1,
-    "is_new": false,
-    "source": "가전"
    }
   ]
  },
  "rising": [
   {
-   "category": "여행",
-   "rank": 177,
-   "keyword": "푸꾸옥사진",
-   "prev_rank": 488,
-   "delta": 311,
+   "category": "일반식품",
+   "rank": 119,
+   "keyword": "서울우유한끼식사",
+   "prev_rank": 429,
+   "delta": 310,
    "is_new": false
   },
   {
@@ -4990,27 +4982,27 @@
    "is_new": true
   },
   {
-   "category": "일반식품",
-   "rank": 119,
-   "keyword": "서울우유한끼식사",
-   "prev_rank": 429,
-   "delta": 310,
+   "category": "여행",
+   "rank": 201,
+   "keyword": "푸꾸옥사진",
+   "prev_rank": 488,
+   "delta": 287,
    "is_new": false
   },
   {
    "category": "건강식품",
-   "rank": 250,
+   "rank": 249,
    "keyword": "계피스틱",
    "prev_rank": 486,
-   "delta": 236,
+   "delta": 237,
    "is_new": false
   },
   {
    "category": "여행",
-   "rank": 199,
+   "rank": 198,
    "keyword": "티벳여행",
    "prev_rank": 430,
-   "delta": 231,
+   "delta": 232,
    "is_new": false
   },
   {
@@ -5023,58 +5015,66 @@
   },
   {
    "category": "여행",
-   "rank": 189,
+   "rank": 188,
    "keyword": "다낭패스트트랙",
    "prev_rank": 401,
-   "delta": 212,
-   "is_new": false
-  },
-  {
-   "category": "여행",
-   "rank": 165,
-   "keyword": "3박4일여행",
-   "prev_rank": 375,
-   "delta": 210,
+   "delta": 213,
    "is_new": false
   },
   {
    "category": "가전",
-   "rank": 231,
+   "rank": 228,
    "keyword": "갤럭시s23fe케이스",
    "prev_rank": 439,
-   "delta": 208,
+   "delta": 211,
    "is_new": false
   },
   {
    "category": "여행",
-   "rank": 278,
-   "keyword": "나오시마여행",
-   "prev_rank": 482,
-   "delta": 204,
+   "rank": 166,
+   "keyword": "3박4일여행",
+   "prev_rank": 375,
+   "delta": 209,
    "is_new": false
   },
   {
-   "category": "생활용품",
-   "rank": 248,
-   "keyword": "자하라밤",
-   "prev_rank": 438,
-   "delta": 190,
-   "is_new": false
-  },
-  {
-   "category": "가전",
-   "rank": 245,
-   "keyword": "신일전자sac-11000hs100cm",
-   "prev_rank": 428,
-   "delta": 183,
+   "category": "건강식품",
+   "rank": 250,
+   "keyword": "퀘르포민정",
+   "prev_rank": 446,
+   "delta": 196,
    "is_new": false
   },
   {
    "category": "가전",
-   "rank": 286,
+   "rank": 280,
    "keyword": "실외기없는에어컨",
    "prev_rank": 469,
-   "delta": 183,
+   "delta": 189,
+   "is_new": false
+  },
+  {
+   "category": "뷰티",
+   "rank": 170,
+   "keyword": "다이소비타민c앰플",
+   "prev_rank": 358,
+   "delta": 188,
+   "is_new": false
+  },
+  {
+   "category": "뷰티",
+   "rank": 234,
+   "keyword": "케라스타즈샴푸",
+   "prev_rank": 422,
+   "delta": 188,
+   "is_new": false
+  },
+  {
+   "category": "가전",
+   "rank": 241,
+   "keyword": "신일전자sac-11000hs100cm",
+   "prev_rank": 428,
+   "delta": 187,
    "is_new": false
   },
   {
@@ -5086,19 +5086,11 @@
    "is_new": false
   },
   {
-   "category": "뷰티",
-   "rank": 190,
-   "keyword": "다이소비타민c앰플",
-   "prev_rank": 358,
-   "delta": 168,
-   "is_new": false
-  },
-  {
    "category": "여행",
-   "rank": 322,
-   "keyword": "유럽완전무제한이심",
-   "prev_rank": 487,
-   "delta": 165,
+   "rank": 315,
+   "keyword": "나오시마여행",
+   "prev_rank": 482,
+   "delta": 167,
    "is_new": false
   },
   {
@@ -5110,6 +5102,14 @@
    "is_new": false
   },
   {
+   "category": "생활용품",
+   "rank": 275,
+   "keyword": "자하라밤",
+   "prev_rank": 438,
+   "delta": 163,
+   "is_new": false
+  },
+  {
    "category": "일반식품",
    "rank": 236,
    "keyword": "석류담다",
@@ -5118,43 +5118,43 @@
    "is_new": false
   },
   {
-   "category": "일반식품",
-   "rank": 320,
-   "keyword": "명란젓",
-   "prev_rank": 477,
-   "delta": 157,
-   "is_new": false
-  },
-  {
-   "category": "건강식품",
-   "rank": 309,
-   "keyword": "mbp영양제",
-   "prev_rank": 463,
-   "delta": 154,
-   "is_new": false
-  },
-  {
    "category": "생활용품",
-   "rank": 337,
+   "rank": 334,
    "keyword": "에어컨냄새제거",
    "prev_rank": 490,
+   "delta": 156,
+   "is_new": false
+  },
+  {
+   "category": "일반식품",
+   "rank": 322,
+   "keyword": "명란젓",
+   "prev_rank": 477,
+   "delta": 155,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 281,
+   "keyword": "미서부패키지여행",
+   "prev_rank": 434,
    "delta": 153,
    "is_new": false
   },
   {
-   "category": "뷰티",
-   "rank": 351,
-   "keyword": "구달청귤비타c",
-   "prev_rank": 500,
-   "delta": 149,
+   "category": "생활용품",
+   "rank": 312,
+   "keyword": "다이소방충망스티커",
+   "prev_rank": 464,
+   "delta": 152,
    "is_new": false
   },
   {
-   "category": "생활용품",
-   "rank": 315,
-   "keyword": "다이소방충망스티커",
-   "prev_rank": 464,
-   "delta": 149,
+   "category": "여행",
+   "rank": 275,
+   "keyword": "아소그랑브리오cc",
+   "prev_rank": 427,
+   "delta": 152,
    "is_new": false
   },
   {
@@ -5166,19 +5166,27 @@
    "is_new": false
   },
   {
-   "category": "주방용품",
-   "rank": 331,
-   "keyword": "키위솜땀채칼",
-   "prev_rank": 478,
-   "delta": 147,
+   "category": "뷰티",
+   "rank": 352,
+   "keyword": "구달청귤비타c",
+   "prev_rank": 500,
+   "delta": 148,
    "is_new": false
   },
   {
-   "category": "여행",
-   "rank": 280,
-   "keyword": "아소그랑브리오cc",
-   "prev_rank": 427,
-   "delta": 147,
+   "category": "가전",
+   "rank": 224,
+   "keyword": "갤럭시s25플러스케이스",
+   "prev_rank": 370,
+   "delta": 146,
+   "is_new": false
+  },
+  {
+   "category": "가전",
+   "rank": 302,
+   "keyword": "바디드라이어",
+   "prev_rank": 448,
+   "delta": 146,
    "is_new": false
   },
   {
@@ -5190,19 +5198,19 @@
    "is_new": false
   },
   {
-   "category": "일반식품",
-   "rank": 330,
-   "keyword": "당근주스",
-   "prev_rank": 474,
-   "delta": 144,
+   "category": "주방용품",
+   "rank": 333,
+   "keyword": "키위솜땀채칼",
+   "prev_rank": 478,
+   "delta": 145,
    "is_new": false
   },
   {
-   "category": "가전",
-   "rank": 227,
-   "keyword": "갤럭시s25플러스케이스",
-   "prev_rank": 370,
-   "delta": 143,
+   "category": "여행",
+   "rank": 206,
+   "keyword": "내몽골패키지",
+   "prev_rank": 351,
+   "delta": 145,
    "is_new": false
   },
   {
@@ -5211,6 +5219,14 @@
    "keyword": "스카트소독티슈",
    "prev_rank": 355,
    "delta": 143,
+   "is_new": false
+  },
+  {
+   "category": "일반식품",
+   "rank": 332,
+   "keyword": "당근주스",
+   "prev_rank": 474,
+   "delta": 142,
    "is_new": false
   },
   {
@@ -5230,67 +5246,43 @@
    "is_new": false
   },
   {
-   "category": "주방용품",
-   "rank": 355,
-   "keyword": "매실청누름판",
-   "prev_rank": 496,
+   "category": "생활용품",
+   "rank": 286,
+   "keyword": "피지모락셀라",
+   "prev_rank": 427,
    "delta": 141,
    "is_new": false
   },
   {
-   "category": "뷰티",
-   "rank": 303,
-   "keyword": "시카알엑스율무팩",
-   "prev_rank": 443,
-   "delta": 140,
+   "category": "주방용품",
+   "rank": 358,
+   "keyword": "매실청누름판",
+   "prev_rank": 496,
+   "delta": 138,
    "is_new": false
   },
   {
-   "category": "생활용품",
-   "rank": 288,
-   "keyword": "피지모락셀라",
-   "prev_rank": 427,
-   "delta": 139,
+   "category": "뷰티",
+   "rank": 306,
+   "keyword": "시카알엑스율무팩",
+   "prev_rank": 443,
+   "delta": 137,
    "is_new": false
   },
   {
    "category": "가전",
-   "rank": 312,
-   "keyword": "바디드라이어",
-   "prev_rank": 448,
+   "rank": 306,
+   "keyword": "2in1에어컨",
+   "prev_rank": 442,
    "delta": 136,
    "is_new": false
   },
   {
-   "category": "여행",
-   "rank": 331,
-   "keyword": "장가계직항패키지",
-   "prev_rank": 466,
-   "delta": 135,
-   "is_new": false
-  },
-  {
    "category": "생활용품",
-   "rank": 184,
+   "rank": 183,
    "keyword": "신통방통욕실청소왕",
    "prev_rank": 315,
-   "delta": 131,
-   "is_new": false
-  },
-  {
-   "category": "생활용품",
-   "rank": 77,
-   "keyword": "랩신섬유항균제",
-   "prev_rank": 207,
-   "delta": 130,
-   "is_new": false
-  },
-  {
-   "category": "뷰티",
-   "rank": 293,
-   "keyword": "케라스타즈샴푸",
-   "prev_rank": 422,
-   "delta": 129,
+   "delta": 132,
    "is_new": false
   }
  ],
