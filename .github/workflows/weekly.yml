@@ -32,5 +32,15 @@ jobs:
           git config user.name "trend-radar-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data docs/data
-          git diff --cached --quiet || git commit -m "chore: weekly data $(date +'%Y-%m-%d')"
-          git push
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋/푸시 건너뜀"
+            exit 0
+          fi
+          git commit -m "chore: weekly data $(date +'%Y-%m-%d')"
+          # 원격이 앞서 있을 수 있으므로(코드 수정 푸시·동시 실행 경합) rebase 후 재시도
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            echo "push 재시도 $attempt..."
+            sleep 5
+          done
+          echo "push 최종 실패" && exit 1
