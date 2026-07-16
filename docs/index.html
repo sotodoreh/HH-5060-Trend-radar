@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5060 트렌드 레이더</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#181f30; --panel2:#1e2740; --line:#2a3552;
+    --text:#e8ecf4; --sub:#93a0bb; --accent:#ff6b57; --up:#ff6b57; --new:#4cc9a7;
+    --chip:#232e4a; --chip-on:#ff6b57;
+    font-size:16px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:"Pretendard","Malgun Gothic","Apple SD Gothic Neo",sans-serif;
+    line-height:1.55; padding-bottom:60px;
+  }
+  .wrap{max-width:1080px; margin:0 auto; padding:0 20px}
+
+  header{padding:34px 0 20px; border-bottom:1px solid var(--line)}
+  .brand{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap}
+  .brand h1{font-size:1.7rem; letter-spacing:-.5px}
+  .brand h1 b{color:var(--accent)}
+  .brand .target{font-size:.85rem; color:var(--sub); border:1px solid var(--line);
+    padding:3px 10px; border-radius:20px}
+  .meta{margin-top:10px; color:var(--sub); font-size:.9rem; display:flex; gap:16px; flex-wrap:wrap}
+  .meta .sample-flag{color:#f2c14e}
+
+  .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:22px 0}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:18px 20px}
+  .card .label{color:var(--sub); font-size:.85rem}
+  .card .num{font-size:2rem; font-weight:800; margin-top:4px}
+  .card .num small{font-size:1rem; font-weight:500; color:var(--sub)}
+  .card.rising .num{color:var(--up)}
+  .card.newkw .num{color:var(--new)}
+
+  .tabs{display:flex; gap:8px; margin:8px 0 16px}
+  .tab{flex:1; text-align:center; padding:13px 0; border-radius:12px; background:var(--panel);
+    border:1px solid var(--line); cursor:pointer; font-weight:700; font-size:1rem; color:var(--sub)}
+  .tab.on{background:var(--accent); color:#fff; border-color:var(--accent)}
+
+  .chips{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px}
+  .chip{padding:7px 14px; border-radius:20px; background:var(--chip); color:var(--sub);
+    cursor:pointer; font-size:.9rem; border:1px solid transparent}
+  .chip.on{background:var(--chip-on); color:#fff; font-weight:700}
+
+  .panel{background:var(--panel); border:1px solid var(--line); border-radius:14px; overflow:hidden}
+  .panel h2{font-size:1.02rem; padding:14px 18px; border-bottom:1px solid var(--line);
+    display:flex; justify-content:space-between; align-items:center}
+  .panel h2 .hint{font-size:.8rem; color:var(--sub); font-weight:400}
+
+  table{width:100%; border-collapse:collapse}
+  th{font-size:.78rem; color:var(--sub); text-align:left; padding:10px 18px; font-weight:500;
+    border-bottom:1px solid var(--line)}
+  td{padding:11px 18px; border-bottom:1px solid #202a44; font-size:.95rem}
+  tr:last-child td{border-bottom:none}
+  td.rk{width:56px; color:var(--sub); font-variant-numeric:tabular-nums}
+  td.kw{font-weight:600}
+  .badge{display:inline-block; padding:2px 9px; border-radius:11px; font-size:.78rem; font-weight:700}
+  .badge.up{background:rgba(255,107,87,.15); color:var(--up)}
+  .badge.new{background:rgba(76,201,167,.15); color:var(--new)}
+  .badge.flat{color:var(--sub); font-weight:400}
+  .badge.src{background:var(--chip); color:var(--sub); font-weight:400}
+  .badge.gap{background:rgba(242,193,78,.15); color:#f2c14e}
+
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px}
+
+  .insight{margin-top:22px; background:linear-gradient(160deg,var(--panel2),var(--panel));
+    border:1px solid var(--line); border-radius:14px; padding:22px}
+  .insight h2{font-size:1.05rem; margin-bottom:12px; display:flex; align-items:center; gap:8px}
+  .insight h2::before{content:"◆"; color:var(--accent); font-size:.8rem}
+  .insight .summary{color:var(--text); margin-bottom:16px; white-space:pre-line}
+  .cand{border-top:1px solid var(--line); padding:13px 0}
+  .cand .head{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:4px}
+  .cand .rank-no{width:24px; height:24px; border-radius:50%; background:var(--accent); color:#fff;
+    display:inline-flex; align-items:center; justify-content:center; font-size:.8rem; font-weight:800}
+  .cand .name{font-weight:700}
+  .cand .cat{color:var(--sub); font-size:.83rem}
+  .cand .reason{color:var(--sub); font-size:.92rem; padding-left:34px}
+  .insight .empty{color:var(--sub); font-size:.92rem}
+
+  .empty-track{padding:36px 20px; text-align:center; color:var(--sub); font-size:.95rem}
+  footer{margin-top:36px; color:#5b6784; font-size:.8rem; text-align:center}
+
+  @media (max-width:720px){
+    .cards{grid-template-columns:1fr 1fr 1fr; gap:8px}
+    .card{padding:12px}
+    .card .num{font-size:1.4rem}
+    .grid2{grid-template-columns:1fr}
+    .brand h1{font-size:1.35rem}
+    td,th{padding:9px 12px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>5060 <b>트렌드 레이더</b></h1>
+      <span class="target">타깃 · 50–60대 여성</span>
+    </div>
+    <div class="meta" id="meta">데이터 로딩 중…</div>
+  </header>
+
+  <section class="cards" id="cards"></section>
+
+  <nav class="tabs">
+    <div class="tab on" data-tab="interest">관심사 레이더</div>
+    <div class="tab" data-tab="hype">Hype 상품 레이더</div>
+  </nav>
+
+  <div id="view-interest">
+    <div class="chips" id="chips"></div>
+    <div class="grid2">
+      <div class="panel">
+        <h2>급상승 · 신규 진입 <span class="hint">전주 대비, 전 카테고리</span></h2>
+        <table id="rising-table">
+          <thead><tr><th>순위</th><th>키워드</th><th>카테고리</th><th>변화</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="panel">
+        <h2 id="kw-title">카테고리 인기검색어</h2>
+        <table id="kw-table">
+          <thead><tr><th>순위</th><th>키워드</th><th>변화</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="view-hype" style="display:none">
+    <div class="panel">
+      <h2>Hype 상품 레이더 <span class="hint">네이버쇼핑 베스트 · 순위 급등 + 리뷰 급증</span></h2>
+      <div id="hype-body"></div>
+    </div>
+  </div>
+
+  <section class="insight">
+    <h2>AI 인사이트 — 방송상품화 후보</h2>
+    <div class="summary" id="ins-summary"></div>
+    <div id="ins-cands"></div>
+  </section>
+
+  <footer>5060 트렌드 레이더 · 네이버 데이터랩 쇼핑인사이트 기반 · 매주 월요일 자동 갱신</footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let DATA = null;
+let curCat = null;
+
+function deltaBadge(r){
+  if (r.is_new) return '<span class="badge new">NEW</span>';
+  if (r.delta == null) return '<span class="badge flat">–</span>';
+  if (r.delta > 0) return `<span class="badge up">▲${r.delta}</span>`;
+  if (r.delta < 0) return `<span class="badge flat">▽${-r.delta}</span>`;
+  return '<span class="badge flat">–</span>';
+}
+
+function renderMeta(){
+  const m = DATA.meta;
+  const parts = [
+    `기준 주차 <b>${m.week}</b>`,
+    `조회 구간 ${m.period}`,
+    m.prev_week ? `비교 대상 ${m.prev_week}` : '첫 수집 주 (전주 비교 없음)',
+  ];
+  if (m.sample) parts.push('<span class="sample-flag">※ 샘플/시드 데이터</span>');
+  $('#meta').innerHTML = parts.join(' · ');
+}
+
+function renderCards(){
+  const s = DATA.stats;
+  $('#cards').innerHTML = `
+    <div class="card rising"><div class="label">급상승 키워드</div>
+      <div class="num">${s.rising_count ?? 0}<small>개</small></div></div>
+    <div class="card newkw"><div class="label">TOP500 신규 진입</div>
+      <div class="num">${s.new_count ?? 0}<small>개</small></div></div>
+    <div class="card"><div class="label">Hmall 미보유 갭</div>
+      <div class="num">${s.gap_count ?? '–'}<small>${s.gap_count!=null?'개':' 준비중'}</small></div></div>`;
+}
+
+function renderChips(){
+  $('#chips').innerHTML = DATA.categories
+    .map(c => `<span class="chip ${c===curCat?'on':''}" data-cat="${c}">${c}</span>`).join('');
+  document.querySelectorAll('.chip').forEach(el =>
+    el.onclick = () => { curCat = el.dataset.cat; renderChips(); renderKeywords(); });
+}
+
+function renderRising(){
+  const rows = DATA.rising.slice(0, 20).map(r => `
+    <tr><td class="rk">${r.rank}</td><td class="kw">${r.keyword}</td>
+    <td><span class="badge src">${r.category}</span></td><td>${deltaBadge(r)}</td></tr>`);
+  $('#rising-table tbody').innerHTML = rows.join('') ||
+    '<tr><td colspan="4" class="empty-track">전주 데이터가 쌓이면 급상승 감지가 시작됩니다 (2주차~)</td></tr>';
+}
+
+function renderKeywords(){
+  const rows = (DATA.keywords[curCat] || []).slice(0, 30).map(r => `
+    <tr><td class="rk">${r.rank}</td>
+    <td class="kw">${r.keyword}${r.source?` <span class="badge src">${r.source}</span>`:''}</td>
+    <td>${deltaBadge(r)}</td></tr>`);
+  $('#kw-title').innerHTML = `${curCat} 인기검색어 <span class="hint">상위 30</span>`;
+  $('#kw-table tbody').innerHTML = rows.join('') ||
+    '<tr><td colspan="3" class="empty-track">해당 카테고리 데이터 없음</td></tr>';
+}
+
+function renderHype(){
+  const prods = DATA.products || {};
+  const cats = Object.keys(prods).filter(c => (prods[c]||[]).length);
+  if (!cats.length){
+    $('#hype-body').innerHTML = `<div class="empty-track">
+      트랙 2(네이버쇼핑 베스트 수집)는 준비 중입니다.<br>
+      리뷰수 급증 감지는 히스토리 축적이 필요해 2주차부터 작동합니다.</div>`;
+    return;
+  }
+  $('#hype-body').innerHTML = cats.map(c => `
+    <h2>${c}</h2>
+    <table><thead><tr><th>순위</th><th>상품</th><th>변화</th><th>리뷰 증가</th><th>Hmall</th></tr></thead>
+    <tbody>${prods[c].map(p => `
+      <tr><td class="rk">${p.rank}</td><td class="kw">${p.name}</td>
+      <td>${deltaBadge(p)}</td>
+      <td>${p.review_delta!=null?('+'+p.review_delta):'–'}</td>
+      <td>${p.hmall ? (p.hmall.found
+            ? (p.hmall.broadcast?'<span class="badge src">편성 이력 有</span>':'<span class="badge src">유사상품 보유</span>')
+            : '<span class="badge gap">방송상품 미보유</span>') : '–'}</td></tr>`).join('')}
+    </tbody></table>`).join('');
+}
+
+function renderInsights(){
+  const ins = DATA.insights || {};
+  if (!ins.generated && !ins.summary){
+    $('#ins-summary').innerHTML = '<span class="empty">ANTHROPIC_API_KEY 설정 후 자동 생성됩니다.</span>';
+    $('#ins-cands').innerHTML = '';
+    return;
+  }
+  $('#ins-summary').textContent = ins.summary || '';
+  $('#ins-cands').innerHTML = (ins.candidates || []).map((c, i) => `
+    <div class="cand">
+      <div class="head">
+        <span class="rank-no">${i+1}</span>
+        <span class="name">${c.name}</span>
+        <span class="cat">${c.category}</span>
+        <span class="badge ${c.hmall_status==='방송상품 미보유'?'gap':'src'}">${c.hmall_status}</span>
+      </div>
+      <div class="reason">${c.reason}</div>
+    </div>`).join('');
+}
+
+document.querySelectorAll('.tab').forEach(el => el.onclick = () => {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('on'));
+  el.classList.add('on');
+  $('#view-interest').style.display = el.dataset.tab==='interest' ? '' : 'none';
+  $('#view-hype').style.display = el.dataset.tab==='hype' ? '' : 'none';
+});
+
+fetch('data/latest.json?v=' + Date.now())
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    DATA = d;
+    curCat = d.categories[0];
+    renderMeta(); renderCards(); renderChips(); renderRising(); renderKeywords();
+    renderHype(); renderInsights();
+  })
+  .catch(e => {
+    $('#meta').innerHTML = `데이터를 불러오지 못했습니다 (${e.message}). 파이프라인을 먼저 실행해 주세요.`;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+requests>=2.31
+anthropic>=0.92
+truststore>=0.9   # 사내망(TLS 검사) 환경에서 OS 인증서 저장소 사용
+# pandas 는 현재 파이프라인에선 미사용 — 트랙2 리뷰수 델타 분석 확장 시 추가
+# playwright 는 트랙2/Hmall 이 requests 로 안 풀릴 때만 추가

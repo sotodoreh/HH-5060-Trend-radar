@@ -1,0 +1,112 @@
+# -*- coding: utf-8 -*-
+"""Claude API 인사이트 생성.
+
+입력: 트랙1 급상승 관심사 (+ 트랙2 hype 상품, Hmall 보유 여부 — 활성화 시)
+출력: 방송상품화 후보 3~5개 + 근거 (JSON 구조화 출력)
+
+핵심 로직: 관심사 급상승 × 관련 상품 hype × 당사 방송 미보유 교차점 = 최상위 소싱 후보
+"""
+import json
+import os
+
+import config
+
+# 인사이트 텍스트는 회의자료 인용 가능성이 있어 사내 문서 스타일을 강제한다.
+STYLE_GUIDE = """
+[문서 스타일 — 반드시 준수]
+- 헤드라인 : 설명 구조. 항목당 2줄 이내.
+- 병렬 나열은 `/`, 인과는 `→`, 감소는 `▲`, 상품·프로그램명은 낫표 「 」.
+- 기피 표현: ~을 통한, ~하는, 레버, 구좌, 프리미엄화
+- 선호 표현: 유인책, 시간대, 편성 인프라, 간결한 인과
+- 용어: 정액비=광고비(업체 지불), 취급고=GMV, 순주문=취소·반품 제외
+"""
+
+SYSTEM = f"""너는 홈쇼핑(현대홈쇼핑) 상품기획·편성 전략 분석가다.
+50~60대 여성 고객의 네이버 쇼핑 검색 트렌드 데이터를 보고,
+방송상품화(라이브·데이터방송) 후보와 그 근거를 도출한다.
+
+판단 기준:
+1) 관심사 급상승 폭과 지속 가능성 (일시적 이슈 vs 구조적 트렌드)
+2) 홈쇼핑 채널 적합성 (시연 가능성 / 객단가 / 5060 여성 소구력)
+3) Hmall·방송 보유 여부 데이터가 있으면 '미보유 갭'을 최우선 가점
+
+{STYLE_GUIDE}
+"""
+
+INSIGHT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "summary": {
+            "type": "string",
+            "description": "이번 주 5060 여성 트렌드 총평. 헤드라인 : 설명 구조, 3~4문장.",
+        },
+        "candidates": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string", "description": "방송상품화 후보 (상품/카테고리명)"},
+                    "category": {"type": "string"},
+                    "reason": {"type": "string", "description": "근거. 헤드라인 : 설명, 2줄 이내"},
+                    "hmall_status": {
+                        "type": "string",
+                        "enum": ["방송상품 미보유", "유사상품 보유", "편성 이력 有", "미확인"],
+                    },
+                    "score": {"type": "integer", "description": "우선순위 1(최상)~5"},
+                },
+                "required": ["name", "category", "reason", "hmall_status", "score"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["summary", "candidates"],
+    "additionalProperties": False,
+}
+
+
+def generate_insights(rising: list[dict], products: dict | None = None,
+                      hmall: dict | None = None) -> dict:
+    """{'generated': bool, 'summary': str, 'candidates': [...]}"""
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("[insight] ANTHROPIC_API_KEY 미설정 — 인사이트 생성 건너뜀")
+        return {"generated": False, "summary": "", "candidates": []}
+
+    import anthropic
+    client = anthropic.Anthropic()
+
+    payload = {"급상승_및_신규진입_키워드": rising}
+    if products:
+        payload["hype_상품"] = products
+    if hmall:
+        payload["hmall_보유여부"] = hmall
+
+    user_msg = (
+        "아래는 이번 주 50~60대 여성 네이버 쇼핑 검색 트렌드 데이터다.\n"
+        "delta = 전주 대비 순위 상승 폭, is_new = TOP500 신규 진입.\n"
+        "방송상품화 후보 3~5개를 근거와 함께 도출하라.\n\n"
+        + json.dumps(payload, ensure_ascii=False)
+    )
+
+    resp = client.messages.create(
+        model=config.INSIGHT_MODEL,
+        max_tokens=16000,
+        thinking={"type": "adaptive"},
+        system=SYSTEM,
+        output_config={"format": {"type": "json_schema", "schema": INSIGHT_SCHEMA}},
+        messages=[{"role": "user", "content": user_msg}],
+    )
+    if resp.stop_reason == "refusal":
+        print("[insight] 요청 거부됨 — 인사이트 없이 진행")
+        return {"generated": False, "summary": "", "candidates": []}
+
+    text = next(b.text for b in resp.content if b.type == "text")
+    data = json.loads(text)
+    return {"generated": True, **data}
+
+
+if __name__ == "__main__":
+    sample = [
+        {"category": "건강식품", "keyword": "저속노화", "rank": 12, "prev_rank": 180, "delta": 168, "is_new": False},
+        {"category": "가전", "keyword": "제습기", "rank": 3, "prev_rank": 95, "delta": 92, "is_new": False},
+    ]
+    print(json.dumps(generate_insights(sample), ensure_ascii=False, indent=2))
