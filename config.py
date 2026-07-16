@@ -5,13 +5,17 @@
 전부 여기에 모아둔다. (라방바 파이프라인과 동일한 유지보수 전략)
 """
 
-# 사내망 등 TLS 검사 환경에서는 OS 인증서 저장소를 신뢰해야 requests 가 동작한다.
-# (truststore 미설치 환경 — 예: 기본 GitHub Actions — 에서도 문제없도록 best-effort)
-try:
-    import truststore
-    truststore.inject_into_ssl()
-except ImportError:
-    pass
+# 사내망(TLS 검사) 환경에서만 OS 인증서 저장소를 신뢰하도록 주입한다.
+# GitHub Actions 등 정상 인증서 환경에서는 표준 certifi 로 충분하고, 오히려
+# truststore 의 전역 SSL 패치가 anthropic SDK(httpx) 연결과 충돌해
+# APIConnectionError 를 유발하므로 CI 에서는 주입하지 않는다.
+import os as _os
+if not _os.environ.get("GITHUB_ACTIONS"):
+    try:
+        import truststore
+        truststore.inject_into_ssl()
+    except ImportError:
+        pass
 
 # ──────────────────────────────────────────────
 # 공통 요청 설정
