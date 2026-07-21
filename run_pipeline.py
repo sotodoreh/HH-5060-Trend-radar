@@ -99,6 +99,7 @@ def main():
         "categories": config.CATEGORY_ORDER,
         "keywords": result["keywords"],
         "rising": result["rising"],
+        "rising_by_cat": result["rising_by_cat"],
         "products": track2,
         "insights": insights,
     }

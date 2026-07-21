@@ -69,12 +69,21 @@ def count_signals(keywords: dict[str, list[dict]]) -> dict:
     return {"rising_count": rising_total, "new_count": new_total}
 
 
-def pick_rising(keywords: dict[str, list[dict]]) -> list[dict]:
-    """대시보드/인사이트에 노출할 목록.
+def _interleave(jumps: list[dict], news: list[dict], cap: int) -> list[dict]:
+    """급상승·신규를 번갈아 담아 한쪽이 다른 쪽을 밀어내지 않게 한다."""
+    out, ji, ni = [], 0, 0
+    while len(out) < cap and (ji < len(jumps) or ni < len(news)):
+        if ji < len(jumps):
+            out.append(jumps[ji]); ji += 1
+            if len(out) >= cap:
+                break
+        if ni < len(news):
+            out.append(news[ni]); ni += 1
+    return out
 
-    급상승(delta 큰 순)과 '주목할 신규'(NEW_RANK_MAX 이내, 상위 진입 순)를
-    번갈아 담아, 신규가 급상승을 밀어내지 않도록 균형을 맞춘다.
-    """
+
+def pick_rising(keywords: dict[str, list[dict]]) -> list[dict]:
+    """[전체 탭용] 전 카테고리 통합 급상승·신규 목록 (category 태그 포함)."""
     def fields(cat, r):
         return {"category": cat, **{k: r[k] for k in
                 ("rank", "keyword", "prev_rank", "delta", "is_new")}}
@@ -89,17 +98,27 @@ def pick_rising(keywords: dict[str, list[dict]]) -> list[dict]:
          if r["is_new"] and r["rank"] <= config.NEW_RANK_MAX),
         key=lambda x: x["rank"],
     )
+    return _interleave(jumps, news, config.RISING_TOP_LIMIT)
 
-    # 급상승·신규를 번갈아 인터리브 (한쪽이 부족하면 다른 쪽으로 채움)
-    display, ji, ni = [], 0, 0
-    while len(display) < config.RISING_TOP_LIMIT and (ji < len(jumps) or ni < len(news)):
-        if ji < len(jumps):
-            display.append(jumps[ji]); ji += 1
-            if len(display) >= config.RISING_TOP_LIMIT:
-                break
-        if ni < len(news):
-            display.append(news[ni]); ni += 1
-    return display
+
+def rising_by_category(keywords: dict[str, list[dict]], cap: int = 30) -> dict[str, list[dict]]:
+    """[개별 카테고리 탭용] 카테고리별 급상승·신규 목록 (전체 500 깊이 기준)."""
+    def fields(r):
+        return {k: r[k] for k in ("rank", "keyword", "prev_rank", "delta", "is_new")}
+
+    out = {}
+    for cat, rows in keywords.items():
+        jumps = sorted(
+            (fields(r) for r in rows
+             if not r["is_new"] and r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA),
+            key=lambda x: x["delta"], reverse=True,
+        )
+        news = sorted(
+            (fields(r) for r in rows if r["is_new"] and r["rank"] <= config.NEW_RANK_MAX),
+            key=lambda x: x["rank"],
+        )
+        out[cat] = _interleave(jumps, news, cap)
+    return out
 
 
 def analyze(current_snapshot: dict, previous_snapshot: dict | None) -> dict:
@@ -113,7 +132,8 @@ def analyze(current_snapshot: dict, previous_snapshot: dict | None) -> dict:
         prev_kw.update(build_derived(previous_snapshot["keywords"]))
 
     keywords = compute_deltas(cur_kw, prev_kw)
-    rising = pick_rising(keywords)
+    rising = pick_rising(keywords)                    # 전체 탭용 (통합)
+    rising_by_cat = rising_by_category(keywords)      # 개별 카테고리 탭용
 
     # 대시보드 노출은 카테고리당 상위 N개로 제한 (수집분은 히스토리에 전량 보존)
     keywords_view = {
@@ -122,4 +142,9 @@ def analyze(current_snapshot: dict, previous_snapshot: dict | None) -> dict:
 
     stats = count_signals(keywords)      # 전체 데이터 기준 정직한 카운트
     stats["gap_count"] = None            # Hmall 체크 활성화 후 채움
-    return {"keywords": keywords_view, "rising": rising, "stats": stats}
+    return {
+        "keywords": keywords_view,
+        "rising": rising,
+        "rising_by_cat": rising_by_cat,
+        "stats": stats,
+    }

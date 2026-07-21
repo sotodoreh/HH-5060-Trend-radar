@@ -2,8 +2,9 @@ name: weekly-trend-radar
 
 on:
   schedule:
-    # 매주 월요일 09:00 KST (= 00:00 UTC)
-    - cron: "0 0 * * 1"
+    # 매주 월요일 오전(KST) — 23:40 UTC(월 08:40 KST 부근). 정각(00 UTC)은
+    # GitHub 스케줄러 혼잡으로 수시간 지연되므로 정각을 피한 분(分)으로 설정.
+    - cron: "40 23 * * 0"
   workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼
 
 permissions:

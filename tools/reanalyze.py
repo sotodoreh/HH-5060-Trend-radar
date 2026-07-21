@@ -43,7 +43,19 @@ def main():
     if args.insight:
         insights = insight_mod.generate_insights(result["rising"], current.get("products") or None)
     else:
+        # 재수집 없이 구조만 바꿀 때는 기존 latest.json 의 인사이트를 보존한다
+        # (로컬엔 API 키가 없으므로 새로 생성하지 않음)
         insights = {"generated": False, "summary": "", "candidates": []}
+        prev_latest = DATA / "latest.json"
+        if prev_latest.exists():
+            try:
+                with open(prev_latest, encoding="utf-8") as f:
+                    old = json.load(f)
+                if old.get("meta", {}).get("week") == current["week"] and old.get("insights", {}).get("generated"):
+                    insights = old["insights"]
+                    print("[reanalyze] 기존 인사이트 보존 (동일 주차)")
+            except Exception:
+                pass
 
     now = dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
     latest = {
@@ -59,6 +71,7 @@ def main():
         "categories": config.CATEGORY_ORDER,
         "keywords": result["keywords"],
         "rising": result["rising"],
+        "rising_by_cat": result["rising_by_cat"],
         "products": current.get("products") or {},
         "insights": insights,
     }
