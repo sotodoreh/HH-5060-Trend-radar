@@ -64,12 +64,21 @@ DERIVED_CATEGORIES = {
 CATEGORY_ORDER = ["일반식품", "건강식품", "뷰티", "가전", "생활용품", "주방용품", "여행", "렌탈상품"]
 
 # ──────────────────────────────────────────────
-# 트랙 2 — 네이버쇼핑 베스트 (⚠️ 미검증 — 클라이언트 렌더링 페이지)
-#   1차 버전은 실패해도 파이프라인이 죽지 않도록 graceful skip.
-#   엔드포인트 확정 후 아래 값만 갱신하면 된다. (구현 순서 4단계)
+# 트랙 2 — 네이버쇼핑 베스트(SNX Best) 내부 API (검증 완료: 2026-07-21)
+#   GET snxbest.naver.com/api/v1/snxbest/keyword/rank
+#       ?ageType=WOMEN_50&categoryId=A&sortType=..&periodType=WEEKLY&ymd=YYYYMMDD
+#     → 5060 여성 급상승/신규/인기 구매 키워드 20개 (rankFluctuation=순위변동 내장)
+#   GET .../keyword/rank/{rankId}  → 해당 키워드의 상품 20개 (reviewCount 포함)
+#   ⚠️ 로그인 불필요(공개). 데이터랩(트랙1)과 동일하게 무인증 자동 수집.
 # ──────────────────────────────────────────────
-NAVER_BEST_URL = "https://search.shopping.naver.com/best/home"
-NAVER_BEST_ENABLED = False   # 엔드포인트 확정 후 True 로 전환
+NAVER_BEST_ENABLED = True
+SNX_RANK_URL = "https://snxbest.naver.com/api/v1/snxbest/keyword/rank"
+SNX_REFERER = "https://snxbest.naver.com/home"
+SNX_AGE_TYPE = "WOMEN_50"     # "50대 이상 여성" (60대 포함 = 우리 타깃)
+# 표시할 관점(정렬) — 이슈=급상승 구매, 신규=신규 진입, 인기=꾸준 베스트
+SNX_SORT_TYPES = {"KEYWORD_ISSUE": "이슈", "KEYWORD_NEW": "신규", "KEYWORD_POPULAR": "인기"}
+HYPE_KEYWORDS = 12            # sortType별 상위 키워드 수
+HYPE_PRODUCTS = 3             # 키워드별 노출 상품 수
 
 # ──────────────────────────────────────────────
 # Hmall 보유 여부 체크 (⚠️ 미검증 — SPA, 검색 API 확인 필요)

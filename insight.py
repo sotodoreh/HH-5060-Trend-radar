@@ -64,22 +64,38 @@ INSIGHT_SCHEMA = {
 }
 
 
-def generate_insights(rising: list[dict], products: dict | None = None,
+def _hype_digest(hype: dict) -> list[dict]:
+    """인사이트 프롬프트에 넣을 hype 요약 (키워드 + 대표상품 리뷰수)."""
+    digest = []
+    for label, items in (hype or {}).items():
+        for it in items[:8]:
+            p = (it.get("products") or [{}])[0]
+            digest.append({
+                "관점": label, "키워드": it.get("keyword"), "카테고리": it.get("category"),
+                "순위변동": it.get("rank_fluctuation"),
+                "대표상품": p.get("title"), "리뷰수": p.get("review_count"), "가격": p.get("price"),
+            })
+    return digest
+
+
+def generate_insights(rising: list[dict], hype: dict | None = None,
                       hmall: dict | None = None) -> dict:
     """{'generated': bool, 'summary': str, 'candidates': [...]}"""
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("[insight] ANTHROPIC_API_KEY 미설정 — 인사이트 생성 건너뜀")
         return {"generated": False, "summary": "", "candidates": []}
 
-    payload = {"급상승_및_신규진입_키워드": rising}
-    if products:
-        payload["hype_상품"] = products
+    payload = {"급상승_및_신규진입_검색키워드": rising}
+    if hype:
+        payload["실구매_hype_상품"] = _hype_digest(hype)
     if hmall:
         payload["hmall_보유여부"] = hmall
 
     user_msg = (
-        "아래는 이번 주 50~60대 여성 네이버 쇼핑 검색 트렌드 데이터다.\n"
-        "delta = 전주 대비 순위 상승 폭, is_new = TOP500 신규 진입.\n"
+        "아래는 이번 주 50~60대 여성 네이버쇼핑 트렌드 데이터다.\n"
+        "- 급상승_및_신규진입_검색키워드: 데이터랩 검색 관심사. delta=전주 대비 순위 상승 폭, is_new=TOP500 신규 진입.\n"
+        "- 실구매_hype_상품: 실제 구매 급상승 키워드와 대표상품(리뷰수=판매 신호).\n"
+        "검색 관심사 급상승 × 실구매 hype 가 겹치는 지점을 특히 주목하라.\n"
         "방송상품화 후보 3~5개를 근거와 함께 도출하라.\n\n"
         + json.dumps(payload, ensure_ascii=False)
     )

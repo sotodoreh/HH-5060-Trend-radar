@@ -58,7 +58,8 @@ def main():
 
     # 1) 수집
     track1 = shopping_insight.collect_all(pages=args.pages)
-    track2 = naver_best.collect_all()
+    track2 = naver_best.collect_all()   # {"ymd":.., "hype":{이슈/신규/인기}} or {}
+    hype = track2.get("hype", {})
 
     # 2) 히스토리 스냅샷 저장 (델타 계산의 원천 — 전량 보존)
     HISTORY.mkdir(parents=True, exist_ok=True)
@@ -67,7 +68,8 @@ def main():
         "collected_at": now.isoformat(),
         "period": track1["period"],
         "keywords": track1["keywords"],
-        "products": track2,
+        "hype": hype,
+        "hype_ymd": track2.get("ymd"),
     }
     snap_path = HISTORY / f"{week}.json"
     with open(snap_path, "w", encoding="utf-8") as f:
@@ -83,7 +85,7 @@ def main():
     if args.skip_insight:
         insights = {"generated": False, "summary": "", "candidates": []}
     else:
-        insights = insight_mod.generate_insights(result["rising"], track2 or None)
+        insights = insight_mod.generate_insights(result["rising"], hype or None)
 
     # 5) latest.json 조립
     latest = {
@@ -100,7 +102,8 @@ def main():
         "keywords": result["keywords"],
         "rising": result["rising"],
         "rising_by_cat": result["rising_by_cat"],
-        "products": track2,
+        "hype": hype,
+        "hype_ymd": track2.get("ymd"),
         "insights": insights,
     }
     DATA.mkdir(parents=True, exist_ok=True)

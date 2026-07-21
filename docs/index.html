@@ -91,6 +91,20 @@
   .ins-empty{padding:48px 24px; text-align:center; color:var(--sub); line-height:1.8}
   .ins-empty .big{font-size:2rem; margin-bottom:8px}
 
+  /* Hype 상품 레이더 */
+  .hp-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+  .hp-card{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px}
+  .hp-head{display:flex; align-items:center; gap:9px; flex-wrap:wrap; padding-bottom:10px; border-bottom:1px solid var(--line); margin-bottom:10px}
+  .hp-rank{width:24px; height:24px; border-radius:7px; background:var(--chip); color:var(--sub);
+    display:inline-flex; align-items:center; justify-content:center; font-size:.82rem; font-weight:800; flex:0 0 auto}
+  .hp-kw{font-weight:800; font-size:1.05rem}
+  .hp-head .cat{color:var(--sub); font-size:.8rem}
+  .hp-prods{display:grid; gap:8px}
+  .hp-prod{display:flex; flex-direction:column; gap:2px; padding:7px 10px; background:var(--bg); border-radius:9px}
+  .hp-ptitle{font-size:.9rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .hp-pmeta{font-size:.8rem; color:var(--sub)}
+  .hp-hmall{align-self:flex-start; margin-top:3px}
+
   /* info 툴팁 트리거 */
   .info{display:inline-flex; align-items:center; justify-content:center; width:17px; height:17px;
     border-radius:50%; background:var(--chip); color:var(--sub); font-size:11px; font-weight:800;
@@ -109,6 +123,7 @@
     .card{padding:12px}
     .card .num{font-size:1.4rem}
     .grid2{grid-template-columns:1fr}
+    .hp-grid{grid-template-columns:1fr}
     .brand h1{font-size:1.35rem}
     td,th{padding:9px 12px}
     .tab{font-size:.85rem; padding:11px 4px}
@@ -157,14 +172,8 @@
 
   <!-- Hype 상품 레이더 -->
   <div id="view-hype" style="display:none">
-    <div class="panel">
-      <h2>
-        Hype 상품 레이더
-        <span class="info" tabindex="0" data-tip="네이버쇼핑 베스트에서 순위 급등 상품과 리뷰수 급증을 감지하고, 각 상품의 핵심 키워드로 현대홈쇼핑(Hmall) 방송상품 보유 여부를 확인합니다. 리뷰수 델타는 히스토리 축적이 필요해 데이터가 쌓인 뒤 작동합니다.">?</span>
-        <span class="hint">네이버쇼핑 베스트 · 리뷰 급증</span>
-      </h2>
-      <div id="hype-body"></div>
-    </div>
+    <div class="chips" id="hype-chips"></div>
+    <div id="hype-body"></div>
   </div>
 
   <!-- AI 인사이트 (핵심) -->
@@ -275,23 +284,57 @@ function renderInterest(){
   initTips();
 }
 
+let curHype = null;
+function fluctBadge(it){
+  const f = it.rank_fluctuation, s = it.status;
+  if (s === 'NEW' || s === 'NEW_ENTRY') return '<span class="badge new">NEW</span>';
+  if (f > 0) return `<span class="badge up">▲${f}</span>`;
+  if (f < 0) return `<span class="badge flat">▽${-f}</span>`;
+  return '<span class="badge flat">–</span>';
+}
+function won(v){ return v ? v : '–'; }
+
 function renderHype(){
-  const prods = DATA.products || {};
-  const cats = Object.keys(prods).filter(c => (prods[c]||[]).length);
-  if (!cats.length){
+  const hype = DATA.hype || {};
+  const views = Object.keys(hype).filter(k => (hype[k]||[]).length);
+  if (!views.length){
+    $('#hype-chips').innerHTML = '';
     $('#hype-body').innerHTML = `<div class="empty-track">
-      트랙 2(네이버쇼핑 베스트 수집)는 준비 중입니다.<br>
-      리뷰수 급증 감지는 히스토리 축적이 필요해 데이터가 쌓인 뒤 작동합니다.</div>`;
+      네이버쇼핑 베스트(5060 여성) 데이터가 아직 없습니다.<br>다음 자동 수집부터 채워집니다.</div>`;
     return;
   }
-  $('#hype-body').innerHTML = cats.map(c => `
-    <h2>${c}</h2>
-    <table><thead><tr><th>순위</th><th>상품</th><th>변화</th><th>리뷰</th><th>Hmall</th></tr></thead>
-    <tbody>${prods[c].map(p => `
-      <tr><td class="rk">${p.rank}</td><td class="kw">${p.name}</td><td>${deltaBadge(p)}</td>
-      <td>${p.review_delta!=null?('+'+p.review_delta):'–'}</td>
-      <td>${p.hmall ? (p.hmall.found ? (p.hmall.broadcast?'<span class="badge src">편성 이력</span>':'<span class="badge src">유사상품 보유</span>') : '<span class="badge gap">방송 미보유</span>') : '–'}</td></tr>`).join('')}
-    </tbody></table>`).join('');
+  if (!curHype || !views.includes(curHype)) curHype = views[0];
+  const labelTip = {
+    '이슈':'실제 구매가 이번 주 급상승한 키워드(이슈). 검색이 아닌 구매 기준이라 관심사 레이더와 다른 신호입니다.',
+    '신규':'이번 주 새로 베스트에 진입한 구매 키워드.',
+    '인기':'꾸준히 잘 팔리는 상위 구매 키워드.',
+  };
+  $('#hype-chips').innerHTML = views.map(v =>
+    `<span class="chip ${v===curHype?'on':''}" data-hype="${v}">${v}키워드</span>`).join('') +
+    `<span class="info" tabindex="0" data-tip="네이버쇼핑 베스트(SNX)에서 50~60대 이상 여성의 실구매 급상승·신규·인기 키워드와 각 키워드의 대표 상품(리뷰수 포함)을 매주 수집합니다. ▲/▽=구매 순위 변동, 리뷰수=판매 규모 신호. Hmall 열은 현대홈쇼핑 방송상품 보유 여부(연동 예정)입니다." style="align-self:center">?</span>`;
+  document.querySelectorAll('#hype-chips .chip').forEach(el =>
+    el.onclick = () => { curHype = el.dataset.hype; renderHype(); });
+
+  const rows = (hype[curHype]||[]).map(it => {
+    const prods = (it.products||[]).map(p => `
+      <div class="hp-prod">
+        <span class="hp-ptitle">${p.title||''}</span>
+        <span class="hp-pmeta">${won(p.price)}원 · 리뷰 ${p.review_count!=null?p.review_count.toLocaleString():'–'}</span>
+        <span class="badge gap hp-hmall">Hmall 확인예정</span>
+      </div>`).join('');
+    return `
+      <div class="hp-card">
+        <div class="hp-head">
+          <span class="hp-rank">${it.rank}</span>
+          <span class="hp-kw">${it.keyword}</span>
+          <span class="cat">${it.category||''}</span>
+          ${fluctBadge(it)}
+        </div>
+        <div class="hp-prods">${prods || '<span class="hp-pmeta">상품 없음</span>'}</div>
+      </div>`;
+  }).join('');
+  $('#hype-body').innerHTML = `<div class="hp-grid">${rows}</div>`;
+  initTips();
 }
 
 function renderInsight(){

@@ -1,7 +1,7 @@
 {
  "meta": {
   "week": "2026-W30",
-  "generated_at": "2026-07-21T13:11:14.315548+09:00",
+  "generated_at": "2026-07-21T14:00:33.404786+09:00",
   "period": "2026-06-22 ~ 2026-07-19",
   "prev_week": "2026-W29",
   "target": "50–60대 여성",
@@ -6781,7 +6781,1347 @@
   ],
   "렌탈상품": []
  },
- "products": {},
+ "hype": {
+  "이슈": [
+   {
+    "rank": 1,
+    "keyword": "s2022풀배열적축",
+    "sub": "주변기기",
+    "category": "디지털/가전",
+    "rank_fluctuation": -3,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[한글정발] AULA 독거미 키보드 풀배열 무소음 적축 게이밍 사무실 사무용 조용한 S2022",
+      "price": "26,900",
+      "review_count": 380,
+      "review_score": "4.63",
+      "url": "https://m.smartstore.naver.com/main/products/11523798310",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "AULA 독거미 키보드 풀배열 기계식 S2022 적축 조용한 사무용 사무실 예쁜 LED",
+      "price": "30,300",
+      "review_count": 9,
+      "review_score": "4.33",
+      "url": "https://m.smartstore.naver.com/main/products/11760106753",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "AULA 독거미 S2022 게이밍 기계식 키보드 적축 한글 풀배열",
+      "price": "29,900",
+      "review_count": 58,
+      "review_score": "4.78",
+      "url": "https://m.smartstore.naver.com/main/products/11613910073",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "keyword": "꿀선물밀랍꿀지리산",
+    "sub": "건강식품",
+    "category": "식품",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "지리산 벌집꿀 벌꿀집 밀랍꿀 꿀선물 답례품 1.8kg",
+      "price": "150,000",
+      "review_count": 2445,
+      "review_score": "4.77",
+      "url": "https://m.smartstore.naver.com/main/products/4829084559",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "지리산 벌집꿀 벌꿀집 뱀사골 토종꿀 업소용 자연 밀랍 벌꿀 선물 팩벌집 1kg",
+      "price": "70,000",
+      "review_count": 7153,
+      "review_score": "4.86",
+      "url": "https://m.smartstore.naver.com/main/products/5468119300",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "지리산모향골 자연 꿀스틱 90포 올인원 3종(아카시아 야생화 밤) 허니스틱 답례품 선물",
+      "price": "56,000",
+      "review_count": 2958,
+      "review_score": "4.91",
+      "url": "https://m.smartstore.naver.com/main/products/6052888517",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "keyword": "부사경북25년",
+    "sub": "농산물",
+    "category": "식품",
+    "rank_fluctuation": -1,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "오늘아침 껍질째먹는 25년 햇 부사 사과 경북 세척사과 3kg 5kg",
+      "price": "67,900",
+      "review_count": 7847,
+      "review_score": "4.66",
+      "url": "https://m.smartstore.naver.com/main/products/7514179350",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "25년 햇부사 아삭달콤 제철 꿀사과 경북 부사사과 가정용 못난이부사",
+      "price": "29,000",
+      "review_count": 13,
+      "review_score": "4.08",
+      "url": "https://m.smartstore.naver.com/main/products/12770062267",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "25년 햇 부사 사과 경북 청송 가정용 2kg 3kg 5kg",
+      "price": "60,000",
+      "review_count": 25,
+      "review_score": "4.88",
+      "url": "https://m.smartstore.naver.com/main/products/12766444518",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "keyword": "유쓰",
+    "sub": "스킨케어",
+    "category": "화장품/미용",
+    "rank_fluctuation": null,
+    "status": "NEW",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[ 대용량 에센스75ml] 롯데대구빌리프 유쓰 크리에이터 - 에이지 넉다운 밤AD 75ml",
+      "price": "97,000",
+      "review_count": 346,
+      "review_score": "4.9",
+      "url": "https://m.shopping.naver.com/outlink/itemdetail/10949931769",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "빌리프 유쓰 크리에이터 에이지 넉다운 밤 어드밴스드 50ml 기획 세트",
+      "price": "78,000",
+      "review_count": 482,
+      "review_score": "4.84",
+      "url": "https://m.smartstore.naver.com/main/products/6060037830",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "빌리프 유쓰 크리에이터 에이지 넉다운 밤 50ml",
+      "price": "38,750",
+      "review_count": 16,
+      "review_score": "4.94",
+      "url": "https://m.smartstore.naver.com/main/products/13035793597",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 5,
+    "keyword": "코퍼웨어",
+    "sub": "주방용품",
+    "category": "생활/건강",
+    "rank_fluctuation": 1,
+    "status": "UP",
+    "products": [
+     {
+      "rank": 1,
+      "title": "순동 구리프라이팬 황동 가정용 두꺼운 팬 쿠킹 코퍼웨어 코팅팬",
+      "price": "78,770",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13477143519",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "구리 냄비 대형 일식당 나베 동냄비 스시집 브론즈 조리도구 신주 전골팟 코퍼웨어",
+      "price": "224,350",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13558927431",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "대형 냄비 구리 일식당 동냄비 나베팟 스시집 브론즈 신주 조리기구 전골팟 코퍼웨어",
+      "price": "226,200",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13618312572",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 6,
+    "keyword": "제주미니단호박3kg",
+    "sub": "농산물",
+    "category": "식품",
+    "rank_fluctuation": 6,
+    "status": "SOAR",
+    "products": [
+     {
+      "rank": 1,
+      "title": "제주 미니 단호박 밤호박 보우짱",
+      "price": "21,000",
+      "review_count": 1585,
+      "review_score": "4.96",
+      "url": "https://m.smartstore.naver.com/main/products/6846165202",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "껍질째먹는 포슬포슬 제주 미니단호박 밤호박 5kg 3kg 2kg",
+      "price": "41,800",
+      "review_count": 7410,
+      "review_score": "4.78",
+      "url": "https://m.smartstore.naver.com/main/products/4727738184",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "26년 제주 달콤한 미니 단호박 밤호박 보우짱 건강간식 2kg 3kg 5kg",
+      "price": "18,000",
+      "review_count": 1359,
+      "review_score": "4.7",
+      "url": "https://m.smartstore.naver.com/main/products/6914916526",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 7,
+    "keyword": "데빌시크",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "콜린 데블 체크 자켓 BAJKA1431",
+      "price": "399,000",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13526896369",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "[쟈딕앤볼테르] 우스 데빌 반소매 티셔츠 Woos Devil T-shirt ZE5SFCTTE015Z00",
+      "price": "259,000",
+      "review_count": 6,
+      "review_score": "4.33",
+      "url": "https://m.smartstore.naver.com/main/products/11687547481",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "[쟈딕앤볼테르] 우스 데빌 반소매 티셔츠 Woos Devil T-shirt ZE5SFCTTE015Z84",
+      "price": "259,000",
+      "review_count": 3,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/11687546663",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 8,
+    "keyword": "프리미엄저당굴소스",
+    "sub": "소스/드레싱",
+    "category": "식품",
+    "rank_fluctuation": 22,
+    "status": "SOAR",
+    "products": [
+     {
+      "rank": 1,
+      "title": "마이노멀 저당 굴소스 튜브형 330g (100% 국내산 통영굴) 프리미엄 남해 농축액 저칼로리 글루텐프리",
+      "price": "10,900",
+      "review_count": 507,
+      "review_score": "4.87",
+      "url": "https://m.smartstore.naver.com/main/products/12711739506",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "굴소스 저당 여수 프리미엄 국내산 만능 깊은맛 감칠맛 요리 추천 볶음 밥 여수청년",
+      "price": "13,000",
+      "review_count": 180,
+      "review_score": "4.87",
+      "url": "https://m.smartstore.naver.com/main/products/12863542296",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "굴소스 저당 여수 프리미엄 국내산 만능 깊은맛 감칠맛 요리 추천 볶음 밥 2병 세트",
+      "price": "26,000",
+      "review_count": 116,
+      "review_score": "4.91",
+      "url": "https://m.smartstore.naver.com/main/products/13021428799",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 9,
+    "keyword": "삼성프로젝터",
+    "sub": "영상가전",
+    "category": "디지털/가전",
+    "rank_fluctuation": -2,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[삼성 프로젝터] 삼성 더 프리스타일 2세대 올라운드 플레이어 화이트 (국내 정식 발매 제품) SP-LFCF3LAXXKR",
+      "price": "731,000",
+      "review_count": 57,
+      "review_score": "4.82",
+      "url": "https://m.smartstore.naver.com/main/products/10740445376",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "[재고보유중] 삼성 빔프로젝터 포터블 스크린 더 프리스타일 2세대 SP-LFCF3LAXXKR",
+      "price": "1,080,000",
+      "review_count": 39,
+      "review_score": "4.74",
+      "url": "https://m.smartstore.naver.com/main/products/10889941550",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "[전국대여]삼성 더프리스타일2 빔프로젝터 렌탈 1일 대여 캠핑 스크린영상",
+      "price": "180,000",
+      "review_count": 158,
+      "review_score": "4.88",
+      "url": "https://m.smartstore.naver.com/main/products/11108132194",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 10,
+    "keyword": "제헌절태극기게양",
+    "sub": "문구/사무용품",
+    "category": "생활/건강",
+    "rank_fluctuation": -7,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "나라사랑 태극기게양 세트 보급형 10p 광복절행사 제헌절 임관식 국기강하식 국가대표",
+      "price": "99,050",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13276615500",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "7-1호 국산 태극기 방수 게양용 태극기게양 제헌절 삼일절 관공서 경기",
+      "price": "6,360",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13423804148",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "7호 방수 태극기 게양용 대형 태극기게양 제헌절 행사 군부대 임관식",
+      "price": "6,630",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13419807022",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 11,
+    "keyword": "명미당저당떡",
+    "sub": "떡류",
+    "category": "식품",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "명미당 제주쑥 저당떡(50개)",
+      "price": "34,200",
+      "review_count": 2,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13296531239",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "명미당 제주쑥 저당떡(50개)",
+      "price": "42,900",
+      "review_count": 7,
+      "review_score": "4.86",
+      "url": "https://m.smartstore.naver.com/main/products/13263669666",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "명미당저당떡 명미당 제주쑥 저당떡(100개)",
+      "price": "151,900",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13659477504",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 12,
+    "keyword": "루블리스헤어팩",
+    "sub": "헤어케어",
+    "category": "화장품/미용",
+    "rank_fluctuation": 8,
+    "status": "SOAR",
+    "products": [
+     {
+      "rank": 1,
+      "title": "루블리스 헤어팩 250ml",
+      "price": "23,500",
+      "review_count": 2,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13459653222",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "루블리스 헤어팩 대용량+헤어브러쉬",
+      "price": "24,000",
+      "review_count": 2,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13628265884",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "루블리스 헤어팩 익스트림 어드밴스드 에센셜 대용량 250ml 1개+헤어브러쉬",
+      "price": "23,900",
+      "review_count": 2,
+      "review_score": "3.0",
+      "url": "https://m.smartstore.naver.com/main/products/13628264768",
+      "is_ad": false
+     }
+    ]
+   }
+  ],
+  "신규": [
+   {
+    "rank": 1,
+    "keyword": "후끼",
+    "sub": "공구",
+    "category": "생활/건강",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "솔리드 스프레이건 페인트 스프레이건 후끼 분사기 도색용 에어 W-77",
+      "price": "16,250",
+      "review_count": 455,
+      "review_score": "4.78",
+      "url": "https://m.smartstore.naver.com/main/products/11038298542",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "하야부사 스프레이건셋트 W-71S 전문가용 다수취급 콤프레샤 후끼 페인트건 도장 도색",
+      "price": "12,500",
+      "review_count": 1413,
+      "review_score": "4.66",
+      "url": "https://m.smartstore.naver.com/main/products/100157176",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "일제스프레이건 미니후끼 이와타 LPH-80 자동차 부분도장용 소형에어 커스텀바이크도색건",
+      "price": "290,000",
+      "review_count": 35,
+      "review_score": "4.97",
+      "url": "https://m.smartstore.naver.com/main/products/8506039700",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "keyword": "국산단호박",
+    "sub": "농산물",
+    "category": "식품",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "미니 단호박 밤호박 보우짱 국내산 단호박",
+      "price": "11,000",
+      "review_count": 17203,
+      "review_score": "4.76",
+      "url": "https://m.smartstore.naver.com/main/products/2343992625",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "미니 밤호박 미니단호박 국내산 제주 보우짱",
+      "price": "18,000",
+      "review_count": 33707,
+      "review_score": "4.73",
+      "url": "https://m.smartstore.naver.com/main/products/4987608080",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "대한민국농수산 미니 밤호박 보우짱 단호박 미니호박 2kg 국내산",
+      "price": "18,000",
+      "review_count": 2822,
+      "review_score": "4.73",
+      "url": "https://m.smartstore.naver.com/main/products/10524500061",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "keyword": "철제벙커침대",
+    "sub": "아동/주니어가구",
+    "category": "가구/인테리어",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[선물이벤트] 일루일루 코모드i 올인원 책상형 벙커침대 프레임 철제 선반 성인 학생 2층",
+      "price": "230,000",
+      "review_count": 798,
+      "review_score": "4.62",
+      "url": "https://m.smartstore.naver.com/main/products/3558502158",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "플라망 철제 벙커침대 슈퍼싱글 높이조절 업다운 원룸 수납",
+      "price": "574,000",
+      "review_count": 2270,
+      "review_score": "4.65",
+      "url": "https://m.smartstore.naver.com/main/products/2757662946",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "에보니아 뉴토리노 철제 벙커침대 싱글 침대프레임 책상 수납선반 2층벙커 학생 성인 기숙사",
+      "price": "358,000",
+      "review_count": 1444,
+      "review_score": "4.73",
+      "url": "https://m.smartstore.naver.com/main/products/6911901916",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "keyword": "멜로데이",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 8,
+    "status": "SOAR",
+    "products": [
+     {
+      "rank": 1,
+      "title": "멜로데이 플로럴 쉬어 맥시 원피스 블랙 멀티",
+      "price": "55,000",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13651252729",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "멜로데이 25SS 여성 플로랄 프린트 포플린 미디 원피스/",
+      "price": "102,700",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/11819213838",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "멜로데이 25SS 여성 플러터 슬리브 쉬폰 탑 블랙 블루 플로럴/",
+      "price": "62,800",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/12026033200",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 5,
+    "keyword": "천연인센스스틱",
+    "sub": "인테리어소품",
+    "category": "가구/인테리어",
+    "rank_fluctuation": -1,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "나그참파코리아 프리미엄 퍼퓸 천연 인센스 스틱 실내방향제",
+      "price": "5,900",
+      "review_count": 2880,
+      "review_score": "4.86",
+      "url": "https://m.smartstore.naver.com/main/products/10482129741",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "나그참파코리아 프리미엄 퍼퓸 천연 인센스 스틱 실내방향제",
+      "price": "5,900",
+      "review_count": 2880,
+      "review_score": "4.86",
+      "url": "https://m.smartstore.naver.com/main/products/13628564791",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "나그참파코리아 프리미엄 퍼퓸 천연 인센스 스틱 실내방향제",
+      "price": "5,900",
+      "review_count": 2880,
+      "review_score": "4.86",
+      "url": "https://m.smartstore.naver.com/main/products/13628570811",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 6,
+    "keyword": "안경수건",
+    "sub": "선글라스/안경테",
+    "category": "패션잡화",
+    "rank_fluctuation": 1,
+    "status": "UP",
+    "products": [
+     {
+      "rank": 1,
+      "title": "도레이씨 안경닦이 안경수건 천 도레이 극세사 클리너 선물용 추가상품 김서림방지 초극세사",
+      "price": "6,800",
+      "review_count": 68303,
+      "review_score": "4.84",
+      "url": "https://m.smartstore.naver.com/main/products/4540031300",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "도레이씨 안경닦이 안경천 세탁가능 도레이 클리너 극세사 초극세사 안경수건 안경닦기",
+      "price": "6,800",
+      "review_count": 5270,
+      "review_score": "4.89",
+      "url": "https://m.smartstore.naver.com/main/products/5258652078",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "도레이씨 안경닦이 도레이 안경수건 디자인 안경수건 극세사 초극세사 안경천",
+      "price": "8,800",
+      "review_count": 7286,
+      "review_score": "4.88",
+      "url": "https://m.smartstore.naver.com/main/products/3505427795",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 7,
+    "keyword": "주방세제세트",
+    "sub": "생활용품",
+    "category": "생활/건강",
+    "rank_fluctuation": -2,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "살림백서 대용량 주방세제 라이스&허브 4L+750ml 석류향 설거지 리필 세트 과일세척",
+      "price": "19,800",
+      "review_count": 18811,
+      "review_score": "4.78",
+      "url": "https://m.smartstore.naver.com/main/products/6812309465",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "1+1 살림백서 주방세제 1L 청귤향 천연 유래98% 대용량 펌프세트 과일세척 설거지",
+      "price": "18,900",
+      "review_count": 50527,
+      "review_score": "4.83",
+      "url": "https://m.smartstore.naver.com/main/products/5366993391",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "주방세제 논라벨 올팩션세트(500ml 2) 1L 고농축 맨손 설거지 1종 친환경",
+      "price": "19,200",
+      "review_count": 1384,
+      "review_score": "4.98",
+      "url": "https://m.smartstore.naver.com/main/products/7339239477",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 8,
+    "keyword": "살균소독기",
+    "sub": "주방가전",
+    "category": "디지털/가전",
+    "rank_fluctuation": -2,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "쿠진 나이프케어 시즌2 집들이선물 칼 살균 소독기 (+주방 칼세트)",
+      "price": "358,000",
+      "review_count": 5814,
+      "review_score": "4.79",
+      "url": "https://m.smartstore.naver.com/main/products/4833811092",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "한일 식기살균건조기 열풍 그릇건조기 UV 대용량소독기 살균건조 5중안전",
+      "price": "456,000",
+      "review_count": 554,
+      "review_score": "4.79",
+      "url": "https://m.smartstore.naver.com/main/products/12522363069",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "(실리콘매트 사은행사) 델리팬 식기건조기 올스텐 UV소독기 젖병소독기 칼 도마 살균 DEL-DS30",
+      "price": "269,000",
+      "review_count": 339,
+      "review_score": "4.79",
+      "url": "https://m.smartstore.naver.com/main/products/11528111100",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 9,
+    "keyword": "길고양이밥그릇",
+    "sub": "반려동물",
+    "category": "생활/건강",
+    "rank_fluctuation": -1,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "길고양이 밥그릇 길냥이 식기 개미방지 사료그릇 물그릇 블루S",
+      "price": "3,900",
+      "review_count": 582,
+      "review_score": "4.9",
+      "url": "https://m.smartstore.naver.com/main/products/5873170484",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "에옹마마 길고양이밥그릇 기본그릇 검정 투명 0.85L 길고양이급식소",
+      "price": "1,600",
+      "review_count": 222,
+      "review_score": "4.85",
+      "url": "https://m.smartstore.naver.com/main/products/4598437024",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "길고양이밥그릇 길냥이 개미방지 밥 그릇 강아지 고양이 사료 캠핑식기 개미퇴치",
+      "price": "4,310",
+      "review_count": 91,
+      "review_score": "4.76",
+      "url": "https://m.smartstore.naver.com/main/products/9042742903",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 10,
+    "keyword": "번개표멀티탭3구",
+    "sub": "공구",
+    "category": "생활/건강",
+    "rank_fluctuation": -1,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "번개표 국산 멀티탭 과부하차단 고용량 멀티콘센트",
+      "price": "16,900",
+      "review_count": 762,
+      "review_score": "4.83",
+      "url": "https://m.smartstore.naver.com/main/products/11035912802",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "번개표 국산 멀티탭 과부하차단 고용량 멀티콘센트",
+      "price": "16,900",
+      "review_count": 762,
+      "review_score": "4.83",
+      "url": "https://m.smartstore.naver.com/main/products/13273534786",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "번개표 큐브 멀티탭 4000W 고용량 USB C타입 3구 디자인 멀티 콘센트 캠핑 가정용",
+      "price": "29,900",
+      "review_count": 140,
+      "review_score": "4.82",
+      "url": "https://m.smartstore.naver.com/main/products/10432904111",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 11,
+    "keyword": "산미있는원두",
+    "sub": "음료",
+    "category": "식품",
+    "rank_fluctuation": -1,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "에티오피아 예가체프 g2 약배전 원두 1kg 산미있는 로스팅 커피 가루 모카포트",
+      "price": "38,000",
+      "review_count": 3035,
+      "review_score": "4.84",
+      "url": "https://m.smartstore.naver.com/main/products/3801456872",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "커피원두1kg 예가체프G2 블렌드 아라비카100% 맛있는 산미있는 에티오피아 홀빈외 5종류",
+      "price": "34,900",
+      "review_count": 963,
+      "review_score": "4.8",
+      "url": "https://m.smartstore.naver.com/main/products/11604550979",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "500g+500g 에티오피아 예가체프 g2 원두 산미있는 로스팅 분쇄 커피",
+      "price": "34,800",
+      "review_count": 693,
+      "review_score": "4.87",
+      "url": "https://m.smartstore.naver.com/main/products/10940990326",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 12,
+    "keyword": "무릎발목테이핑",
+    "sub": "보호용품",
+    "category": "스포츠/레저",
+    "rank_fluctuation": -1,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "스포츠 테이프 키네시오로지 테이핑 키네시올로지 근육 발목 손목 무릎 허리 팔꿈치 헬스 5cm",
+      "price": "1,440",
+      "review_count": 10057,
+      "review_score": "4.77",
+      "url": "https://m.smartstore.naver.com/main/products/9173515716",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "테이핑테이프 키네시오로지 근육 스포츠 테이프 무릎 발목 2.5x500cm",
+      "price": "1,850",
+      "review_count": 6408,
+      "review_score": "4.66",
+      "url": "https://m.smartstore.naver.com/main/products/5797773421",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "키네시올로지 스포츠 테이핑 테이프 무릎 발목 테이핑 베이지색 5cmx5Mx6롤",
+      "price": "58,000",
+      "review_count": 50,
+      "review_score": "4.9",
+      "url": "https://m.smartstore.naver.com/main/products/418094251",
+      "is_ad": false
+     }
+    ]
+   }
+  ],
+  "인기": [
+   {
+    "rank": 1,
+    "keyword": "자라",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "ZARA 자라 여성 볼륨 벌룬 나일론 민소매 데일리 롱 원피스 4772328",
+      "price": "40,900",
+      "review_count": 3,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13375686845",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "ZARA 자라 코르셋 콤비 탑 4770312 4770/312",
+      "price": "38,800",
+      "review_count": 1,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13422939666",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "ZARA 자라 란제리 레이스 탑 5107058 5107/058",
+      "price": "38,500",
+      "review_count": 1,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13513558323",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "keyword": "감탄브라",
+    "sub": "여성언더웨어/잠옷",
+    "category": "패션의류",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[일체형] 24ss 인견쿨 - 감탄 런닝형 브라 단품",
+      "price": "71,500",
+      "review_count": 298,
+      "review_score": "4.68",
+      "url": "https://m.smartstore.naver.com/main/products/10950209963",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "[일체형] 24ss 에어소프트 - 감탄 후크형 브라 2set",
+      "price": "134,000",
+      "review_count": 1222,
+      "review_score": "4.7",
+      "url": "https://m.smartstore.naver.com/main/products/10422041711",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "[일체형] 24ss 인견쿨 - 감탄 후크형 브라 2set",
+      "price": "147,000",
+      "review_count": 290,
+      "review_score": "4.69",
+      "url": "https://m.smartstore.naver.com/main/products/10950366226",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "keyword": "유니클로",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "유니클로 에어리즘 반팔 심리스 브이넥 쿨 티셔츠 메쉬 기능성 남성 여성 이너 V넥",
+      "price": "17,900",
+      "review_count": 195,
+      "review_score": "4.82",
+      "url": "https://m.smartstore.naver.com/main/products/10203285300",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "[국내당일배송] 유니클로 태닝키티 헬로키티 반팔티셔츠 타입C",
+      "price": "29,000",
+      "review_count": 19,
+      "review_score": "4.89",
+      "url": "https://m.smartstore.naver.com/main/products/13380529384",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "유니클로 에어리즘 남성 반팔 티셔츠 크루넥 코튼 냉감 쿨링 기본티",
+      "price": "17,900",
+      "review_count": 137,
+      "review_score": "4.93",
+      "url": "https://m.smartstore.naver.com/main/products/13522874203",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "keyword": "메이블루",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 1,
+    "status": "UP",
+    "products": [
+     {
+      "rank": 1,
+      "title": "오리지널 자수 링거티",
+      "price": "29,000",
+      "review_count": 21,
+      "review_score": "4.9",
+      "url": "https://m.smartstore.naver.com/main/products/13514398902",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "린넨 코튼 스트라이프티",
+      "price": "19,000",
+      "review_count": 103,
+      "review_score": "4.6",
+      "url": "https://m.smartstore.naver.com/main/products/13342648898",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "패치 슬럽 스트라이프티",
+      "price": "28,000",
+      "review_count": 2,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13656428597",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 5,
+    "keyword": "안나앤모드",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 1,
+    "status": "UP",
+    "products": [
+     {
+      "rank": 1,
+      "title": "airy 쿨 쫀득 와이드 [팬츠EDQ74]",
+      "price": "18,000",
+      "review_count": 60,
+      "review_score": "4.57",
+      "url": "https://m.smartstore.naver.com/main/products/13221723422",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "wide 린넨 밴딩[팬츠CVC82]",
+      "price": "34,000",
+      "review_count": 49,
+      "review_score": "4.67",
+      "url": "https://m.smartstore.naver.com/main/products/8555891891",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "bibi 보트넥 실켓 나시[나시CWP19]",
+      "price": "18,000",
+      "review_count": 58,
+      "review_score": "4.69",
+      "url": "https://m.smartstore.naver.com/main/products/8567488943",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 6,
+    "keyword": "리린",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 3,
+    "status": "UP",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[리린][MADE] 안나링클 여름체크 튤립소매 구김걱정없는 블라우스",
+      "price": "45,000",
+      "review_count": 1,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13591282809",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "[그레이스] 리린bl 3c",
+      "price": "42,000",
+      "review_count": 1,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13352623085",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "[리린][레이어드한듯/가벼운착용감] 토피넛 A라인 프릴 리본 세로결감 블라우스",
+      "price": "41,700",
+      "review_count": 0,
+      "review_score": "0.0",
+      "url": "https://m.smartstore.naver.com/main/products/13653408564",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 7,
+    "keyword": "젤리슈즈",
+    "sub": "여성신발",
+    "category": "패션잡화",
+    "rank_fluctuation": 0,
+    "status": "STABLE",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[베어파우] AVA 젤리슈즈 (4컬러)",
+      "price": "55,000",
+      "review_count": 215,
+      "review_score": "4.61",
+      "url": "https://m.smartstore.naver.com/main/products/11783169678",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "투명 펄 젤리 슈즈 여름 슬리퍼 망사 휴향지 여행 비올때",
+      "price": "24,400",
+      "review_count": 69,
+      "review_score": "4.8",
+      "url": "https://m.smartstore.naver.com/main/products/11893641821",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "여성 발편한 젤리슈즈 샌들 슬리퍼 아쿠아 슈즈",
+      "price": "39,000",
+      "review_count": 165,
+      "review_score": "4.68",
+      "url": "https://m.smartstore.naver.com/main/products/11775028766",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 8,
+    "keyword": "레드와인비니거",
+    "sub": "조미료",
+    "category": "식품",
+    "rank_fluctuation": -6,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "카사베르디 유기농 레드와인 비니거",
+      "price": "50,000",
+      "review_count": 8825,
+      "review_score": "4.79",
+      "url": "https://m.smartstore.naver.com/main/products/12600498825",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "카사베르디 유기농 레드와인 비니거 스틱",
+      "price": "39,900",
+      "review_count": 836,
+      "review_score": "4.87",
+      "url": "https://m.smartstore.naver.com/main/products/13623273690",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "카사베르디 레드와인 비니거 식초 유기농 500ml",
+      "price": "29,900",
+      "review_count": 129,
+      "review_score": "4.63",
+      "url": "https://m.smartstore.naver.com/main/products/12640302351",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 9,
+    "keyword": "캔마트",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 2,
+    "status": "UP",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[벨유] 린넨 부클 카라 반팔 니트",
+      "price": "39,500",
+      "review_count": 3,
+      "review_score": "4.0",
+      "url": "https://m.smartstore.naver.com/main/products/12011931997",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "소바 린넨 단가라 반팔 니트",
+      "price": "26,800",
+      "review_count": 2,
+      "review_score": "4.5",
+      "url": "https://m.smartstore.naver.com/main/products/11733887227",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "썸머 리오셀 반팔 니트 가디건",
+      "price": "48,700",
+      "review_count": 1,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13548010295",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 10,
+    "keyword": "탑텐",
+    "sub": "여성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 2,
+    "status": "UP",
+    "products": [
+     {
+      "rank": 1,
+      "title": "[N배송] 탑텐 남성 코튼 밴딩 쇼츠_MSF2PH1201",
+      "price": "29,900",
+      "review_count": 943,
+      "review_score": "4.78",
+      "url": "https://m.smartstore.naver.com/main/products/13063206637",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "[N배송] 탑텐 남성 코튼 버뮤다 밴딩 쇼츠_MSF2PH1202",
+      "price": "39,900",
+      "review_count": 811,
+      "review_score": "4.73",
+      "url": "https://m.smartstore.naver.com/main/products/13440893824",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "[N배송] 탑텐 남성 쿨에어 코튼 베이직 반팔티_MSF2TS1001",
+      "price": "25,900",
+      "review_count": 2041,
+      "review_score": "4.85",
+      "url": "https://m.smartstore.naver.com/main/products/13070126103",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 11,
+    "keyword": "이동식에어컨",
+    "sub": "계절가전",
+    "category": "디지털/가전",
+    "rank_fluctuation": -1,
+    "status": "DOWN",
+    "products": [
+     {
+      "rank": 1,
+      "title": "스노웨이 산업용 1구 이동식에어컨 미니에어컨 주방용 공장 식당 업소용 JSA-700A",
+      "price": "998,000",
+      "review_count": 335,
+      "review_score": "4.87",
+      "url": "https://m.smartstore.naver.com/main/products/10320683153",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "파센느 1등급 스마트 인버터 이동식 에어컨 듀얼덕트 실외기없는 일체형 소형 작은방 저소음",
+      "price": "848,000",
+      "review_count": 3090,
+      "review_score": "4.79",
+      "url": "https://m.smartstore.naver.com/main/products/11750987501",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "[26년형] 넥스코 이동식에어컨 실외기없는 미니 소형 이동형 가정용 캠핑 작은방 컴팩트형",
+      "price": "470,000",
+      "review_count": 603,
+      "review_score": "4.64",
+      "url": "https://m.smartstore.naver.com/main/products/11731227480",
+      "is_ad": false
+     }
+    ]
+   },
+   {
+    "rank": 12,
+    "keyword": "제임스펄스",
+    "sub": "남성의류",
+    "category": "패션의류",
+    "rank_fluctuation": 6,
+    "status": "SOAR",
+    "products": [
+     {
+      "rank": 1,
+      "title": "미국본사 제임스펄스 반팔 베이직 크루넥 티셔츠 남성 MLJ3311",
+      "price": "161,000",
+      "review_count": 70,
+      "review_score": "4.77",
+      "url": "https://m.smartstore.naver.com/main/products/13451648264",
+      "is_ad": false
+     },
+     {
+      "rank": 2,
+      "title": "미국본사 제임스펄스 빈티지 리틀 보이 반팔 티셔츠 여성 WLJ3114",
+      "price": "161,000",
+      "review_count": 23,
+      "review_score": "4.96",
+      "url": "https://m.smartstore.naver.com/main/products/13324145551",
+      "is_ad": false
+     },
+     {
+      "rank": 3,
+      "title": "제임스펄스 남성 베이직 크루넥 반팔 티셔츠 코튼 면 T MLJ3311",
+      "price": "132,000",
+      "review_count": 9,
+      "review_score": "5.0",
+      "url": "https://m.smartstore.naver.com/main/products/13242145280",
+      "is_ad": false
+     }
+    ]
+   }
+  ]
+ },
+ "hype_ymd": "20260719",
  "insights": {
   "generated": true,
   "summary": "이번 주 5060 여성 검색은 「여름 방역·위생」/「관절·연골 건기식」/「주방 조리기구」 3대 축이 동시 급상승. 계절성 방역(섬유향균제 delta343·모기매트·홈매트)과 관절 건기식(퀘르포민정 rank63·고려은단콘드로이친)이 구조적 수요를 형성 → 시연·객단가 양면에서 편성 적합. 일본 크루즈/제철 복숭아는 계절 한정 유인책으로 보조 편성 가치.",

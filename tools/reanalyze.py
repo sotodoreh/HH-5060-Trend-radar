@@ -18,6 +18,7 @@ if hasattr(sys.stdout, "reconfigure"):
 import config
 import analyzer
 import insight as insight_mod
+from collectors import naver_best
 from run_pipeline import HISTORY, DATA, DOCS_DATA
 
 
@@ -39,6 +40,16 @@ def main():
 
     print(f"[reanalyze] 현재={current['week']} / 전주={previous['week'] if previous else '없음'}")
     result = analyzer.analyze(current, previous)
+
+    # 트랙2(hype)는 히스토리에 없을 수 있어 fresh 수집 (없으면 기존 latest 보존)
+    track2 = naver_best.collect_all()
+    hype = track2.get("hype", {})
+    if not hype and (DATA / "latest.json").exists():
+        try:
+            with open(DATA / "latest.json", encoding="utf-8") as f:
+                hype = json.load(f).get("hype", {})
+        except Exception:
+            pass
 
     if args.insight:
         insights = insight_mod.generate_insights(result["rising"], current.get("products") or None)
@@ -72,7 +83,8 @@ def main():
         "keywords": result["keywords"],
         "rising": result["rising"],
         "rising_by_cat": result["rising_by_cat"],
-        "products": current.get("products") or {},
+        "hype": hype,
+        "hype_ymd": track2.get("ymd"),
         "insights": insights,
     }
     with open(DATA / "latest.json", "w", encoding="utf-8") as f:
