@@ -60,12 +60,18 @@ def _flatten(keywords: dict[str, list[dict]]) -> list[tuple[str, dict]]:
 
 
 def count_signals(keywords: dict[str, list[dict]]) -> dict:
-    """전체 데이터(TOP500) 기준 정직한 카운트. 표시 상한(RISING_TOP_LIMIT)과 무관."""
+    """시그널 카운트. 현재 순위가 SIGNAL_RANK_MAX(300) 이내인 것만 집계한다.
+
+    데이터랩은 절대 검색량을 주지 않으므로, 순위 컷으로 '순위만 크게 뛰고
+    검색량은 미미한' 롱테일을 걸러 유의미한 시그널만 센다.
+    (비교 모수는 TOP500 전체 — 신규 판정은 '전주 TOP500에 없던 키워드' 기준)
+    """
+    cut = config.SIGNAL_RANK_MAX
     rising_total = sum(
         1 for _, r in _flatten(keywords)
-        if r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA
+        if r["rank"] <= cut and r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA
     )
-    new_total = sum(1 for _, r in _flatten(keywords) if r["is_new"])
+    new_total = sum(1 for _, r in _flatten(keywords) if r["rank"] <= cut and r["is_new"])
     return {"rising_count": rising_total, "new_count": new_total}
 
 
@@ -88,9 +94,11 @@ def pick_rising(keywords: dict[str, list[dict]]) -> list[dict]:
         return {"category": cat, **{k: r[k] for k in
                 ("rank", "keyword", "prev_rank", "delta", "is_new")}}
 
+    cut = config.SIGNAL_RANK_MAX
     jumps = sorted(
         (fields(cat, r) for cat, r in _flatten(keywords)
-         if not r["is_new"] and r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA),
+         if not r["is_new"] and r["rank"] <= cut
+         and r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA),
         key=lambda x: x["delta"], reverse=True,
     )
     news = sorted(
@@ -106,11 +114,13 @@ def rising_by_category(keywords: dict[str, list[dict]], cap: int = 30) -> dict[s
     def fields(r):
         return {k: r[k] for k in ("rank", "keyword", "prev_rank", "delta", "is_new")}
 
+    cut = config.SIGNAL_RANK_MAX
     out = {}
     for cat, rows in keywords.items():
         jumps = sorted(
             (fields(r) for r in rows
-             if not r["is_new"] and r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA),
+             if not r["is_new"] and r["rank"] <= cut
+             and r["delta"] is not None and r["delta"] >= config.RISING_MIN_DELTA),
             key=lambda x: x["delta"], reverse=True,
         )
         news = sorted(

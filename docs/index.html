@@ -91,19 +91,19 @@
   .ins-empty{padding:48px 24px; text-align:center; color:var(--sub); line-height:1.8}
   .ins-empty .big{font-size:2rem; margin-bottom:8px}
 
-  /* Hype 상품 레이더 */
-  .hp-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
-  .hp-card{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px}
-  .hp-head{display:flex; align-items:center; gap:9px; flex-wrap:wrap; padding-bottom:10px; border-bottom:1px solid var(--line); margin-bottom:10px}
+  /* Hype 상품 레이더 — 관심사 탭과 같은 패널 골격에 카드 그리드 */
+  .hp-section{margin-bottom:16px}
+  .hp-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; padding:14px 16px}
+  .hp-card{background:var(--panel2); border:1px solid var(--line); border-radius:12px; padding:13px 15px; min-width:0}
+  .hp-head{display:flex; align-items:center; gap:9px; flex-wrap:wrap; padding-bottom:9px; border-bottom:1px solid var(--line); margin-bottom:9px}
   .hp-rank{width:24px; height:24px; border-radius:7px; background:var(--chip); color:var(--sub);
     display:inline-flex; align-items:center; justify-content:center; font-size:.82rem; font-weight:800; flex:0 0 auto}
-  .hp-kw{font-weight:800; font-size:1.05rem}
+  .hp-kw{font-weight:800; font-size:1.02rem}
   .hp-head .cat{color:var(--sub); font-size:.8rem}
-  .hp-prods{display:grid; gap:8px}
-  .hp-prod{display:flex; flex-direction:column; gap:2px; padding:7px 10px; background:var(--bg); border-radius:9px}
-  .hp-ptitle{font-size:.9rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
-  .hp-pmeta{font-size:.8rem; color:var(--sub)}
-  .hp-hmall{align-self:flex-start; margin-top:3px}
+  .hp-prods{display:grid; gap:7px}
+  .hp-prod{display:flex; flex-direction:column; gap:2px; padding:7px 10px; background:var(--bg); border-radius:9px; min-width:0}
+  .hp-ptitle{font-size:.88rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .hp-pmeta{font-size:.8rem; color:var(--sub); display:flex; align-items:center; gap:8px; flex-wrap:wrap}
 
   /* info 툴팁 트리거 */
   .info{display:inline-flex; align-items:center; justify-content:center; width:17px; height:17px;
@@ -155,7 +155,7 @@
       <div class="panel">
         <h2>
           급상승 · 신규 진입
-          <span class="info" tabindex="0" data-tip="매주 네이버 데이터랩 쇼핑인사이트에서 50~60대 여성의 카테고리별 인기검색어 TOP500을 수집해 전주와 비교합니다. ▲숫자 = 상승한 순위 폭(30계단 이상), NEW = 이번주 TOP500 신규 진입. '전체'는 전 카테고리 통합, 개별 카테고리는 해당 카테고리만 필터링합니다.">?</span>
+          <span class="info" tabindex="0" data-tip="매주 데이터랩 쇼핑인사이트에서 50~60대 여성 인기검색어 TOP500을 수집해 전주와 비교합니다. ▲숫자 = 순위 상승 폭(30계단 이상), NEW = 신규 진입(100위 이내만 노출). 검색량 절대값이 제공되지 않는 한계를 보완하기 위해 현재 300위 밖 롱테일은 목록에서 제외합니다. '전체'는 전 카테고리 통합, 개별 카테고리는 해당 카테고리만.">?</span>
           <span class="hint" id="rising-scope">전체</span>
         </h2>
         <div class="body" id="rising-wrap"></div>
@@ -172,7 +172,6 @@
 
   <!-- Hype 상품 레이더 -->
   <div id="view-hype" style="display:none">
-    <div class="chips" id="hype-chips"></div>
     <div id="hype-body"></div>
   </div>
 
@@ -222,10 +221,10 @@ function renderCards(){
   const s = DATA.stats;
   $('#cards').innerHTML = `
     <div class="card rising"><div class="label">급상승 키워드
-      <span class="info" tabindex="0" data-tip="지난주 대비 순위가 30계단 이상 오른 키워드의 수입니다. 50~60대 여성 인기검색어 TOP500 전체를 두 주 비교해 계산합니다.">?</span></div>
+      <span class="info" tabindex="0" data-tip="현재 300위 이내이면서 지난주보다 순위가 30계단 이상 오른 키워드 수입니다. 데이터랩은 절대 검색량을 제공하지 않아, 300위 밖 롱테일(검색량 미미 추정)은 집계에서 제외해 유의미한 시그널만 셉니다. 수집·비교 모수는 TOP500입니다.">?</span></div>
       <div class="num">${s.rising_count ?? 0}<small>개</small></div></div>
-    <div class="card newkw"><div class="label">TOP500 신규 진입
-      <span class="info" tabindex="0" data-tip="지난주 TOP500에는 없다가 이번주 새로 진입한 키워드의 수입니다. 관심사의 판이 얼마나 바뀌었는지를 보여줍니다.">?</span></div>
+    <div class="card newkw"><div class="label">TOP300 신규 진입
+      <span class="info" tabindex="0" data-tip="지난주 TOP500에는 없었는데 이번주 300위 이내로 진입한 키워드 수입니다. 관심사의 판이 얼마나 바뀌었는지 보여주는 지표로, 300위 밖 진입은 노이즈로 보고 제외합니다.">?</span></div>
       <div class="num">${s.new_count ?? 0}<small>개</small></div></div>
     <div class="card"><div class="label">Hmall 미보유 갭
       <span class="info" tabindex="0" data-tip="급등 상품 중 현대홈쇼핑이 아직 방송상품으로 보유하지 않은 건수입니다. 트랙2·Hmall 검색 연동 후 집계되며, 미보유 갭이 소싱 1순위 신호입니다.">?</span></div>
@@ -256,7 +255,7 @@ function risingTable(rows, showCat){
 }
 
 function keywordTable(cat){
-  const rows = (DATA.keywords[cat] || []).slice(0, 40);
+  const rows = (DATA.keywords[cat] || []).slice(0, 30);
   if (!rows.length) return '<div class="empty-track">데이터 없음</div>';
   const body = rows.map(r =>
     `<tr><td class="rk">${r.rank}</td><td class="kw">${r.keyword}${r.source?` <span class="badge src">${r.source}</span>`:''}</td><td>${deltaBadge(r)}</td></tr>`).join('');
@@ -278,13 +277,12 @@ function renderInterest(){
     kwPanel.style.display = '';
     $('#rising-scope').textContent = curCat;
     $('#rising-wrap').innerHTML = risingTable((DATA.rising_by_cat||{})[curCat], false);
-    $('#kw-title').innerHTML = `${curCat} 인기검색어 <span class="info" tabindex="0" data-tip="네이버 데이터랩 쇼핑인사이트 · 50~60대 여성 · 최근 4주 주간 기준 인기검색어 순위입니다.">?</span> <span class="hint">상위 40</span>`;
+    $('#kw-title').innerHTML = `${curCat} 인기검색어 <span class="info" tabindex="0" data-tip="네이버 데이터랩 쇼핑인사이트 · 50~60대 여성 · 최근 4주 주간 기준 인기검색어 순위입니다. 데이터랩 특성상 절대 검색량은 제공되지 않아 순위로 상대적 관심도를 봅니다.">?</span> <span class="hint">상위 30</span>`;
     $('#kw-wrap').innerHTML = keywordTable(curCat);
   }
   initTips();
 }
 
-let curHype = null;
 function fluctBadge(it){
   const f = it.rank_fluctuation, s = it.status;
   if (s === 'NEW' || s === 'NEW_ENTRY') return '<span class="badge new">NEW</span>';
@@ -294,46 +292,53 @@ function fluctBadge(it){
 }
 function won(v){ return v ? v : '–'; }
 
+const HYPE_SECTIONS = [
+  { key:'이슈', title:'구매 급상승 (이슈)',
+    tip:'이번 주 실제 구매가 급상승한 키워드입니다. 검색(관심사 레이더)이 아닌 구매 기준의 별도 신호로, ▲/▽는 전주 대비 구매 순위 변동입니다.' },
+  { key:'신규', title:'베스트 신규 진입',
+    tip:'이번 주 처음 구매 베스트에 진입한 키워드입니다. 새로 열리는 수요를 포착합니다.' },
+  { key:'인기', title:'꾸준 인기 (스테디)',
+    tip:'주간 구매 상위를 꾸준히 지키는 키워드입니다. 검증된 수요의 기준선 역할을 합니다.' },
+];
+
 function renderHype(){
   const hype = DATA.hype || {};
-  const views = Object.keys(hype).filter(k => (hype[k]||[]).length);
-  if (!views.length){
-    $('#hype-chips').innerHTML = '';
-    $('#hype-body').innerHTML = `<div class="empty-track">
-      네이버쇼핑 베스트(5060 여성) 데이터가 아직 없습니다.<br>다음 자동 수집부터 채워집니다.</div>`;
+  const has = HYPE_SECTIONS.some(s => (hype[s.key]||[]).length);
+  if (!has){
+    $('#hype-body').innerHTML = `<div class="panel"><div class="empty-track">
+      네이버쇼핑 베스트(5060 여성) 데이터가 아직 없습니다.<br>다음 자동 수집부터 채워집니다.</div></div>`;
     return;
   }
-  if (!curHype || !views.includes(curHype)) curHype = views[0];
-  const labelTip = {
-    '이슈':'실제 구매가 이번 주 급상승한 키워드(이슈). 검색이 아닌 구매 기준이라 관심사 레이더와 다른 신호입니다.',
-    '신규':'이번 주 새로 베스트에 진입한 구매 키워드.',
-    '인기':'꾸준히 잘 팔리는 상위 구매 키워드.',
-  };
-  $('#hype-chips').innerHTML = views.map(v =>
-    `<span class="chip ${v===curHype?'on':''}" data-hype="${v}">${v}키워드</span>`).join('') +
-    `<span class="info" tabindex="0" data-tip="네이버쇼핑 베스트(SNX)에서 50~60대 이상 여성의 실구매 급상승·신규·인기 키워드와 각 키워드의 대표 상품(리뷰수 포함)을 매주 수집합니다. ▲/▽=구매 순위 변동, 리뷰수=판매 규모 신호. Hmall 열은 현대홈쇼핑 방송상품 보유 여부(연동 예정)입니다." style="align-self:center">?</span>`;
-  document.querySelectorAll('#hype-chips .chip').forEach(el =>
-    el.onclick = () => { curHype = el.dataset.hype; renderHype(); });
-
-  const rows = (hype[curHype]||[]).map(it => {
-    const prods = (it.products||[]).map(p => `
-      <div class="hp-prod">
-        <span class="hp-ptitle">${p.title||''}</span>
-        <span class="hp-pmeta">${won(p.price)}원 · 리뷰 ${p.review_count!=null?p.review_count.toLocaleString():'–'}</span>
-        <span class="badge gap hp-hmall">Hmall 확인예정</span>
-      </div>`).join('');
+  const src = ' · 네이버쇼핑 베스트 · 50대 이상 여성 · 실구매 기준';
+  $('#hype-body').innerHTML = HYPE_SECTIONS.map(sec => {
+    const items = hype[sec.key] || [];
+    if (!items.length) return '';
+    const cards = items.map(it => {
+      const prods = (it.products||[]).map(p => `
+        <div class="hp-prod">
+          <span class="hp-ptitle" title="${(p.title||'').replace(/"/g,'&quot;')}">${p.title||''}</span>
+          <span class="hp-pmeta">${won(p.price)}원 · 리뷰 ${p.review_count!=null?p.review_count.toLocaleString():'–'} <span class="badge gap hp-hmall">Hmall 확인예정</span></span>
+        </div>`).join('');
+      return `
+        <div class="hp-card">
+          <div class="hp-head">
+            <span class="hp-rank">${it.rank}</span>
+            <span class="hp-kw">${it.keyword}</span>
+            <span class="cat">${it.category||''}</span>
+            ${fluctBadge(it)}
+          </div>
+          <div class="hp-prods">${prods || '<span class="hp-pmeta">상품 없음</span>'}</div>
+        </div>`;
+    }).join('');
     return `
-      <div class="hp-card">
-        <div class="hp-head">
-          <span class="hp-rank">${it.rank}</span>
-          <span class="hp-kw">${it.keyword}</span>
-          <span class="cat">${it.category||''}</span>
-          ${fluctBadge(it)}
-        </div>
-        <div class="hp-prods">${prods || '<span class="hp-pmeta">상품 없음</span>'}</div>
+      <div class="panel hp-section">
+        <h2>${sec.title}
+          <span class="info" tabindex="0" data-tip="${sec.tip}">?</span>
+          <span class="hint">${sec.key} TOP ${items.length}${src}</span>
+        </h2>
+        <div class="hp-grid">${cards}</div>
       </div>`;
   }).join('');
-  $('#hype-body').innerHTML = `<div class="hp-grid">${rows}</div>`;
   initTips();
 }
 
