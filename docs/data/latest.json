@@ -1,15 +1,15 @@
 {
  "meta": {
-  "week": "2026-W34",
-  "generated_at": "2026-08-24T08:52:53.754625+09:00",
-  "period": "2026-07-20 ~ 2026-08-16",
-  "prev_week": "2026-W33",
+  "week": "2026-W36",
+  "generated_at": "2026-08-31T10:34:16.275402+09:00",
+  "period": "2026-08-03 ~ 2026-08-30",
+  "prev_week": "2026-W34",
   "target": "50–60대 여성",
   "sample": false
  },
  "stats": {
-  "rising_count": 281,
-  "new_count": 16,
+  "rising_count": 501,
+  "new_count": 46,
   "gap_count": null
  },
  "categories": [
@@ -33,128 +33,128 @@
    },
    {
     "rank": 2,
-    "keyword": "복숭아",
-    "prev_rank": 2,
-    "delta": 0,
+    "keyword": "도미솔김치",
+    "prev_rank": 33,
+    "delta": 31,
     "is_new": false
    },
    {
     "rank": 3,
-    "keyword": "쌀10kg",
-    "prev_rank": 3,
-    "delta": 0,
+    "keyword": "복숭아",
+    "prev_rank": 2,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 4,
-    "keyword": "쌀20kg",
-    "prev_rank": 4,
-    "delta": 0,
+    "keyword": "쌀10kg",
+    "prev_rank": 3,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 5,
-    "keyword": "파라다이스그레인",
-    "prev_rank": 7,
-    "delta": 2,
+    "keyword": "쌀20kg",
+    "prev_rank": 4,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 6,
     "keyword": "조선호텔김치",
-    "prev_rank": 5,
-    "delta": -1,
+    "prev_rank": 6,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 7,
-    "keyword": "뉴케어구수한맛",
-    "prev_rank": 6,
-    "delta": -1,
+    "keyword": "오메가3",
+    "prev_rank": 8,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 8,
-    "keyword": "오메가3",
-    "prev_rank": 11,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 9,
-    "keyword": "올리브오일",
-    "prev_rank": 8,
+    "keyword": "뉴케어구수한맛",
+    "prev_rank": 7,
     "delta": -1,
     "is_new": false
    },
    {
+    "rank": 9,
+    "keyword": "파라다이스그레인",
+    "prev_rank": 5,
+    "delta": -4,
+    "is_new": false
+   },
+   {
     "rank": 10,
-    "keyword": "수향미10kg",
+    "keyword": "올리브오일",
     "prev_rank": 9,
     "delta": -1,
     "is_new": false
    },
    {
     "rank": 11,
-    "keyword": "카무트효소",
-    "prev_rank": 15,
-    "delta": 4,
+    "keyword": "레드와인비니거",
+    "prev_rank": 13,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 12,
-    "keyword": "찹쌀누룽지과자",
-    "prev_rank": 13,
-    "delta": 1,
+    "keyword": "마그네슘",
+    "prev_rank": 16,
+    "delta": 4,
     "is_new": false
    },
    {
     "rank": 13,
-    "keyword": "레드와인비니거",
-    "prev_rank": 22,
-    "delta": 9,
+    "keyword": "토마토",
+    "prev_rank": 35,
+    "delta": 22,
     "is_new": false
    },
    {
     "rank": 14,
-    "keyword": "단호박",
-    "prev_rank": 14,
-    "delta": 0,
+    "keyword": "수향미10kg",
+    "prev_rank": 10,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 15,
-    "keyword": "자두",
-    "prev_rank": 18,
-    "delta": 3,
+    "keyword": "젖산마그네슘",
+    "prev_rank": 27,
+    "delta": 12,
     "is_new": false
    },
    {
     "rank": 16,
-    "keyword": "마그네슘",
-    "prev_rank": 25,
-    "delta": 9,
+    "keyword": "카무트효소",
+    "prev_rank": 11,
+    "delta": -5,
     "is_new": false
    },
    {
     "rank": 17,
     "keyword": "비에날17유산균",
-    "prev_rank": 23,
-    "delta": 6,
+    "prev_rank": 17,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 18,
-    "keyword": "열무김치",
-    "prev_rank": 19,
-    "delta": 1,
+    "keyword": "명가삼대떡집",
+    "prev_rank": 46,
+    "delta": 28,
     "is_new": false
    },
    {
     "rank": 19,
-    "keyword": "뉴케어",
-    "prev_rank": 21,
-    "delta": 2,
+    "keyword": "찹쌀누룽지과자",
+    "prev_rank": 12,
+    "delta": -7,
     "is_new": false
    },
    {
@@ -166,613 +166,613 @@
    },
    {
     "rank": 21,
-    "keyword": "수박",
-    "prev_rank": 16,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 22,
-    "keyword": "블루베리",
-    "prev_rank": 12,
-    "delta": -10,
-    "is_new": false
-   },
-   {
-    "rank": 23,
-    "keyword": "두부면",
-    "prev_rank": 26,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 24,
-    "keyword": "괴산대학찰옥수수",
-    "prev_rank": 10,
-    "delta": -14,
-    "is_new": false
-   },
-   {
-    "rank": 25,
-    "keyword": "종가집포기김치",
-    "prev_rank": 32,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 26,
     "keyword": "두유",
-    "prev_rank": 28,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 27,
-    "keyword": "젖산마그네슘",
-    "prev_rank": 36,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 28,
-    "keyword": "뼈엔엠비피mbp",
-    "prev_rank": 38,
-    "delta": 10,
-    "is_new": false
-   },
-   {
-    "rank": 29,
-    "keyword": "오이",
-    "prev_rank": 24,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 30,
-    "keyword": "링티",
-    "prev_rank": 17,
-    "delta": -13,
-    "is_new": false
-   },
-   {
-    "rank": 31,
-    "keyword": "닭가슴살",
-    "prev_rank": 33,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 32,
-    "keyword": "포카리스웨트",
-    "prev_rank": 30,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 33,
-    "keyword": "도미솔김치",
-    "prev_rank": 41,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 34,
-    "keyword": "생수",
-    "prev_rank": 29,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 35,
-    "keyword": "토마토",
-    "prev_rank": 35,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 36,
-    "keyword": "레몬즙",
-    "prev_rank": 31,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 37,
-    "keyword": "사과",
-    "prev_rank": 42,
+    "prev_rank": 26,
     "delta": 5,
     "is_new": false
    },
    {
-    "rank": 38,
-    "keyword": "진미채",
-    "prev_rank": 40,
-    "delta": 2,
+    "rank": 22,
+    "keyword": "뉴케어",
+    "prev_rank": 19,
+    "delta": -3,
     "is_new": false
    },
    {
-    "rank": 39,
+    "rank": 23,
+    "keyword": "사과",
+    "prev_rank": 37,
+    "delta": 14,
+    "is_new": false
+   },
+   {
+    "rank": 24,
+    "keyword": "뼈엔엠비피mbp",
+    "prev_rank": 28,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 25,
+    "keyword": "무화과",
+    "prev_rank": 50,
+    "delta": 25,
+    "is_new": false
+   },
+   {
+    "rank": 26,
+    "keyword": "유산균",
+    "prev_rank": 41,
+    "delta": 15,
+    "is_new": false
+   },
+   {
+    "rank": 27,
+    "keyword": "자두",
+    "prev_rank": 15,
+    "delta": -12,
+    "is_new": false
+   },
+   {
+    "rank": 28,
+    "keyword": "단호박",
+    "prev_rank": 14,
+    "delta": -14,
+    "is_new": false
+   },
+   {
+    "rank": 29,
+    "keyword": "학가산김치",
+    "prev_rank": 52,
+    "delta": 23,
+    "is_new": false
+   },
+   {
+    "rank": 30,
     "keyword": "맥심모카골드",
     "prev_rank": 39,
-    "delta": 0,
+    "delta": 9,
     "is_new": false
    },
    {
-    "rank": 40,
-    "keyword": "감자",
-    "prev_rank": 27,
-    "delta": -13,
+    "rank": 31,
+    "keyword": "안동학가산김치",
+    "prev_rank": 45,
+    "delta": 14,
     "is_new": false
    },
    {
-    "rank": 41,
-    "keyword": "유산균",
-    "prev_rank": 44,
+    "rank": 32,
+    "keyword": "레몬즙",
+    "prev_rank": 36,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 33,
+    "keyword": "콘드로이친1200",
+    "prev_rank": 47,
+    "delta": 14,
+    "is_new": false
+   },
+   {
+    "rank": 34,
+    "keyword": "종가집포기김치",
+    "prev_rank": 25,
+    "delta": -9,
+    "is_new": false
+   },
+   {
+    "rank": 35,
+    "keyword": "진미채",
+    "prev_rank": 38,
     "delta": 3,
     "is_new": false
    },
    {
-    "rank": 42,
+    "rank": 36,
     "keyword": "깻잎",
-    "prev_rank": 48,
+    "prev_rank": 42,
     "delta": 6,
+    "is_new": false
+   },
+   {
+    "rank": 37,
+    "keyword": "닭가슴살",
+    "prev_rank": 31,
+    "delta": -6,
+    "is_new": false
+   },
+   {
+    "rank": 38,
+    "keyword": "비타민c",
+    "prev_rank": 49,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 39,
+    "keyword": "콘드로이친",
+    "prev_rank": 53,
+    "delta": 14,
+    "is_new": false
+   },
+   {
+    "rank": 40,
+    "keyword": "열무김치",
+    "prev_rank": 18,
+    "delta": -22,
+    "is_new": false
+   },
+   {
+    "rank": 41,
+    "keyword": "오이",
+    "prev_rank": 29,
+    "delta": -12,
+    "is_new": false
+   },
+   {
+    "rank": 42,
+    "keyword": "냉동블루베리",
+    "prev_rank": 44,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 43,
     "keyword": "탄산수",
-    "prev_rank": 34,
-    "delta": -9,
+    "prev_rank": 43,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 44,
-    "keyword": "냉동블루베리",
-    "prev_rank": 37,
-    "delta": -7,
+    "keyword": "도미솔김치10kg",
+    "prev_rank": 114,
+    "delta": 70,
     "is_new": false
    },
    {
     "rank": 45,
-    "keyword": "안동학가산김치",
-    "prev_rank": 50,
-    "delta": 5,
+    "keyword": "생수",
+    "prev_rank": 34,
+    "delta": -11,
     "is_new": false
    },
    {
     "rank": 46,
-    "keyword": "명가삼대떡집",
-    "prev_rank": 58,
-    "delta": 12,
+    "keyword": "견과류",
+    "prev_rank": 51,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 47,
-    "keyword": "콘드로이친1200",
-    "prev_rank": 46,
-    "delta": -1,
+    "keyword": "수박",
+    "prev_rank": 21,
+    "delta": -26,
     "is_new": false
    },
    {
     "rank": 48,
-    "keyword": "참외",
-    "prev_rank": 43,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 49,
-    "keyword": "비타민c",
-    "prev_rank": 49,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 50,
-    "keyword": "무화과",
-    "prev_rank": 84,
-    "delta": 34,
-    "is_new": false
-   },
-   {
-    "rank": 51,
-    "keyword": "견과류",
-    "prev_rank": 62,
-    "delta": 11,
-    "is_new": false
-   },
-   {
-    "rank": 52,
-    "keyword": "학가산김치",
-    "prev_rank": 65,
-    "delta": 13,
-    "is_new": false
-   },
-   {
-    "rank": 53,
-    "keyword": "콘드로이친",
-    "prev_rank": 53,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 54,
     "keyword": "창억떡",
-    "prev_rank": 55,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 55,
-    "keyword": "모짜렐라치즈",
-    "prev_rank": 60,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 56,
-    "keyword": "하루견과",
-    "prev_rank": 57,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 57,
-    "keyword": "포스파티딜세린",
-    "prev_rank": 56,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 58,
-    "keyword": "삼다수2l",
     "prev_rank": 54,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 59,
-    "keyword": "서울우유한끼식사",
-    "prev_rank": 59,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 60,
-    "keyword": "궁채",
-    "prev_rank": 76,
-    "delta": 16,
-    "is_new": false
-   },
-   {
-    "rank": 61,
-    "keyword": "뉴케어당플랜",
-    "prev_rank": 69,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 62,
-    "keyword": "오징어",
-    "prev_rank": 63,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 63,
-    "keyword": "콜라겐",
-    "prev_rank": 51,
-    "delta": -12,
-    "is_new": false
-   },
-   {
-    "rank": 64,
-    "keyword": "참기름",
-    "prev_rank": 66,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 65,
-    "keyword": "열무",
-    "prev_rank": 70,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 66,
-    "keyword": "루테인지아잔틴",
-    "prev_rank": 68,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 67,
-    "keyword": "멸균우유",
-    "prev_rank": 82,
-    "delta": 15,
-    "is_new": false
-   },
-   {
-    "rank": 68,
-    "keyword": "bnr17유산균",
-    "prev_rank": 64,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 69,
-    "keyword": "야채도사",
-    "prev_rank": 45,
-    "delta": -24,
-    "is_new": false
-   },
-   {
-    "rank": 70,
-    "keyword": "그릭요거트",
-    "prev_rank": 73,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 71,
-    "keyword": "딱딱이복숭아",
-    "prev_rank": 78,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 72,
-    "keyword": "멜라토닌",
-    "prev_rank": 90,
-    "delta": 18,
-    "is_new": false
-   },
-   {
-    "rank": 73,
-    "keyword": "계란",
-    "prev_rank": 67,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 74,
-    "keyword": "전복",
-    "prev_rank": 81,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 75,
-    "keyword": "김치",
-    "prev_rank": 86,
-    "delta": 11,
-    "is_new": false
-   },
-   {
-    "rank": 76,
-    "keyword": "락토핏유산균",
-    "prev_rank": 77,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 77,
-    "keyword": "퀘르포민정",
-    "prev_rank": 74,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 78,
-    "keyword": "덴마크유산균",
-    "prev_rank": 80,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 79,
-    "keyword": "아몬드",
-    "prev_rank": 79,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 80,
-    "keyword": "미숫가루",
-    "prev_rank": 72,
-    "delta": -8,
-    "is_new": false
-   },
-   {
-    "rank": 81,
-    "keyword": "황태채",
-    "prev_rank": 95,
-    "delta": 14,
-    "is_new": false
-   },
-   {
-    "rank": 82,
-    "keyword": "오트밀",
-    "prev_rank": 87,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 83,
-    "keyword": "마늘",
-    "prev_rank": 75,
-    "delta": -8,
-    "is_new": false
-   },
-   {
-    "rank": 84,
-    "keyword": "고추장",
-    "prev_rank": 97,
-    "delta": 13,
-    "is_new": false
-   },
-   {
-    "rank": 85,
-    "keyword": "생수2l",
-    "prev_rank": 89,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 86,
-    "keyword": "포카리스웨트340",
-    "prev_rank": 92,
     "delta": 6,
     "is_new": false
    },
    {
-    "rank": 87,
-    "keyword": "하스카프베리",
-    "prev_rank": 106,
+    "rank": 49,
+    "keyword": "블루베리",
+    "prev_rank": 22,
+    "delta": -27,
+    "is_new": false
+   },
+   {
+    "rank": 50,
+    "keyword": "bnr17유산균",
+    "prev_rank": 68,
+    "delta": 18,
+    "is_new": false
+   },
+   {
+    "rank": 51,
+    "keyword": "두부면",
+    "prev_rank": 23,
+    "delta": -28,
+    "is_new": false
+   },
+   {
+    "rank": 52,
+    "keyword": "포카리스웨트",
+    "prev_rank": 32,
+    "delta": -20,
+    "is_new": false
+   },
+   {
+    "rank": 53,
+    "keyword": "포스파티딜세린",
+    "prev_rank": 57,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 54,
+    "keyword": "뉴케어당플랜",
+    "prev_rank": 61,
+    "delta": 7,
+    "is_new": false
+   },
+   {
+    "rank": 55,
+    "keyword": "하루견과",
+    "prev_rank": 56,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 56,
+    "keyword": "괴산대학찰옥수수",
+    "prev_rank": 24,
+    "delta": -32,
+    "is_new": false
+   },
+   {
+    "rank": 57,
+    "keyword": "궁채",
+    "prev_rank": 60,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 58,
+    "keyword": "참외",
+    "prev_rank": 48,
+    "delta": -10,
+    "is_new": false
+   },
+   {
+    "rank": 59,
+    "keyword": "김치",
+    "prev_rank": 75,
+    "delta": 16,
+    "is_new": false
+   },
+   {
+    "rank": 60,
+    "keyword": "서울우유한끼식사",
+    "prev_rank": 59,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 61,
+    "keyword": "링티",
+    "prev_rank": 30,
+    "delta": -31,
+    "is_new": false
+   },
+   {
+    "rank": 62,
+    "keyword": "아보카도오일",
+    "prev_rank": 110,
+    "delta": 48,
+    "is_new": false
+   },
+   {
+    "rank": 63,
+    "keyword": "삼다수2l",
+    "prev_rank": 58,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 64,
+    "keyword": "멸균우유",
+    "prev_rank": 67,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 65,
+    "keyword": "멜라토닌",
+    "prev_rank": 72,
+    "delta": 7,
+    "is_new": false
+   },
+   {
+    "rank": 66,
+    "keyword": "참기름",
+    "prev_rank": 64,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 67,
+    "keyword": "감자",
+    "prev_rank": 40,
+    "delta": -27,
+    "is_new": false
+   },
+   {
+    "rank": 68,
+    "keyword": "모짜렐라치즈",
+    "prev_rank": 55,
+    "delta": -13,
+    "is_new": false
+   },
+   {
+    "rank": 69,
+    "keyword": "루테인지아잔틴",
+    "prev_rank": 66,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 70,
+    "keyword": "la갈비",
+    "prev_rank": 136,
+    "delta": 66,
+    "is_new": false
+   },
+   {
+    "rank": 71,
+    "keyword": "그릭요거트",
+    "prev_rank": 70,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 72,
+    "keyword": "황태채",
+    "prev_rank": 81,
+    "delta": 9,
+    "is_new": false
+   },
+   {
+    "rank": 73,
+    "keyword": "미미의남도김치",
+    "prev_rank": 284,
+    "delta": 211,
+    "is_new": false
+   },
+   {
+    "rank": 74,
+    "keyword": "오징어",
+    "prev_rank": 62,
+    "delta": -12,
+    "is_new": false
+   },
+   {
+    "rank": 75,
+    "keyword": "포도",
+    "prev_rank": 115,
+    "delta": 40,
+    "is_new": false
+   },
+   {
+    "rank": 76,
+    "keyword": "양파",
+    "prev_rank": 95,
     "delta": 19,
     "is_new": false
    },
    {
-    "rank": 88,
-    "keyword": "26년햇고추가루",
-    "prev_rank": 150,
+    "rank": 77,
+    "keyword": "당근",
+    "prev_rank": 101,
+    "delta": 24,
+    "is_new": false
+   },
+   {
+    "rank": 78,
+    "keyword": "정관장에브리타임",
+    "prev_rank": 103,
+    "delta": 25,
+    "is_new": false
+   },
+   {
+    "rank": 79,
+    "keyword": "고구마",
+    "prev_rank": 141,
     "delta": 62,
     "is_new": false
    },
    {
+    "rank": 80,
+    "keyword": "인삼다당체",
+    "prev_rank": 180,
+    "delta": 100,
+    "is_new": false
+   },
+   {
+    "rank": 81,
+    "keyword": "덴마크유산균",
+    "prev_rank": 78,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 82,
+    "keyword": "발사믹식초",
+    "prev_rank": 102,
+    "delta": 20,
+    "is_new": false
+   },
+   {
+    "rank": 83,
+    "keyword": "고추장",
+    "prev_rank": 84,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 84,
+    "keyword": "락토핏유산균",
+    "prev_rank": 76,
+    "delta": -8,
+    "is_new": false
+   },
+   {
+    "rank": 85,
+    "keyword": "여성질유산균",
+    "prev_rank": 121,
+    "delta": 36,
+    "is_new": false
+   },
+   {
+    "rank": 86,
+    "keyword": "전복",
+    "prev_rank": 74,
+    "delta": -12,
+    "is_new": false
+   },
+   {
+    "rank": 87,
+    "keyword": "귀리",
+    "prev_rank": 117,
+    "delta": 30,
+    "is_new": false
+   },
+   {
+    "rank": 88,
+    "keyword": "아몬드",
+    "prev_rank": 79,
+    "delta": -9,
+    "is_new": false
+   },
+   {
     "rank": 89,
-    "keyword": "찰옥수수",
-    "prev_rank": 71,
-    "delta": -18,
+    "keyword": "포카리스웨트340",
+    "prev_rank": 86,
+    "delta": -3,
     "is_new": false
    },
    {
     "rank": 90,
-    "keyword": "호랑이콩",
-    "prev_rank": 61,
-    "delta": -29,
+    "keyword": "올리브유",
+    "prev_rank": 108,
+    "delta": 18,
     "is_new": false
    },
    {
     "rank": 91,
-    "keyword": "찹쌀",
-    "prev_rank": 91,
-    "delta": 0,
+    "keyword": "퀘르포민정",
+    "prev_rank": 77,
+    "delta": -14,
     "is_new": false
    },
    {
     "rank": 92,
-    "keyword": "수향미",
-    "prev_rank": 94,
-    "delta": 2,
+    "keyword": "콜라겐",
+    "prev_rank": 63,
+    "delta": -29,
     "is_new": false
    },
    {
     "rank": 93,
-    "keyword": "아이스크림",
+    "keyword": "생수2l",
     "prev_rank": 85,
     "delta": -8,
     "is_new": false
    },
    {
     "rank": 94,
-    "keyword": "문어",
-    "prev_rank": 88,
-    "delta": -6,
+    "keyword": "딱딱이복숭아",
+    "prev_rank": 71,
+    "delta": -23,
     "is_new": false
    },
    {
     "rank": 95,
-    "keyword": "양파",
-    "prev_rank": 104,
-    "delta": 9,
+    "keyword": "오트밀",
+    "prev_rank": 82,
+    "delta": -13,
     "is_new": false
    },
    {
     "rank": 96,
-    "keyword": "홍고추10kg",
-    "prev_rank": 180,
-    "delta": 84,
+    "keyword": "새우젓",
+    "prev_rank": 112,
+    "delta": 16,
     "is_new": false
    },
    {
     "rank": 97,
-    "keyword": "호두",
-    "prev_rank": 96,
-    "delta": -1,
+    "keyword": "땅콩버터",
+    "prev_rank": 106,
+    "delta": 9,
     "is_new": false
    },
    {
     "rank": 98,
-    "keyword": "고구마줄기",
-    "prev_rank": 102,
-    "delta": 4,
+    "keyword": "열무",
+    "prev_rank": 65,
+    "delta": -33,
     "is_new": false
    },
    {
     "rank": 99,
-    "keyword": "에버콜라겐",
-    "prev_rank": 101,
-    "delta": 2,
+    "keyword": "호두",
+    "prev_rank": 97,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 100,
-    "keyword": "삼계탕",
-    "prev_rank": 52,
-    "delta": -48,
+    "keyword": "26년햇고추가루",
+    "prev_rank": 88,
+    "delta": -12,
     "is_new": false
    }
   ],
   "건강식품": [
    {
     "rank": 1,
-    "keyword": "뉴케어구수한맛",
-    "prev_rank": 1,
-    "delta": 0,
+    "keyword": "오메가3",
+    "prev_rank": 2,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 2,
-    "keyword": "오메가3",
-    "prev_rank": 2,
-    "delta": 0,
+    "keyword": "뉴케어구수한맛",
+    "prev_rank": 1,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 3,
-    "keyword": "카무트효소",
-    "prev_rank": 3,
-    "delta": 0,
+    "keyword": "마그네슘",
+    "prev_rank": 4,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 4,
-    "keyword": "마그네슘",
-    "prev_rank": 6,
-    "delta": 2,
+    "keyword": "젖산마그네슘",
+    "prev_rank": 7,
+    "delta": 3,
     "is_new": false
    },
    {
     "rank": 5,
-    "keyword": "비에날17유산균",
-    "prev_rank": 5,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 6,
-    "keyword": "뉴케어",
-    "prev_rank": 4,
+    "keyword": "카무트효소",
+    "prev_rank": 3,
     "delta": -2,
     "is_new": false
    },
    {
+    "rank": 6,
+    "keyword": "비에날17유산균",
+    "prev_rank": 5,
+    "delta": -1,
+    "is_new": false
+   },
+   {
     "rank": 7,
-    "keyword": "젖산마그네슘",
-    "prev_rank": 7,
-    "delta": 0,
+    "keyword": "뉴케어",
+    "prev_rank": 6,
+    "delta": -1,
     "is_new": false
    },
    {
@@ -812,618 +812,618 @@
    },
    {
     "rank": 13,
-    "keyword": "포스파티딜세린",
-    "prev_rank": 13,
-    "delta": 0,
+    "keyword": "bnr17유산균",
+    "prev_rank": 17,
+    "delta": 4,
     "is_new": false
    },
    {
     "rank": 14,
-    "keyword": "뉴케어당플랜",
-    "prev_rank": 16,
-    "delta": 2,
+    "keyword": "포스파티딜세린",
+    "prev_rank": 13,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 15,
-    "keyword": "서울우유한끼식사",
-    "prev_rank": 20,
-    "delta": 5,
+    "keyword": "뉴케어당플랜",
+    "prev_rank": 14,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 16,
-    "keyword": "루테인지아잔틴",
+    "keyword": "서울우유한끼식사",
     "prev_rank": 15,
     "delta": -1,
     "is_new": false
    },
    {
     "rank": 17,
-    "keyword": "bnr17유산균",
-    "prev_rank": 14,
-    "delta": -3,
+    "keyword": "멜라토닌",
+    "prev_rank": 18,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 18,
-    "keyword": "멜라토닌",
-    "prev_rank": 21,
-    "delta": 3,
+    "keyword": "루테인지아잔틴",
+    "prev_rank": 16,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 19,
-    "keyword": "락토핏유산균",
-    "prev_rank": 18,
-    "delta": -1,
+    "keyword": "정관장에브리타임",
+    "prev_rank": 23,
+    "delta": 4,
     "is_new": false
    },
    {
     "rank": 20,
-    "keyword": "퀘르포민정",
-    "prev_rank": 17,
-    "delta": -3,
+    "keyword": "인삼다당체",
+    "prev_rank": 43,
+    "delta": 23,
     "is_new": false
    },
    {
     "rank": 21,
     "keyword": "덴마크유산균",
-    "prev_rank": 19,
-    "delta": -2,
+    "prev_rank": 21,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 22,
-    "keyword": "하스카프베리",
-    "prev_rank": 23,
-    "delta": 1,
+    "keyword": "락토핏유산균",
+    "prev_rank": 19,
+    "delta": -3,
     "is_new": false
    },
    {
     "rank": 23,
-    "keyword": "정관장에브리타임",
-    "prev_rank": 24,
-    "delta": 1,
+    "keyword": "여성질유산균",
+    "prev_rank": 28,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 24,
-    "keyword": "구강유산균m18",
-    "prev_rank": 22,
-    "delta": -2,
+    "keyword": "퀘르포민정",
+    "prev_rank": 20,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 25,
-    "keyword": "고려은단비타민c1000",
-    "prev_rank": 25,
-    "delta": 0,
+    "keyword": "올록담올리브3",
+    "prev_rank": 59,
+    "delta": 34,
     "is_new": false
    },
    {
     "rank": 26,
-    "keyword": "베르베린",
-    "prev_rank": 26,
-    "delta": 0,
+    "keyword": "고려은단비타민c1000",
+    "prev_rank": 25,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 27,
-    "keyword": "뉴케어고단백",
-    "prev_rank": 28,
-    "delta": 1,
+    "keyword": "정관장",
+    "prev_rank": 32,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 28,
-    "keyword": "여성질유산균",
-    "prev_rank": 32,
-    "delta": 4,
+    "keyword": "캡슐레이션효소",
+    "prev_rank": 33,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 29,
-    "keyword": "마그네슘영양제",
+    "keyword": "매스틱",
     "prev_rank": 30,
     "delta": 1,
     "is_new": false
    },
    {
     "rank": 30,
-    "keyword": "매스틱",
-    "prev_rank": 37,
-    "delta": 7,
+    "keyword": "비타민d",
+    "prev_rank": 31,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 31,
-    "keyword": "비타민d",
-    "prev_rank": 33,
-    "delta": 2,
+    "keyword": "베르베린",
+    "prev_rank": 26,
+    "delta": -5,
     "is_new": false
    },
    {
     "rank": 32,
-    "keyword": "정관장",
-    "prev_rank": 31,
-    "delta": -1,
+    "keyword": "그린아세로라",
+    "prev_rank": 58,
+    "delta": 26,
     "is_new": false
    },
    {
     "rank": 33,
-    "keyword": "캡슐레이션효소",
+    "keyword": "뉴케어고단백",
     "prev_rank": 27,
     "delta": -6,
     "is_new": false
    },
    {
     "rank": 34,
-    "keyword": "구강유산균",
-    "prev_rank": 34,
-    "delta": 0,
+    "keyword": "하스카프베리",
+    "prev_rank": 22,
+    "delta": -12,
     "is_new": false
    },
    {
     "rank": 35,
-    "keyword": "코엔자임q10",
+    "keyword": "마그네슘영양제",
     "prev_rank": 29,
     "delta": -6,
     "is_new": false
    },
    {
     "rank": 36,
-    "keyword": "자보티바",
-    "prev_rank": 39,
-    "delta": 3,
+    "keyword": "리포좀비타민c",
+    "prev_rank": 37,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 37,
-    "keyword": "리포좀비타민c",
-    "prev_rank": 36,
-    "delta": -1,
+    "keyword": "구강유산균m18",
+    "prev_rank": 24,
+    "delta": -13,
     "is_new": false
    },
    {
     "rank": 38,
     "keyword": "마누카꿀",
-    "prev_rank": 49,
-    "delta": 11,
+    "prev_rank": 38,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 39,
-    "keyword": "매실청",
-    "prev_rank": 38,
-    "delta": -1,
+    "keyword": "코엔자임q10",
+    "prev_rank": 35,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 40,
-    "keyword": "맥주효모",
-    "prev_rank": 48,
-    "delta": 8,
+    "keyword": "자보티바",
+    "prev_rank": 36,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 41,
-    "keyword": "애터미헤모힘",
-    "prev_rank": 41,
-    "delta": 0,
+    "keyword": "오미자",
+    "prev_rank": 72,
+    "delta": 31,
     "is_new": false
    },
    {
     "rank": 42,
-    "keyword": "루테인",
-    "prev_rank": 35,
-    "delta": -7,
+    "keyword": "구강유산균",
+    "prev_rank": 34,
+    "delta": -8,
     "is_new": false
    },
    {
     "rank": 43,
-    "keyword": "인삼다당체",
-    "prev_rank": 60,
-    "delta": 17,
+    "keyword": "오쏘몰이뮨",
+    "prev_rank": 48,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 44,
-    "keyword": "하이퍼셀코엔자임q10",
-    "prev_rank": 44,
-    "delta": 0,
+    "keyword": "위건강엔매스틱",
+    "prev_rank": 50,
+    "delta": 6,
     "is_new": false
    },
    {
     "rank": 45,
-    "keyword": "글루타치온",
-    "prev_rank": 43,
-    "delta": -2,
+    "keyword": "애터미헤모힘",
+    "prev_rank": 41,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 46,
-    "keyword": "꿀",
-    "prev_rank": 47,
-    "delta": 1,
+    "keyword": "대마종자유",
+    "prev_rank": 49,
+    "delta": 3,
     "is_new": false
    },
    {
     "rank": 47,
-    "keyword": "이알하나",
-    "prev_rank": 45,
-    "delta": -2,
+    "keyword": "맥주효모",
+    "prev_rank": 40,
+    "delta": -7,
     "is_new": false
    },
    {
     "rank": 48,
-    "keyword": "오쏘몰이뮨",
-    "prev_rank": 46,
-    "delta": -2,
+    "keyword": "골드카무트효소",
+    "prev_rank": 60,
+    "delta": 12,
     "is_new": false
    },
    {
     "rank": 49,
-    "keyword": "대마종자유",
-    "prev_rank": 40,
-    "delta": -9,
+    "keyword": "이알하나",
+    "prev_rank": 47,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 50,
-    "keyword": "위건강엔매스틱",
-    "prev_rank": 68,
-    "delta": 18,
+    "keyword": "꿀",
+    "prev_rank": 46,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 51,
-    "keyword": "그린아세로라1000",
-    "prev_rank": 54,
-    "delta": 3,
+    "keyword": "하이퍼셀코엔자임q10",
+    "prev_rank": 44,
+    "delta": -7,
     "is_new": false
    },
    {
     "rank": 52,
     "keyword": "서울우유데일리케어",
-    "prev_rank": 55,
-    "delta": 3,
+    "prev_rank": 52,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 53,
-    "keyword": "코큐텐",
-    "prev_rank": 42,
-    "delta": -11,
+    "keyword": "글루타치온",
+    "prev_rank": 45,
+    "delta": -8,
     "is_new": false
    },
    {
     "rank": 54,
-    "keyword": "호관원",
-    "prev_rank": 56,
-    "delta": 2,
+    "keyword": "비에마이",
+    "prev_rank": 350,
+    "delta": 296,
     "is_new": false
    },
    {
     "rank": 55,
-    "keyword": "갱년기영양제",
-    "prev_rank": 58,
-    "delta": 3,
+    "keyword": "관절보궁",
+    "prev_rank": 75,
+    "delta": 20,
     "is_new": false
    },
    {
     "rank": 56,
-    "keyword": "홍삼",
-    "prev_rank": 59,
-    "delta": 3,
+    "keyword": "갱년기영양제",
+    "prev_rank": 55,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 57,
-    "keyword": "눈영양제",
-    "prev_rank": 52,
-    "delta": -5,
+    "keyword": "광동침향환",
+    "prev_rank": 66,
+    "delta": 9,
     "is_new": false
    },
    {
     "rank": 58,
-    "keyword": "그린아세로라",
-    "prev_rank": 71,
-    "delta": 13,
+    "keyword": "루테인",
+    "prev_rank": 42,
+    "delta": -16,
     "is_new": false
    },
    {
     "rank": 59,
-    "keyword": "올록담올리브3",
-    "prev_rank": 69,
-    "delta": 10,
-    "is_new": false
-   },
-   {
-    "rank": 60,
-    "keyword": "골드카무트효소",
-    "prev_rank": 67,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 61,
-    "keyword": "폴리코사놀",
-    "prev_rank": 63,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 62,
-    "keyword": "흑염소진액",
-    "prev_rank": 64,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 63,
-    "keyword": "고려은단콘드로이친",
-    "prev_rank": 66,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 64,
-    "keyword": "닥터린콘드로이친",
-    "prev_rank": 61,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 65,
-    "keyword": "정관장홍삼정",
-    "prev_rank": 76,
-    "delta": 11,
-    "is_new": false
-   },
-   {
-    "rank": 66,
-    "keyword": "광동침향환",
-    "prev_rank": 74,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 67,
-    "keyword": "낙산균",
-    "prev_rank": 65,
+    "keyword": "눈영양제",
+    "prev_rank": 57,
     "delta": -2,
     "is_new": false
    },
    {
-    "rank": 68,
+    "rank": 60,
     "keyword": "커큐민",
+    "prev_rank": 68,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 61,
+    "keyword": "이경제흑염소",
+    "prev_rank": 71,
+    "delta": 10,
+    "is_new": false
+   },
+   {
+    "rank": 62,
+    "keyword": "매실청",
+    "prev_rank": 39,
+    "delta": -23,
+    "is_new": false
+   },
+   {
+    "rank": 63,
+    "keyword": "정관장홍삼정",
+    "prev_rank": 65,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 64,
+    "keyword": "코큐텐",
+    "prev_rank": 53,
+    "delta": -11,
+    "is_new": false
+   },
+   {
+    "rank": 65,
+    "keyword": "종합비타민",
+    "prev_rank": 70,
+    "delta": 5,
+    "is_new": false
+   },
+   {
+    "rank": 66,
+    "keyword": "고려은단콘드로이친",
+    "prev_rank": 63,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 67,
+    "keyword": "홍삼",
+    "prev_rank": 56,
+    "delta": -11,
+    "is_new": false
+   },
+   {
+    "rank": 68,
+    "keyword": "그린아세로라1000",
     "prev_rank": 51,
     "delta": -17,
     "is_new": false
    },
    {
     "rank": 69,
-    "keyword": "리포좀글루타치온",
-    "prev_rank": 53,
-    "delta": -16,
+    "keyword": "프로폴리스",
+    "prev_rank": 81,
+    "delta": 12,
     "is_new": false
    },
    {
     "rank": 70,
-    "keyword": "종합비타민",
-    "prev_rank": 80,
-    "delta": 10,
+    "keyword": "센트룸",
+    "prev_rank": 76,
+    "delta": 6,
     "is_new": false
    },
    {
     "rank": 71,
-    "keyword": "이경제흑염소",
-    "prev_rank": 62,
-    "delta": -9,
+    "keyword": "호관원",
+    "prev_rank": 54,
+    "delta": -17,
     "is_new": false
    },
    {
     "rank": 72,
-    "keyword": "오미자",
-    "prev_rank": 107,
-    "delta": 35,
+    "keyword": "흑염소진액",
+    "prev_rank": 62,
+    "delta": -10,
     "is_new": false
    },
    {
     "rank": 73,
-    "keyword": "종근당오메가3",
-    "prev_rank": 73,
-    "delta": 0,
+    "keyword": "유니시티에너지",
+    "prev_rank": 93,
+    "delta": 20,
     "is_new": false
    },
    {
     "rank": 74,
-    "keyword": "락토핏코어맥스",
-    "prev_rank": 83,
-    "delta": 9,
+    "keyword": "프로바이오틱스유산균",
+    "prev_rank": 84,
+    "delta": 10,
     "is_new": false
    },
    {
     "rank": 75,
-    "keyword": "관절보궁",
-    "prev_rank": 97,
-    "delta": 22,
+    "keyword": "하이퍼셀대마종자유",
+    "prev_rank": 77,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 76,
-    "keyword": "센트룸",
-    "prev_rank": 89,
-    "delta": 13,
+    "keyword": "락토핏코어맥스",
+    "prev_rank": 74,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 77,
-    "keyword": "하이퍼셀대마종자유",
-    "prev_rank": 50,
-    "delta": -27,
+    "keyword": "정관장활기력",
+    "prev_rank": 97,
+    "delta": 20,
     "is_new": false
    },
    {
     "rank": 78,
     "keyword": "효소",
-    "prev_rank": 70,
-    "delta": -8,
+    "prev_rank": 78,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 79,
-    "keyword": "양배추즙",
-    "prev_rank": 77,
-    "delta": -2,
+    "keyword": "종근당오메가3",
+    "prev_rank": 73,
+    "delta": -6,
     "is_new": false
    },
    {
     "rank": 80,
-    "keyword": "삼백초추출물",
-    "prev_rank": 75,
-    "delta": -5,
+    "keyword": "정관장홍삼",
+    "prev_rank": 94,
+    "delta": 14,
     "is_new": false
    },
    {
     "rank": 81,
-    "keyword": "프로폴리스",
-    "prev_rank": 82,
-    "delta": 1,
+    "keyword": "닥터린콘드로이친",
+    "prev_rank": 64,
+    "delta": -17,
     "is_new": false
    },
    {
     "rank": 82,
     "keyword": "센트룸실버우먼",
-    "prev_rank": 84,
-    "delta": 2,
+    "prev_rank": 82,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 83,
-    "keyword": "퓨어린핏",
-    "prev_rank": 81,
-    "delta": -2,
+    "keyword": "라이락틴",
+    "prev_rank": 96,
+    "delta": 13,
     "is_new": false
    },
    {
     "rank": 84,
-    "keyword": "프로바이오틱스유산균",
-    "prev_rank": 85,
-    "delta": 1,
+    "keyword": "낙산균",
+    "prev_rank": 67,
+    "delta": -17,
     "is_new": false
    },
    {
     "rank": 85,
-    "keyword": "인삼",
-    "prev_rank": 79,
-    "delta": -6,
+    "keyword": "멀티비타민",
+    "prev_rank": 99,
+    "delta": 14,
     "is_new": false
    },
    {
     "rank": 86,
-    "keyword": "서재걸다이어트",
-    "prev_rank": 90,
-    "delta": 4,
+    "keyword": "폴리코사놀",
+    "prev_rank": 61,
+    "delta": -25,
     "is_new": false
    },
    {
     "rank": 87,
-    "keyword": "엘레나유산균",
-    "prev_rank": 88,
-    "delta": 1,
+    "keyword": "양배추즙",
+    "prev_rank": 79,
+    "delta": -8,
     "is_new": false
    },
    {
     "rank": 88,
-    "keyword": "아임비타이뮨샷",
-    "prev_rank": 92,
-    "delta": 4,
+    "keyword": "생식",
+    "prev_rank": 144,
+    "delta": 56,
     "is_new": false
    },
    {
     "rank": 89,
-    "keyword": "례답",
-    "prev_rank": 132,
-    "delta": 43,
+    "keyword": "퓨어린핏",
+    "prev_rank": 83,
+    "delta": -6,
     "is_new": false
    },
    {
     "rank": 90,
-    "keyword": "오메가3추천",
-    "prev_rank": 111,
-    "delta": 21,
+    "keyword": "msm",
+    "prev_rank": 92,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 91,
-    "keyword": "보스웰리아",
-    "prev_rank": 86,
-    "delta": -5,
+    "keyword": "콜레올로지유산균",
+    "prev_rank": 114,
+    "delta": 23,
     "is_new": false
    },
    {
     "rank": 92,
-    "keyword": "msm",
-    "prev_rank": 110,
-    "delta": 18,
+    "keyword": "아임비타이뮨샷",
+    "prev_rank": 88,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 93,
-    "keyword": "유니시티에너지",
-    "prev_rank": 94,
-    "delta": 1,
+    "keyword": "자연바름",
+    "prev_rank": 122,
+    "delta": 29,
     "is_new": false
    },
    {
     "rank": 94,
-    "keyword": "정관장홍삼",
-    "prev_rank": 112,
-    "delta": 18,
+    "keyword": "서재걸다이어트",
+    "prev_rank": 86,
+    "delta": -8,
     "is_new": false
    },
    {
     "rank": 95,
-    "keyword": "비피더스유산균",
-    "prev_rank": 125,
-    "delta": 30,
+    "keyword": "올리브오일캡슐",
+    "prev_rank": 107,
+    "delta": 12,
     "is_new": false
    },
    {
     "rank": 96,
-    "keyword": "라이락틴",
-    "prev_rank": 103,
-    "delta": 7,
+    "keyword": "엘레나유산균",
+    "prev_rank": 87,
+    "delta": -9,
     "is_new": false
    },
    {
     "rank": 97,
-    "keyword": "정관장활기력",
-    "prev_rank": 106,
-    "delta": 9,
+    "keyword": "헤모힘",
+    "prev_rank": 98,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 98,
-    "keyword": "헤모힘",
-    "prev_rank": 101,
-    "delta": 3,
+    "keyword": "보스웰리아",
+    "prev_rank": 91,
+    "delta": -7,
     "is_new": false
    },
    {
     "rank": 99,
-    "keyword": "멀티비타민",
-    "prev_rank": 105,
-    "delta": 6,
+    "keyword": "mbp",
+    "prev_rank": 126,
+    "delta": 27,
     "is_new": false
    },
    {
     "rank": 100,
-    "keyword": "nmn영양제",
-    "prev_rank": 87,
-    "delta": -13,
+    "keyword": "요습관",
+    "prev_rank": 108,
+    "delta": 8,
     "is_new": false
    }
   ],
@@ -1452,43 +1452,43 @@
    {
     "rank": 4,
     "keyword": "헤라블랙쿠션",
-    "prev_rank": 5,
-    "delta": 1,
+    "prev_rank": 4,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 5,
     "keyword": "이지듀기미쿠션",
-    "prev_rank": 6,
-    "delta": 1,
+    "prev_rank": 5,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 6,
-    "keyword": "아모스컬링에센스",
-    "prev_rank": 4,
-    "delta": -2,
+    "keyword": "도브센서티브바",
+    "prev_rank": 13,
+    "delta": 7,
     "is_new": false
    },
    {
     "rank": 7,
-    "keyword": "도미나크림",
-    "prev_rank": 9,
-    "delta": 2,
+    "keyword": "아모스컬링에센스",
+    "prev_rank": 6,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 8,
-    "keyword": "헤라썬크림",
-    "prev_rank": 8,
-    "delta": 0,
+    "keyword": "도미나크림",
+    "prev_rank": 7,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 9,
     "keyword": "세포랩에센스",
-    "prev_rank": 11,
-    "delta": 2,
+    "prev_rank": 9,
+    "delta": 0,
     "is_new": false
    },
    {
@@ -1500,1357 +1500,1357 @@
    },
    {
     "rank": 11,
-    "keyword": "바디워시",
-    "prev_rank": 7,
-    "delta": -4,
+    "keyword": "헤라썬크림",
+    "prev_rank": 8,
+    "delta": -3,
     "is_new": false
    },
    {
     "rank": 12,
-    "keyword": "리터니티율무팩",
-    "prev_rank": 12,
-    "delta": 0,
+    "keyword": "도브비누",
+    "prev_rank": 21,
+    "delta": 9,
     "is_new": false
    },
    {
     "rank": 13,
-    "keyword": "도브센서티브바",
-    "prev_rank": 19,
-    "delta": 6,
+    "keyword": "바디워시",
+    "prev_rank": 11,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 14,
     "keyword": "염색약",
-    "prev_rank": 13,
-    "delta": -1,
+    "prev_rank": 14,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 15,
-    "keyword": "마스크팩",
-    "prev_rank": 18,
-    "delta": 3,
+    "keyword": "헤어에센스",
+    "prev_rank": 17,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 16,
-    "keyword": "달바미스트세럼",
-    "prev_rank": 14,
-    "delta": -2,
+    "keyword": "씨드비물염색",
+    "prev_rank": 20,
+    "delta": 4,
     "is_new": false
    },
    {
     "rank": 17,
-    "keyword": "헤어에센스",
+    "keyword": "마스크팩",
     "prev_rank": 15,
     "delta": -2,
     "is_new": false
    },
    {
     "rank": 18,
-    "keyword": "샴푸",
-    "prev_rank": 16,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 19,
     "keyword": "디올립글로우",
-    "prev_rank": 21,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 20,
-    "keyword": "씨드비물염색",
-    "prev_rank": 17,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 21,
-    "keyword": "도브비누",
-    "prev_rank": 23,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 22,
-    "keyword": "썬크림",
-    "prev_rank": 20,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 23,
-    "keyword": "에이지20s팩트",
-    "prev_rank": 22,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 24,
-    "keyword": "도미나스기미크림",
-    "prev_rank": 24,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 25,
-    "keyword": "입생로랑쿠션",
-    "prev_rank": 29,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 26,
-    "keyword": "정샘물쿠션",
-    "prev_rank": 27,
+    "prev_rank": 19,
     "delta": 1,
     "is_new": false
    },
    {
-    "rank": 27,
-    "keyword": "함익병기미크림",
+    "rank": 19,
+    "keyword": "리터니티율무팩",
+    "prev_rank": 12,
+    "delta": -7,
+    "is_new": false
+   },
+   {
+    "rank": 20,
+    "keyword": "설화수탄력크림",
+    "prev_rank": 35,
+    "delta": 15,
+    "is_new": false
+   },
+   {
+    "rank": 21,
+    "keyword": "샴푸",
+    "prev_rank": 18,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 22,
+    "keyword": "샤넬립스틱",
+    "prev_rank": 28,
+    "delta": 6,
+    "is_new": false
+   },
+   {
+    "rank": 23,
+    "keyword": "도미나스기미크림",
+    "prev_rank": 24,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 24,
+    "keyword": "달바미스트세럼",
+    "prev_rank": 16,
+    "delta": -8,
+    "is_new": false
+   },
+   {
+    "rank": 25,
+    "keyword": "맥립스틱",
+    "prev_rank": 33,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 26,
+    "keyword": "에스티로더갈색병",
     "prev_rank": 40,
-    "delta": 13,
+    "delta": 14,
+    "is_new": false
+   },
+   {
+    "rank": 27,
+    "keyword": "설화수",
+    "prev_rank": 29,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 28,
-    "keyword": "샤넬립스틱",
+    "keyword": "설화수윤조에센스",
     "prev_rank": 30,
     "delta": 2,
     "is_new": false
    },
    {
     "rank": 29,
-    "keyword": "설화수",
-    "prev_rank": 34,
-    "delta": 5,
+    "keyword": "에이지20s팩트",
+    "prev_rank": 23,
+    "delta": -6,
     "is_new": false
    },
    {
     "rank": 30,
-    "keyword": "설화수윤조에센스",
-    "prev_rank": 44,
-    "delta": 14,
-    "is_new": false
-   },
-   {
-    "rank": 31,
-    "keyword": "실크테라피",
-    "prev_rank": 38,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 32,
-    "keyword": "폼클렌징",
+    "keyword": "입생로랑쿠션",
     "prev_rank": 25,
-    "delta": -7,
-    "is_new": false
-   },
-   {
-    "rank": 33,
-    "keyword": "맥립스틱",
-    "prev_rank": 42,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 34,
-    "keyword": "설화수세트",
-    "prev_rank": 35,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 35,
-    "keyword": "설화수탄력크림",
-    "prev_rank": 54,
-    "delta": 19,
-    "is_new": false
-   },
-   {
-    "rank": 36,
-    "keyword": "함익병기미연고",
-    "prev_rank": 31,
     "delta": -5,
     "is_new": false
    },
    {
-    "rank": 37,
+    "rank": 31,
+    "keyword": "정샘물쿠션",
+    "prev_rank": 26,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 32,
+    "keyword": "설화수세트",
+    "prev_rank": 34,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 33,
+    "keyword": "설화수자음2종",
+    "prev_rank": 51,
+    "delta": 18,
+    "is_new": false
+   },
+   {
+    "rank": 34,
     "keyword": "헤어트리트먼트",
-    "prev_rank": 36,
-    "delta": -1,
+    "prev_rank": 37,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 35,
+    "keyword": "인셀덤",
+    "prev_rank": 39,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 36,
+    "keyword": "썬크림",
+    "prev_rank": 22,
+    "delta": -14,
+    "is_new": false
+   },
+   {
+    "rank": 37,
+    "keyword": "실크테라피",
+    "prev_rank": 31,
+    "delta": -6,
     "is_new": false
    },
    {
     "rank": 38,
-    "keyword": "립스틱",
+    "keyword": "동아제약멜라논크림",
     "prev_rank": 43,
     "delta": 5,
     "is_new": false
    },
    {
     "rank": 39,
-    "keyword": "인셀덤",
-    "prev_rank": 46,
-    "delta": 7,
+    "keyword": "립스틱",
+    "prev_rank": 38,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 40,
-    "keyword": "에스티로더갈색병",
-    "prev_rank": 55,
-    "delta": 15,
+    "keyword": "도브바디워시",
+    "prev_rank": 41,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 41,
-    "keyword": "도브바디워시",
-    "prev_rank": 45,
-    "delta": 4,
+    "keyword": "인셀덤화장품",
+    "prev_rank": 44,
+    "delta": 3,
     "is_new": false
    },
    {
     "rank": 42,
     "keyword": "순수염색약",
-    "prev_rank": 37,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 43,
-    "keyword": "동아제약멜라논크림",
-    "prev_rank": 69,
-    "delta": 26,
-    "is_new": false
-   },
-   {
-    "rank": 44,
-    "keyword": "인셀덤화장품",
-    "prev_rank": 53,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 45,
-    "keyword": "ahc선스틱",
-    "prev_rank": 33,
-    "delta": -12,
-    "is_new": false
-   },
-   {
-    "rank": 46,
-    "keyword": "이지듀",
-    "prev_rank": 51,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 47,
-    "keyword": "염색샴푸",
-    "prev_rank": 47,
+    "prev_rank": 42,
     "delta": 0,
     "is_new": false
    },
    {
-    "rank": 48,
-    "keyword": "멜라토닝크림",
-    "prev_rank": 28,
-    "delta": -20,
+    "rank": 43,
+    "keyword": "세인트프랑링클크림",
+    "prev_rank": 113,
+    "delta": 70,
     "is_new": false
    },
    {
-    "rank": 49,
-    "keyword": "올레놀샷",
+    "rank": 44,
+    "keyword": "폼클렌징",
     "prev_rank": 32,
-    "delta": -17,
+    "delta": -12,
     "is_new": false
    },
    {
-    "rank": 50,
-    "keyword": "닥터지선크림",
-    "prev_rank": 49,
-    "delta": -1,
+    "rank": 45,
+    "keyword": "멜라논크림",
+    "prev_rank": 53,
+    "delta": 8,
     "is_new": false
    },
    {
-    "rank": 51,
-    "keyword": "설화수자음2종",
-    "prev_rank": 65,
-    "delta": 14,
+    "rank": 46,
+    "keyword": "염색샴푸",
+    "prev_rank": 47,
+    "delta": 1,
     "is_new": false
    },
    {
-    "rank": 52,
-    "keyword": "바디로션",
-    "prev_rank": 59,
+    "rank": 47,
+    "keyword": "윤조에센스",
+    "prev_rank": 54,
     "delta": 7,
     "is_new": false
    },
    {
+    "rank": 48,
+    "keyword": "이지듀",
+    "prev_rank": 46,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 49,
+    "keyword": "설화수자음생크림",
+    "prev_rank": 90,
+    "delta": 41,
+    "is_new": false
+   },
+   {
+    "rank": 50,
+    "keyword": "샤넬향수",
+    "prev_rank": 58,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 51,
+    "keyword": "헤드스파7",
+    "prev_rank": 70,
+    "delta": 19,
+    "is_new": false
+   },
+   {
+    "rank": 52,
+    "keyword": "입생로랑립스틱",
+    "prev_rank": 66,
+    "delta": 14,
+    "is_new": false
+   },
+   {
     "rank": 53,
-    "keyword": "멜라논크림",
-    "prev_rank": 74,
-    "delta": 21,
+    "keyword": "멜라토닝크림",
+    "prev_rank": 48,
+    "delta": -5,
     "is_new": false
    },
    {
     "rank": 54,
-    "keyword": "윤조에센스",
-    "prev_rank": 80,
-    "delta": 26,
+    "keyword": "닥터지선크림",
+    "prev_rank": 50,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 55,
-    "keyword": "여름발네일컬러",
-    "prev_rank": 39,
+    "keyword": "클렌징오일",
+    "prev_rank": 57,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 56,
+    "keyword": "헤드앤숄더샴푸",
+    "prev_rank": 69,
+    "delta": 13,
+    "is_new": false
+   },
+   {
+    "rank": 57,
+    "keyword": "바디로션",
+    "prev_rank": 52,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 58,
+    "keyword": "아이오페레티놀",
+    "prev_rank": 72,
+    "delta": 14,
+    "is_new": false
+   },
+   {
+    "rank": 59,
+    "keyword": "디크솔큐라스팟",
+    "prev_rank": 79,
+    "delta": 20,
+    "is_new": false
+   },
+   {
+    "rank": 60,
+    "keyword": "그래비티샴푸",
+    "prev_rank": 64,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 61,
+    "keyword": "라로슈포제b5",
+    "prev_rank": 83,
+    "delta": 22,
+    "is_new": false
+   },
+   {
+    "rank": 62,
+    "keyword": "산타마리아노벨라비누",
+    "prev_rank": null,
+    "delta": null,
+    "is_new": true
+   },
+   {
+    "rank": 63,
+    "keyword": "달팽이크림",
+    "prev_rank": 68,
+    "delta": 5,
+    "is_new": false
+   },
+   {
+    "rank": 64,
+    "keyword": "이자녹스쿠션",
+    "prev_rank": 74,
+    "delta": 10,
+    "is_new": false
+   },
+   {
+    "rank": 65,
+    "keyword": "디올립스틱",
+    "prev_rank": 114,
+    "delta": 49,
+    "is_new": false
+   },
+   {
+    "rank": 66,
+    "keyword": "립타투",
+    "prev_rank": 60,
+    "delta": -6,
+    "is_new": false
+   },
+   {
+    "rank": 67,
+    "keyword": "오리시아락티스크림",
+    "prev_rank": 82,
+    "delta": 15,
+    "is_new": false
+   },
+   {
+    "rank": 68,
+    "keyword": "아베다샴푸",
+    "prev_rank": 86,
+    "delta": 18,
+    "is_new": false
+   },
+   {
+    "rank": 69,
+    "keyword": "함익병기미크림",
+    "prev_rank": 27,
+    "delta": -42,
+    "is_new": false
+   },
+   {
+    "rank": 70,
+    "keyword": "닥터지수분크림",
+    "prev_rank": 78,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 71,
+    "keyword": "올레놀샷",
+    "prev_rank": 49,
+    "delta": -22,
+    "is_new": false
+   },
+   {
+    "rank": 72,
+    "keyword": "선크림",
+    "prev_rank": 56,
     "delta": -16,
     "is_new": false
    },
    {
-    "rank": 56,
-    "keyword": "선크림",
-    "prev_rank": 62,
-    "delta": 6,
-    "is_new": false
-   },
-   {
-    "rank": 57,
-    "keyword": "클렌징오일",
-    "prev_rank": 68,
-    "delta": 11,
-    "is_new": false
-   },
-   {
-    "rank": 58,
-    "keyword": "샤넬향수",
-    "prev_rank": 60,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 59,
-    "keyword": "블랑로더립타투",
-    "prev_rank": 58,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 60,
-    "keyword": "립타투",
-    "prev_rank": 61,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 61,
-    "keyword": "여름패디추천",
-    "prev_rank": 41,
-    "delta": -20,
-    "is_new": false
-   },
-   {
-    "rank": 62,
-    "keyword": "샤넬듀오드밤",
-    "prev_rank": 50,
-    "delta": -12,
-    "is_new": false
-   },
-   {
-    "rank": 63,
-    "keyword": "흑진주미스트",
-    "prev_rank": 71,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 64,
-    "keyword": "그래비티샴푸",
-    "prev_rank": 76,
-    "delta": 12,
-    "is_new": false
-   },
-   {
-    "rank": 65,
-    "keyword": "나이아신아마이드",
-    "prev_rank": 56,
-    "delta": -9,
-    "is_new": false
-   },
-   {
-    "rank": 66,
-    "keyword": "입생로랑립스틱",
-    "prev_rank": 72,
-    "delta": 6,
-    "is_new": false
-   },
-   {
-    "rank": 67,
-    "keyword": "눈꺼풀세정제",
-    "prev_rank": 66,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 68,
-    "keyword": "달팽이크림",
-    "prev_rank": 57,
-    "delta": -11,
-    "is_new": false
-   },
-   {
-    "rank": 69,
-    "keyword": "헤드앤숄더샴푸",
-    "prev_rank": 63,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 70,
-    "keyword": "헤드스파7",
-    "prev_rank": 52,
-    "delta": -18,
-    "is_new": false
-   },
-   {
-    "rank": 71,
-    "keyword": "썬스틱",
-    "prev_rank": 48,
-    "delta": -23,
-    "is_new": false
-   },
-   {
-    "rank": 72,
-    "keyword": "아이오페레티놀",
-    "prev_rank": 84,
-    "delta": 12,
-    "is_new": false
-   },
-   {
     "rank": 73,
-    "keyword": "쌀세라수분선크림",
-    "prev_rank": 94,
-    "delta": 21,
-    "is_new": false
-   },
-   {
-    "rank": 74,
-    "keyword": "이자녹스쿠션",
-    "prev_rank": 70,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 75,
-    "keyword": "비렌느스팟엑스",
-    "prev_rank": 26,
-    "delta": -49,
-    "is_new": false
-   },
-   {
-    "rank": 76,
-    "keyword": "랑콤선크림",
-    "prev_rank": 75,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 77,
-    "keyword": "헤라톤업선크림",
-    "prev_rank": 82,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 78,
-    "keyword": "닥터지수분크림",
-    "prev_rank": 67,
-    "delta": -11,
-    "is_new": false
-   },
-   {
-    "rank": 79,
-    "keyword": "디크솔큐라스팟",
-    "prev_rank": 109,
-    "delta": 30,
-    "is_new": false
-   },
-   {
-    "rank": 80,
-    "keyword": "nmn세럼",
-    "prev_rank": 91,
-    "delta": 11,
-    "is_new": false
-   },
-   {
-    "rank": 81,
-    "keyword": "이지듀기미앰플",
-    "prev_rank": 78,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 82,
-    "keyword": "오리시아락티스크림",
-    "prev_rank": 85,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 83,
-    "keyword": "라로슈포제b5",
-    "prev_rank": 106,
-    "delta": 23,
-    "is_new": false
-   },
-   {
-    "rank": 84,
-    "keyword": "아이크림",
-    "prev_rank": 79,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 85,
-    "keyword": "세수비누",
-    "prev_rank": 83,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 86,
-    "keyword": "아베다샴푸",
-    "prev_rank": 88,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 87,
-    "keyword": "함익병멜라논크림",
-    "prev_rank": 96,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 88,
-    "keyword": "조혜련염색샴푸",
-    "prev_rank": 77,
-    "delta": -11,
-    "is_new": false
-   },
-   {
-    "rank": 89,
-    "keyword": "새치커버스틱",
-    "prev_rank": 81,
-    "delta": -8,
-    "is_new": false
-   },
-   {
-    "rank": 90,
-    "keyword": "설화수자음생크림",
-    "prev_rank": 122,
-    "delta": 32,
-    "is_new": false
-   },
-   {
-    "rank": 91,
-    "keyword": "제니하우스염색약",
-    "prev_rank": 73,
-    "delta": -18,
-    "is_new": false
-   },
-   {
-    "rank": 92,
-    "keyword": "셀폰즈녹는실앰플",
-    "prev_rank": 89,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 93,
-    "keyword": "네일디자인",
-    "prev_rank": 107,
-    "delta": 14,
-    "is_new": false
-   },
-   {
-    "rank": 94,
-    "keyword": "마카루트크림",
-    "prev_rank": 148,
-    "delta": 54,
-    "is_new": false
-   },
-   {
-    "rank": 95,
-    "keyword": "올레놀샷nmn포뮬러",
-    "prev_rank": 86,
-    "delta": -9,
-    "is_new": false
-   },
-   {
-    "rank": 96,
-    "keyword": "아토베리어365크림",
-    "prev_rank": 102,
-    "delta": 6,
-    "is_new": false
-   },
-   {
-    "rank": 97,
-    "keyword": "히알루론산앰플",
-    "prev_rank": 90,
-    "delta": -7,
-    "is_new": false
-   },
-   {
-    "rank": 98,
-    "keyword": "클렌징폼",
-    "prev_rank": 123,
-    "delta": 25,
-    "is_new": false
-   },
-   {
-    "rank": 99,
-    "keyword": "바이아우어샴푸",
-    "prev_rank": 92,
-    "delta": -7,
-    "is_new": false
-   },
-   {
-    "rank": 100,
-    "keyword": "김정문알로에팩",
-    "prev_rank": 118,
-    "delta": 18,
-    "is_new": false
-   }
-  ],
-  "가전": [
-   {
-    "rank": 1,
-    "keyword": "선풍기",
-    "prev_rank": 1,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 2,
-    "keyword": "냉장고",
-    "prev_rank": 3,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 3,
-    "keyword": "제습기",
-    "prev_rank": 2,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 4,
-    "keyword": "김치냉장고",
-    "prev_rank": 4,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 5,
-    "keyword": "에어프라이어",
-    "prev_rank": 7,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 6,
-    "keyword": "에어컨",
-    "prev_rank": 6,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 7,
-    "keyword": "전자레인지",
-    "prev_rank": 8,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 8,
-    "keyword": "냉동고",
-    "prev_rank": 9,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 9,
-    "keyword": "벽걸이에어컨",
-    "prev_rank": 5,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 10,
-    "keyword": "쿠쿠압력밥솥",
-    "prev_rank": 11,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 11,
-    "keyword": "인덕션",
-    "prev_rank": 13,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 12,
-    "keyword": "무선청소기",
-    "prev_rank": 15,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 13,
-    "keyword": "신일선풍기",
-    "prev_rank": 10,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 14,
-    "keyword": "음식물처리기",
-    "prev_rank": 17,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 15,
-    "keyword": "계란찜기",
-    "prev_rank": 19,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 16,
-    "keyword": "다이슨에어랩",
-    "prev_rank": 20,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 17,
-    "keyword": "믹서기",
-    "prev_rank": 16,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 18,
-    "keyword": "창문형에어컨",
-    "prev_rank": 12,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 19,
-    "keyword": "세탁기",
-    "prev_rank": 18,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 20,
-    "keyword": "이동식에어컨",
-    "prev_rank": 14,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 21,
-    "keyword": "두유제조기",
-    "prev_rank": 21,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 22,
-    "keyword": "청소기",
-    "prev_rank": 24,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 23,
-    "keyword": "전자렌지",
-    "prev_rank": 30,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 24,
-    "keyword": "통돌이세탁기",
-    "prev_rank": 28,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 25,
-    "keyword": "캐리어냉난방기",
-    "prev_rank": 34,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 26,
-    "keyword": "딤채김치냉장고",
-    "prev_rank": 32,
-    "delta": 6,
-    "is_new": false
-   },
-   {
-    "rank": 27,
-    "keyword": "드럼세탁기",
-    "prev_rank": 35,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 28,
-    "keyword": "로봇청소기",
-    "prev_rank": 27,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 29,
-    "keyword": "식기세척기",
-    "prev_rank": 23,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 30,
-    "keyword": "소형냉장고",
-    "prev_rank": 29,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 31,
-    "keyword": "미니냉장고",
-    "prev_rank": 26,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 32,
-    "keyword": "스팀다리미",
-    "prev_rank": 33,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 33,
-    "keyword": "정수기",
-    "prev_rank": 54,
-    "delta": 21,
-    "is_new": false
-   },
-   {
-    "rank": 34,
-    "keyword": "써큘레이터",
-    "prev_rank": 22,
-    "delta": -12,
-    "is_new": false
-   },
-   {
-    "rank": 35,
-    "keyword": "닌자블렌더",
-    "prev_rank": 36,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 36,
-    "keyword": "갤럭시워치스트랩",
-    "prev_rank": 37,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 37,
-    "keyword": "다이슨청소기",
-    "prev_rank": 44,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 38,
-    "keyword": "청호나이스정수기",
-    "prev_rank": 131,
-    "delta": 93,
-    "is_new": false
-   },
-   {
-    "rank": 39,
-    "keyword": "스팀청소기",
-    "prev_rank": 39,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 40,
-    "keyword": "미니세탁기",
-    "prev_rank": 43,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 41,
-    "keyword": "공기청정기",
+    "keyword": "ahc선스틱",
     "prev_rank": 45,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 42,
-    "keyword": "휴대용선풍기",
-    "prev_rank": 31,
-    "delta": -11,
-    "is_new": false
-   },
-   {
-    "rank": 43,
-    "keyword": "삼성에어컨",
-    "prev_rank": 25,
-    "delta": -18,
-    "is_new": false
-   },
-   {
-    "rank": 44,
-    "keyword": "냉난방기",
-    "prev_rank": 415,
-    "delta": 371,
-    "is_new": false
-   },
-   {
-    "rank": 45,
-    "keyword": "커피포트",
-    "prev_rank": 40,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 46,
-    "keyword": "lg에어컨",
-    "prev_rank": 48,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 47,
-    "keyword": "물걸레청소기",
-    "prev_rank": 50,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 48,
-    "keyword": "유선청소기",
-    "prev_rank": 47,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 49,
-    "keyword": "드라이기",
-    "prev_rank": 67,
-    "delta": 18,
-    "is_new": false
-   },
-   {
-    "rank": 50,
-    "keyword": "양문형냉장고",
-    "prev_rank": 58,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 51,
-    "keyword": "삼성김치냉장고",
-    "prev_rank": 55,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 52,
-    "keyword": "다이슨드라이기",
-    "prev_rank": 59,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 53,
-    "keyword": "소형믹서기",
-    "prev_rank": 46,
-    "delta": -7,
-    "is_new": false
-   },
-   {
-    "rank": 54,
-    "keyword": "lg김치냉장고",
-    "prev_rank": 63,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 55,
-    "keyword": "식기건조기",
-    "prev_rank": 56,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 56,
-    "keyword": "정수기렌탈가격비교",
-    "prev_rank": 68,
-    "delta": 12,
-    "is_new": false
-   },
-   {
-    "rank": 57,
-    "keyword": "삼성창문형에어컨",
-    "prev_rank": 38,
-    "delta": -19,
-    "is_new": false
-   },
-   {
-    "rank": 58,
-    "keyword": "갤럭시s22울트라케이스",
-    "prev_rank": 51,
-    "delta": -7,
-    "is_new": false
-   },
-   {
-    "rank": 59,
-    "keyword": "삼성냉장고",
-    "prev_rank": 66,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 60,
-    "keyword": "lg냉장고",
-    "prev_rank": 71,
-    "delta": 11,
-    "is_new": false
-   },
-   {
-    "rank": 61,
-    "keyword": "냉풍기",
-    "prev_rank": 41,
-    "delta": -20,
-    "is_new": false
-   },
-   {
-    "rank": 62,
-    "keyword": "칫솔살균기",
-    "prev_rank": 60,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 63,
-    "keyword": "블루투스스피커",
-    "prev_rank": 72,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 64,
-    "keyword": "갤럭시s25케이스",
-    "prev_rank": 62,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 65,
-    "keyword": "위닉스제습기",
-    "prev_rank": 42,
-    "delta": -23,
-    "is_new": false
-   },
-   {
-    "rank": 66,
-    "keyword": "삼성냉장고4도어",
-    "prev_rank": 65,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 67,
-    "keyword": "손선풍기",
-    "prev_rank": 52,
-    "delta": -15,
-    "is_new": false
-   },
-   {
-    "rank": 68,
-    "keyword": "탁상용선풍기",
-    "prev_rank": 49,
-    "delta": -19,
-    "is_new": false
-   },
-   {
-    "rank": 69,
-    "keyword": "샤크무선청소기",
-    "prev_rank": 77,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 70,
-    "keyword": "맥세이프그립톡",
-    "prev_rank": 87,
-    "delta": 17,
-    "is_new": false
-   },
-   {
-    "rank": 71,
-    "keyword": "엘지에어컨",
-    "prev_rank": 61,
-    "delta": -10,
-    "is_new": false
-   },
-   {
-    "rank": 72,
-    "keyword": "엘지냉장고4도어",
-    "prev_rank": 70,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 73,
-    "keyword": "엘지냉장고",
-    "prev_rank": 79,
-    "delta": 6,
+    "delta": -28,
     "is_new": false
    },
    {
     "rank": 74,
-    "keyword": "전기포트",
-    "prev_rank": 80,
-    "delta": 6,
+    "keyword": "설화수쿠션",
+    "prev_rank": 121,
+    "delta": 47,
     "is_new": false
    },
    {
     "rank": 75,
-    "keyword": "tv",
+    "keyword": "세수비누",
     "prev_rank": 85,
     "delta": 10,
     "is_new": false
    },
    {
     "rank": 76,
-    "keyword": "건조기",
-    "prev_rank": 64,
-    "delta": -12,
+    "keyword": "아이크림",
+    "prev_rank": 84,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 77,
-    "keyword": "커피머신",
-    "prev_rank": 89,
-    "delta": 12,
+    "keyword": "블랑로더립타투",
+    "prev_rank": 59,
+    "delta": -18,
     "is_new": false
    },
    {
     "rank": 78,
-    "keyword": "무인카페",
-    "prev_rank": 69,
-    "delta": -9,
+    "keyword": "아이오페슈퍼바이탈",
+    "prev_rank": 106,
+    "delta": 28,
     "is_new": false
    },
    {
     "rank": 79,
-    "keyword": "갤럭시워치8",
-    "prev_rank": 81,
-    "delta": 2,
+    "keyword": "나이아신아마이드",
+    "prev_rank": 65,
+    "delta": -14,
     "is_new": false
    },
    {
     "rank": 80,
-    "keyword": "갤럭시s25울트라케이스",
-    "prev_rank": 76,
-    "delta": -4,
+    "keyword": "조혜련염색샴푸",
+    "prev_rank": 88,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 81,
-    "keyword": "날개없는선풍기",
-    "prev_rank": 53,
-    "delta": -28,
-    "is_new": false
-   },
-   {
-    "rank": 82,
-    "keyword": "1구인덕션",
-    "prev_rank": 94,
+    "keyword": "네일디자인",
+    "prev_rank": 93,
     "delta": 12,
     "is_new": false
    },
    {
+    "rank": 82,
+    "keyword": "헤라톤업선크림",
+    "prev_rank": 77,
+    "delta": -5,
+    "is_new": false
+   },
+   {
     "rank": 83,
-    "keyword": "jmw드라이기",
-    "prev_rank": 97,
-    "delta": 14,
+    "keyword": "흑진주미스트",
+    "prev_rank": 63,
+    "delta": -20,
     "is_new": false
    },
    {
     "rank": 84,
-    "keyword": "미니김치냉장고",
-    "prev_rank": 86,
-    "delta": 2,
+    "keyword": "쌀세라수분선크림",
+    "prev_rank": 73,
+    "delta": -11,
     "is_new": false
    },
    {
     "rank": 85,
-    "keyword": "스마트워치",
-    "prev_rank": 84,
-    "delta": -1,
+    "keyword": "셀폰즈녹는실앰플",
+    "prev_rank": 92,
+    "delta": 7,
     "is_new": false
    },
    {
     "rank": 86,
-    "keyword": "브리타정수기",
-    "prev_rank": 95,
-    "delta": 9,
+    "keyword": "조성아대왕쿠션",
+    "prev_rank": 162,
+    "delta": 76,
     "is_new": false
    },
    {
     "rank": 87,
-    "keyword": "가정용냉풍기",
-    "prev_rank": 57,
-    "delta": -30,
+    "keyword": "메디힐마스크팩",
+    "prev_rank": 102,
+    "delta": 15,
     "is_new": false
    },
    {
     "rank": 88,
-    "keyword": "lg냉장고4도어",
-    "prev_rank": 111,
-    "delta": 23,
+    "keyword": "더마팩토리",
+    "prev_rank": 110,
+    "delta": 22,
     "is_new": false
    },
    {
     "rank": 89,
-    "keyword": "소형김치냉장고",
-    "prev_rank": 90,
-    "delta": 1,
+    "keyword": "헤나염색약",
+    "prev_rank": 149,
+    "delta": 60,
     "is_new": false
    },
    {
     "rank": 90,
-    "keyword": "냉장고900리터",
-    "prev_rank": 106,
-    "delta": 16,
+    "keyword": "클렌징밀크",
+    "prev_rank": 169,
+    "delta": 79,
     "is_new": false
    },
    {
     "rank": 91,
+    "keyword": "이지듀기미앰플",
+    "prev_rank": 81,
+    "delta": -10,
+    "is_new": false
+   },
+   {
+    "rank": 92,
+    "keyword": "핸드크림",
+    "prev_rank": 130,
+    "delta": 38,
+    "is_new": false
+   },
+   {
+    "rank": 93,
+    "keyword": "보스티나염색제",
+    "prev_rank": 132,
+    "delta": 39,
+    "is_new": false
+   },
+   {
+    "rank": 94,
+    "keyword": "클렌징폼",
+    "prev_rank": 98,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 95,
+    "keyword": "달바미스트",
+    "prev_rank": 204,
+    "delta": 109,
+    "is_new": false
+   },
+   {
+    "rank": 96,
+    "keyword": "제니하우스염색약",
+    "prev_rank": 91,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 97,
+    "keyword": "age20's팩트",
+    "prev_rank": 101,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 98,
+    "keyword": "아토베리어365크림",
+    "prev_rank": 96,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 99,
+    "keyword": "도브비누미국산",
+    "prev_rank": 152,
+    "delta": 53,
+    "is_new": false
+   },
+   {
+    "rank": 100,
+    "keyword": "마카루트크림",
+    "prev_rank": 94,
+    "delta": -6,
+    "is_new": false
+   }
+  ],
+  "가전": [
+   {
+    "rank": 1,
+    "keyword": "냉장고",
+    "prev_rank": 2,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 2,
+    "keyword": "김치냉장고",
+    "prev_rank": 4,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 3,
+    "keyword": "선풍기",
+    "prev_rank": 1,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 4,
+    "keyword": "에어프라이어",
+    "prev_rank": 5,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 5,
+    "keyword": "전자레인지",
+    "prev_rank": 7,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 6,
+    "keyword": "제습기",
+    "prev_rank": 3,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 7,
+    "keyword": "냉동고",
+    "prev_rank": 8,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 8,
+    "keyword": "쿠쿠압력밥솥",
+    "prev_rank": 10,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 9,
+    "keyword": "에어컨",
+    "prev_rank": 6,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 10,
+    "keyword": "무선청소기",
+    "prev_rank": 12,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 11,
+    "keyword": "계란찜기",
+    "prev_rank": 15,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 12,
+    "keyword": "인덕션",
+    "prev_rank": 11,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 13,
+    "keyword": "음식물처리기",
+    "prev_rank": 14,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 14,
+    "keyword": "다이슨에어랩",
+    "prev_rank": 16,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 15,
+    "keyword": "캐리어냉난방기",
+    "prev_rank": 25,
+    "delta": 10,
+    "is_new": false
+   },
+   {
+    "rank": 16,
+    "keyword": "정수기",
+    "prev_rank": 33,
+    "delta": 17,
+    "is_new": false
+   },
+   {
+    "rank": 17,
+    "keyword": "세탁기",
+    "prev_rank": 19,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 18,
+    "keyword": "벽걸이에어컨",
+    "prev_rank": 9,
+    "delta": -9,
+    "is_new": false
+   },
+   {
+    "rank": 19,
+    "keyword": "전자렌지",
+    "prev_rank": 23,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 20,
+    "keyword": "신일선풍기",
+    "prev_rank": 13,
+    "delta": -7,
+    "is_new": false
+   },
+   {
+    "rank": 21,
+    "keyword": "믹서기",
+    "prev_rank": 17,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 22,
+    "keyword": "두유제조기",
+    "prev_rank": 21,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 23,
+    "keyword": "냉난방기",
+    "prev_rank": 44,
+    "delta": 21,
+    "is_new": false
+   },
+   {
+    "rank": 24,
+    "keyword": "통돌이세탁기",
+    "prev_rank": 24,
+    "delta": 0,
+    "is_new": false
+   },
+   {
+    "rank": 25,
+    "keyword": "청소기",
+    "prev_rank": 22,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 26,
+    "keyword": "딤채김치냉장고",
+    "prev_rank": 26,
+    "delta": 0,
+    "is_new": false
+   },
+   {
+    "rank": 27,
+    "keyword": "드럼세탁기",
+    "prev_rank": 27,
+    "delta": 0,
+    "is_new": false
+   },
+   {
+    "rank": 28,
+    "keyword": "식기세척기",
+    "prev_rank": 29,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 29,
+    "keyword": "스팀다리미",
+    "prev_rank": 32,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 30,
+    "keyword": "미니세탁기",
+    "prev_rank": 40,
+    "delta": 10,
+    "is_new": false
+   },
+   {
+    "rank": 31,
+    "keyword": "공기청정기",
+    "prev_rank": 41,
+    "delta": 10,
+    "is_new": false
+   },
+   {
+    "rank": 32,
+    "keyword": "스팀청소기",
+    "prev_rank": 39,
+    "delta": 7,
+    "is_new": false
+   },
+   {
+    "rank": 33,
+    "keyword": "로봇청소기",
+    "prev_rank": 28,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 34,
+    "keyword": "청호나이스정수기",
+    "prev_rank": 38,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 35,
+    "keyword": "소형냉장고",
+    "prev_rank": 30,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 36,
+    "keyword": "다이슨청소기",
+    "prev_rank": 37,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 37,
+    "keyword": "미니냉장고",
+    "prev_rank": 31,
+    "delta": -6,
+    "is_new": false
+   },
+   {
+    "rank": 38,
+    "keyword": "물걸레청소기",
+    "prev_rank": 47,
+    "delta": 9,
+    "is_new": false
+   },
+   {
+    "rank": 39,
+    "keyword": "드라이기",
+    "prev_rank": 49,
+    "delta": 10,
+    "is_new": false
+   },
+   {
+    "rank": 40,
+    "keyword": "삼성김치냉장고",
+    "prev_rank": 51,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 41,
+    "keyword": "커피포트",
+    "prev_rank": 45,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 42,
+    "keyword": "양문형냉장고",
+    "prev_rank": 50,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 43,
+    "keyword": "닌자블렌더",
+    "prev_rank": 35,
+    "delta": -8,
+    "is_new": false
+   },
+   {
+    "rank": 44,
+    "keyword": "다이슨드라이기",
+    "prev_rank": 52,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 45,
+    "keyword": "이동식에어컨",
+    "prev_rank": 20,
+    "delta": -25,
+    "is_new": false
+   },
+   {
+    "rank": 46,
+    "keyword": "lg김치냉장고",
+    "prev_rank": 54,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 47,
+    "keyword": "창문형에어컨",
+    "prev_rank": 18,
+    "delta": -29,
+    "is_new": false
+   },
+   {
+    "rank": 48,
+    "keyword": "유선청소기",
+    "prev_rank": 48,
+    "delta": 0,
+    "is_new": false
+   },
+   {
+    "rank": 49,
+    "keyword": "정수기렌탈가격비교",
+    "prev_rank": 56,
+    "delta": 7,
+    "is_new": false
+   },
+   {
+    "rank": 50,
+    "keyword": "식기건조기",
+    "prev_rank": 55,
+    "delta": 5,
+    "is_new": false
+   },
+   {
+    "rank": 51,
+    "keyword": "엘지냉장고",
+    "prev_rank": 73,
+    "delta": 22,
+    "is_new": false
+   },
+   {
+    "rank": 52,
+    "keyword": "샤크무선청소기",
+    "prev_rank": 69,
+    "delta": 17,
+    "is_new": false
+   },
+   {
+    "rank": 53,
+    "keyword": "삼성냉장고",
+    "prev_rank": 59,
+    "delta": 6,
+    "is_new": false
+   },
+   {
+    "rank": 54,
+    "keyword": "소형믹서기",
+    "prev_rank": 53,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 55,
+    "keyword": "무한잉크복합기",
+    "prev_rank": 93,
+    "delta": 38,
+    "is_new": false
+   },
+   {
+    "rank": 56,
+    "keyword": "갤럭시워치9",
+    "prev_rank": 107,
+    "delta": 51,
+    "is_new": false
+   },
+   {
+    "rank": 57,
+    "keyword": "칫솔살균기",
+    "prev_rank": 62,
+    "delta": 5,
+    "is_new": false
+   },
+   {
+    "rank": 58,
+    "keyword": "커피머신",
+    "prev_rank": 77,
+    "delta": 19,
+    "is_new": false
+   },
+   {
+    "rank": 59,
+    "keyword": "전기포트",
+    "prev_rank": 74,
+    "delta": 15,
+    "is_new": false
+   },
+   {
+    "rank": 60,
+    "keyword": "갤럭시워치스트랩",
+    "prev_rank": 36,
+    "delta": -24,
+    "is_new": false
+   },
+   {
+    "rank": 61,
+    "keyword": "건조기",
+    "prev_rank": 76,
+    "delta": 15,
+    "is_new": false
+   },
+   {
+    "rank": 62,
+    "keyword": "lg냉장고",
+    "prev_rank": 60,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 63,
+    "keyword": "엘지냉장고4도어",
+    "prev_rank": 72,
+    "delta": 9,
+    "is_new": false
+   },
+   {
+    "rank": 64,
+    "keyword": "미니김치냉장고",
+    "prev_rank": 84,
+    "delta": 20,
+    "is_new": false
+   },
+   {
+    "rank": 65,
+    "keyword": "써큘레이터",
+    "prev_rank": 34,
+    "delta": -31,
+    "is_new": false
+   },
+   {
+    "rank": 66,
+    "keyword": "맥세이프그립톡",
+    "prev_rank": 70,
+    "delta": 4,
+    "is_new": false
+   },
+   {
+    "rank": 67,
+    "keyword": "lg냉장고4도어",
+    "prev_rank": 88,
+    "delta": 21,
+    "is_new": false
+   },
+   {
+    "rank": 68,
+    "keyword": "1구인덕션",
+    "prev_rank": 82,
+    "delta": 14,
+    "is_new": false
+   },
+   {
+    "rank": 69,
+    "keyword": "무인카페",
+    "prev_rank": 78,
+    "delta": 9,
+    "is_new": false
+   },
+   {
+    "rank": 70,
+    "keyword": "냉장고900리터",
+    "prev_rank": 90,
+    "delta": 20,
+    "is_new": false
+   },
+   {
+    "rank": 71,
+    "keyword": "z플립8케이스",
+    "prev_rank": 140,
+    "delta": 69,
+    "is_new": false
+   },
+   {
+    "rank": 72,
+    "keyword": "삼성에어컨",
+    "prev_rank": 43,
+    "delta": -29,
+    "is_new": false
+   },
+   {
+    "rank": 73,
+    "keyword": "소형김치냉장고",
+    "prev_rank": 89,
+    "delta": 16,
+    "is_new": false
+   },
+   {
+    "rank": 74,
+    "keyword": "스마트워치",
+    "prev_rank": 85,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 75,
+    "keyword": "휴대용선풍기",
+    "prev_rank": 42,
+    "delta": -33,
+    "is_new": false
+   },
+   {
+    "rank": 76,
+    "keyword": "lg에어컨",
+    "prev_rank": 46,
+    "delta": -30,
+    "is_new": false
+   },
+   {
+    "rank": 77,
+    "keyword": "갤럭시s25케이스",
+    "prev_rank": 64,
+    "delta": -13,
+    "is_new": false
+   },
+   {
+    "rank": 78,
+    "keyword": "삼성냉장고4도어",
+    "prev_rank": 66,
+    "delta": -12,
+    "is_new": false
+   },
+   {
+    "rank": 79,
+    "keyword": "블루투스스피커",
+    "prev_rank": 63,
+    "delta": -16,
+    "is_new": false
+   },
+   {
+    "rank": 80,
+    "keyword": "위닉스제습기",
+    "prev_rank": 65,
+    "delta": -15,
+    "is_new": false
+   },
+   {
+    "rank": 81,
+    "keyword": "엘지김치냉장고",
+    "prev_rank": 100,
+    "delta": 19,
+    "is_new": false
+   },
+   {
+    "rank": 82,
+    "keyword": "갤럭시워치8",
+    "prev_rank": 79,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 83,
     "keyword": "lg통돌이세탁기",
+    "prev_rank": 91,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 84,
+    "keyword": "노트북",
+    "prev_rank": 114,
+    "delta": 30,
+    "is_new": false
+   },
+   {
+    "rank": 85,
+    "keyword": "jmw드라이기",
+    "prev_rank": 83,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 86,
+    "keyword": "tv",
+    "prev_rank": 75,
+    "delta": -11,
+    "is_new": false
+   },
+   {
+    "rank": 87,
+    "keyword": "김치냉장고가격비교",
+    "prev_rank": 98,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 88,
+    "keyword": "삼성무선청소기",
+    "prev_rank": 96,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 89,
+    "keyword": "쿠쿠압력밥솥6인용",
+    "prev_rank": 109,
+    "delta": 20,
+    "is_new": false
+   },
+   {
+    "rank": 90,
+    "keyword": "도깨비방망이",
+    "prev_rank": 112,
+    "delta": 22,
+    "is_new": false
+   },
+   {
+    "rank": 91,
+    "keyword": "유닉스드라이기",
     "prev_rank": 125,
     "delta": 34,
     "is_new": false
    },
    {
     "rank": 92,
-    "keyword": "삼성선풍기",
-    "prev_rank": 75,
-    "delta": -17,
+    "keyword": "전동그라인더",
+    "prev_rank": 123,
+    "delta": 31,
     "is_new": false
    },
    {
     "rank": 93,
-    "keyword": "무한잉크복합기",
-    "prev_rank": 174,
-    "delta": 81,
+    "keyword": "핸드폰스트랩",
+    "prev_rank": 101,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 94,
-    "keyword": "벽걸이선풍기",
-    "prev_rank": 73,
-    "delta": -21,
+    "keyword": "브리타정수기",
+    "prev_rank": 86,
+    "delta": -8,
     "is_new": false
    },
    {
     "rank": 95,
-    "keyword": "삼성세탁기",
-    "prev_rank": 107,
-    "delta": 12,
+    "keyword": "뚜껑형김치냉장고",
+    "prev_rank": 154,
+    "delta": 59,
     "is_new": false
    },
    {
     "rank": 96,
-    "keyword": "삼성무선청소기",
-    "prev_rank": 122,
-    "delta": 26,
+    "keyword": "삼성청소기",
+    "prev_rank": 115,
+    "delta": 19,
     "is_new": false
    },
    {
     "rank": 97,
-    "keyword": "한일선풍기",
-    "prev_rank": 74,
-    "delta": -23,
+    "keyword": "아이엠듀lab",
+    "prev_rank": 163,
+    "delta": 66,
     "is_new": false
    },
    {
     "rank": 98,
-    "keyword": "김치냉장고가격비교",
-    "prev_rank": 118,
-    "delta": 20,
+    "keyword": "라디오",
+    "prev_rank": 108,
+    "delta": 10,
     "is_new": false
    },
    {
     "rank": 99,
-    "keyword": "블루투스이어폰",
-    "prev_rank": 102,
-    "delta": 3,
+    "keyword": "도어락",
+    "prev_rank": 126,
+    "delta": 27,
     "is_new": false
    },
    {
     "rank": 100,
-    "keyword": "엘지김치냉장고",
-    "prev_rank": 104,
-    "delta": 4,
+    "keyword": "보조배터리",
+    "prev_rank": 105,
+    "delta": 5,
     "is_new": false
    }
   ],
   "생활용품": [
    {
     "rank": 1,
-    "keyword": "과탄산소다",
-    "prev_rank": 1,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 2,
     "keyword": "섬유유연제",
-    "prev_rank": 3,
+    "prev_rank": 2,
     "delta": 1,
     "is_new": false
    },
    {
-    "rank": 3,
-    "keyword": "워싱소다",
-    "prev_rank": 2,
+    "rank": 2,
+    "keyword": "과탄산소다",
+    "prev_rank": 1,
     "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 3,
+    "keyword": "세탁세제",
+    "prev_rank": 5,
+    "delta": 2,
     "is_new": false
    },
    {
@@ -2862,16 +2862,16 @@
    },
    {
     "rank": 5,
-    "keyword": "세탁세제",
-    "prev_rank": 5,
-    "delta": 0,
+    "keyword": "화장지",
+    "prev_rank": 9,
+    "delta": 4,
     "is_new": false
    },
    {
     "rank": 6,
-    "keyword": "모락셀라세제",
-    "prev_rank": 6,
-    "delta": 0,
+    "keyword": "퍼실세탁세제",
+    "prev_rank": 8,
+    "delta": 2,
     "is_new": false
    },
    {
@@ -2883,669 +2883,669 @@
    },
    {
     "rank": 8,
-    "keyword": "퍼실세탁세제",
-    "prev_rank": 8,
-    "delta": 0,
+    "keyword": "키친타올",
+    "prev_rank": 10,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 9,
-    "keyword": "화장지",
-    "prev_rank": 10,
-    "delta": 1,
+    "keyword": "워싱소다",
+    "prev_rank": 3,
+    "delta": -6,
     "is_new": false
    },
    {
     "rank": 10,
-    "keyword": "키친타올",
-    "prev_rank": 11,
-    "delta": 1,
+    "keyword": "모락셀라세제",
+    "prev_rank": 6,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 11,
     "keyword": "캡슐세제",
-    "prev_rank": 14,
-    "delta": 3,
+    "prev_rank": 11,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 12,
-    "keyword": "랩신섬유항균제",
-    "prev_rank": 9,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 13,
     "keyword": "각티슈",
-    "prev_rank": 17,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 14,
-    "keyword": "장바구니캐리어",
-    "prev_rank": 15,
+    "prev_rank": 13,
     "delta": 1,
     "is_new": false
    },
    {
-    "rank": 15,
+    "rank": 13,
     "keyword": "두루마리휴지",
-    "prev_rank": 18,
-    "delta": 3,
+    "prev_rank": 15,
+    "delta": 2,
     "is_new": false
    },
    {
-    "rank": 16,
-    "keyword": "섬유향균제",
-    "prev_rank": 13,
-    "delta": -3,
+    "rank": 14,
+    "keyword": "홈매트리필",
+    "prev_rank": 21,
+    "delta": 7,
     "is_new": false
    },
    {
-    "rank": 17,
-    "keyword": "베이킹소다",
-    "prev_rank": 16,
+    "rank": 15,
+    "keyword": "장바구니캐리어",
+    "prev_rank": 14,
     "delta": -1,
     "is_new": false
    },
    {
+    "rank": 16,
+    "keyword": "버넬섬유유연제",
+    "prev_rank": 19,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 17,
+    "keyword": "다우니세탁세제",
+    "prev_rank": 22,
+    "delta": 5,
+    "is_new": false
+   },
+   {
     "rank": 18,
-    "keyword": "제습제",
+    "keyword": "랩신섬유항균제",
     "prev_rank": 12,
     "delta": -6,
     "is_new": false
    },
    {
     "rank": 19,
-    "keyword": "버넬섬유유연제",
-    "prev_rank": 19,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 20,
     "keyword": "크리넥스화장지",
     "prev_rank": 20,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 21,
-    "keyword": "홈매트리필",
-    "prev_rank": 22,
     "delta": 1,
     "is_new": false
    },
    {
-    "rank": 22,
-    "keyword": "다우니세탁세제",
-    "prev_rank": 24,
+    "rank": 20,
+    "keyword": "베이킹소다",
+    "prev_rank": 17,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 21,
+    "keyword": "고체탈취제",
+    "prev_rank": 23,
     "delta": 2,
     "is_new": false
    },
    {
+    "rank": 22,
+    "keyword": "식기세척기세제",
+    "prev_rank": 27,
+    "delta": 5,
+    "is_new": false
+   },
+   {
     "rank": 23,
-    "keyword": "고체탈취제",
+    "keyword": "롤링카트",
     "prev_rank": 25,
     "delta": 2,
     "is_new": false
    },
    {
     "rank": 24,
-    "keyword": "변기세정제",
+    "keyword": "위프고체탈취제",
     "prev_rank": 26,
     "delta": 2,
     "is_new": false
    },
    {
     "rank": 25,
-    "keyword": "롤링카트",
-    "prev_rank": 29,
-    "delta": 4,
+    "keyword": "위프탈취제",
+    "prev_rank": 28,
+    "delta": 3,
     "is_new": false
    },
    {
     "rank": 26,
-    "keyword": "위프고체탈취제",
-    "prev_rank": 36,
-    "delta": 10,
+    "keyword": "변기세정제",
+    "prev_rank": 24,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 27,
-    "keyword": "식기세척기세제",
-    "prev_rank": 32,
-    "delta": 5,
+    "keyword": "코스트코키친타올",
+    "prev_rank": 33,
+    "delta": 6,
     "is_new": false
    },
    {
     "rank": 28,
-    "keyword": "위프탈취제",
-    "prev_rank": 42,
-    "delta": 14,
+    "keyword": "퍼실캡슐세제",
+    "prev_rank": 36,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 29,
-    "keyword": "세탁조클리너",
-    "prev_rank": 27,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 30,
-    "keyword": "모기향",
-    "prev_rank": 28,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 31,
     "keyword": "스너글섬유유연제",
-    "prev_rank": 30,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 32,
-    "keyword": "모기장",
-    "prev_rank": 23,
-    "delta": -9,
-    "is_new": false
-   },
-   {
-    "rank": 33,
-    "keyword": "코스트코키친타올",
-    "prev_rank": 35,
+    "prev_rank": 31,
     "delta": 2,
     "is_new": false
    },
    {
-    "rank": 34,
+    "rank": 30,
+    "keyword": "섬유향균제",
+    "prev_rank": 16,
+    "delta": -14,
+    "is_new": false
+   },
+   {
+    "rank": 31,
     "keyword": "바이오크린콜",
-    "prev_rank": 38,
-    "delta": 4,
+    "prev_rank": 34,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 32,
+    "keyword": "제습제",
+    "prev_rank": 18,
+    "delta": -14,
+    "is_new": false
+   },
+   {
+    "rank": 33,
+    "keyword": "생리대",
+    "prev_rank": 39,
+    "delta": 6,
+    "is_new": false
+   },
+   {
+    "rank": 34,
+    "keyword": "바퀴벌레약",
+    "prev_rank": 35,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 35,
-    "keyword": "바퀴벌레약",
-    "prev_rank": 39,
-    "delta": 4,
+    "keyword": "바퀴달린장바구니",
+    "prev_rank": 43,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 36,
-    "keyword": "퍼실캡슐세제",
+    "keyword": "접이식카트",
     "prev_rank": 37,
     "delta": 1,
     "is_new": false
    },
    {
     "rank": 37,
-    "keyword": "접이식카트",
-    "prev_rank": 43,
-    "delta": 6,
+    "keyword": "퍼실",
+    "prev_rank": 45,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 38,
-    "keyword": "비오킬",
-    "prev_rank": 21,
-    "delta": -17,
+    "keyword": "백만봉화장지",
+    "prev_rank": 40,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 39,
-    "keyword": "생리대",
-    "prev_rank": 44,
-    "delta": 5,
+    "keyword": "화장지30롤",
+    "prev_rank": 41,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 40,
-    "keyword": "백만봉화장지",
-    "prev_rank": 34,
-    "delta": -6,
+    "keyword": "팬티라이너",
+    "prev_rank": 42,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 41,
-    "keyword": "화장지30롤",
-    "prev_rank": 47,
-    "delta": 6,
+    "keyword": "휴지",
+    "prev_rank": 48,
+    "delta": 7,
     "is_new": false
    },
    {
     "rank": 42,
-    "keyword": "팬티라이너",
-    "prev_rank": 45,
-    "delta": 3,
+    "keyword": "세탁조클리너",
+    "prev_rank": 29,
+    "delta": -13,
     "is_new": false
    },
    {
     "rank": 43,
-    "keyword": "바퀴달린장바구니",
-    "prev_rank": 53,
-    "delta": 10,
-    "is_new": false
-   },
-   {
-    "rank": 44,
-    "keyword": "컴배트좀벌레싹",
-    "prev_rank": 33,
-    "delta": -11,
-    "is_new": false
-   },
-   {
-    "rank": 45,
-    "keyword": "퍼실",
-    "prev_rank": 50,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 46,
-    "keyword": "물먹는하마",
-    "prev_rank": 31,
-    "delta": -15,
-    "is_new": false
-   },
-   {
-    "rank": 47,
-    "keyword": "쇼핑카트",
-    "prev_rank": 83,
-    "delta": 36,
-    "is_new": false
-   },
-   {
-    "rank": 48,
-    "keyword": "휴지",
-    "prev_rank": 62,
-    "delta": 14,
-    "is_new": false
-   },
-   {
-    "rank": 49,
-    "keyword": "홈매트",
-    "prev_rank": 40,
-    "delta": -9,
-    "is_new": false
-   },
-   {
-    "rank": 50,
-    "keyword": "옥시크린",
-    "prev_rank": 48,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 51,
-    "keyword": "초파리트랩",
-    "prev_rank": 41,
-    "delta": -10,
-    "is_new": false
-   },
-   {
-    "rank": 52,
-    "keyword": "나프탈렌",
-    "prev_rank": 54,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 53,
-    "keyword": "다이소초파리트랩",
-    "prev_rank": 49,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 54,
-    "keyword": "피죤섬유유연제",
-    "prev_rank": 55,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 55,
     "keyword": "건조기시트",
-    "prev_rank": 58,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 56,
-    "keyword": "브라이언세제",
-    "prev_rank": 57,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 57,
-    "keyword": "프로쉬세탁세제",
-    "prev_rank": 69,
+    "prev_rank": 55,
     "delta": 12,
     "is_new": false
    },
    {
-    "rank": 58,
-    "keyword": "크리넥스데코소프트",
-    "prev_rank": 66,
+    "rank": 44,
+    "keyword": "커클랜드세제",
+    "prev_rank": 105,
+    "delta": 61,
+    "is_new": false
+   },
+   {
+    "rank": 45,
+    "keyword": "컴배트좀벌레싹",
+    "prev_rank": 44,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 46,
+    "keyword": "피죤섬유유연제",
+    "prev_rank": 54,
     "delta": 8,
     "is_new": false
    },
    {
-    "rank": 59,
-    "keyword": "락스",
-    "prev_rank": 60,
+    "rank": 47,
+    "keyword": "위프",
+    "prev_rank": 73,
+    "delta": 26,
+    "is_new": false
+   },
+   {
+    "rank": 48,
+    "keyword": "홈매트",
+    "prev_rank": 49,
     "delta": 1,
     "is_new": false
    },
    {
-    "rank": 60,
-    "keyword": "뽑아쓰는키친타올",
-    "prev_rank": 73,
-    "delta": 13,
+    "rank": 49,
+    "keyword": "쇼핑카트",
+    "prev_rank": 47,
+    "delta": -2,
     "is_new": false
    },
    {
-    "rank": 61,
-    "keyword": "탈취제",
-    "prev_rank": 74,
-    "delta": 13,
-    "is_new": false
-   },
-   {
-    "rank": 62,
-    "keyword": "구연산",
+    "rank": 50,
+    "keyword": "락스",
     "prev_rank": 59,
-    "delta": -3,
+    "delta": 9,
     "is_new": false
    },
    {
-    "rank": 63,
-    "keyword": "버그넷",
+    "rank": 51,
+    "keyword": "나프탈렌",
     "prev_rank": 52,
-    "delta": -11,
+    "delta": 1,
     "is_new": false
    },
    {
-    "rank": 64,
-    "keyword": "곰팡이제거제",
-    "prev_rank": 77,
+    "rank": 52,
+    "keyword": "유한락스",
+    "prev_rank": 65,
     "delta": 13,
     "is_new": false
    },
    {
-    "rank": 65,
-    "keyword": "유한락스",
-    "prev_rank": 76,
+    "rank": 53,
+    "keyword": "뽑아쓰는키친타올",
+    "prev_rank": 60,
+    "delta": 7,
+    "is_new": false
+   },
+   {
+    "rank": 54,
+    "keyword": "암웨이프리워시",
+    "prev_rank": 71,
+    "delta": 17,
+    "is_new": false
+   },
+   {
+    "rank": 55,
+    "keyword": "모기향",
+    "prev_rank": 30,
+    "delta": -25,
+    "is_new": false
+   },
+   {
+    "rank": 56,
+    "keyword": "탈취제",
+    "prev_rank": 61,
+    "delta": 5,
+    "is_new": false
+   },
+   {
+    "rank": 57,
+    "keyword": "비오킬",
+    "prev_rank": 38,
+    "delta": -19,
+    "is_new": false
+   },
+   {
+    "rank": 58,
+    "keyword": "맥스포스겔",
+    "prev_rank": 69,
     "delta": 11,
     "is_new": false
    },
    {
+    "rank": 59,
+    "keyword": "아우라섬유유연제",
+    "prev_rank": 84,
+    "delta": 25,
+    "is_new": false
+   },
+   {
+    "rank": 60,
+    "keyword": "크리넥스데코소프트",
+    "prev_rank": 58,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 61,
+    "keyword": "프로쉬세탁세제",
+    "prev_rank": 57,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 62,
+    "keyword": "타포린백",
+    "prev_rank": 87,
+    "delta": 25,
+    "is_new": false
+   },
+   {
+    "rank": 63,
+    "keyword": "프로쉬식세기세제",
+    "prev_rank": 88,
+    "delta": 25,
+    "is_new": false
+   },
+   {
+    "rank": 64,
+    "keyword": "피지모락셀라세제",
+    "prev_rank": 70,
+    "delta": 6,
+    "is_new": false
+   },
+   {
+    "rank": 65,
+    "keyword": "깨끗한나라화장지",
+    "prev_rank": 77,
+    "delta": 12,
+    "is_new": false
+   },
+   {
     "rank": 66,
-    "keyword": "방충망",
-    "prev_rank": 68,
-    "delta": 2,
+    "keyword": "크리넥스각티슈",
+    "prev_rank": 97,
+    "delta": 31,
     "is_new": false
    },
    {
     "rank": 67,
-    "keyword": "현관방충망",
-    "prev_rank": 46,
-    "delta": -21,
+    "keyword": "커클랜드키친타올",
+    "prev_rank": 103,
+    "delta": 36,
     "is_new": false
    },
    {
     "rank": 68,
-    "keyword": "다이소세탁조클리너",
-    "prev_rank": 82,
-    "delta": 14,
+    "keyword": "구연산",
+    "prev_rank": 62,
+    "delta": -6,
     "is_new": false
    },
    {
     "rank": 69,
-    "keyword": "맥스포스겔",
-    "prev_rank": 70,
-    "delta": 1,
+    "keyword": "핸드타올",
+    "prev_rank": 72,
+    "delta": 3,
     "is_new": false
    },
    {
     "rank": 70,
-    "keyword": "피지모락셀라세제",
-    "prev_rank": 71,
-    "delta": 1,
+    "keyword": "물먹는하마",
+    "prev_rank": 46,
+    "delta": -24,
     "is_new": false
    },
    {
     "rank": 71,
-    "keyword": "암웨이프리워시",
-    "prev_rank": 63,
-    "delta": -8,
+    "keyword": "모기장",
+    "prev_rank": 32,
+    "delta": -39,
     "is_new": false
    },
    {
     "rank": 72,
-    "keyword": "핸드타올",
-    "prev_rank": 80,
-    "delta": 8,
+    "keyword": "옥시크린",
+    "prev_rank": 50,
+    "delta": -22,
     "is_new": false
    },
    {
     "rank": 73,
-    "keyword": "위프",
-    "prev_rank": 105,
-    "delta": 32,
+    "keyword": "피에브고체탈취제",
+    "prev_rank": 82,
+    "delta": 9,
     "is_new": false
    },
    {
     "rank": 74,
-    "keyword": "각티슈케이스",
-    "prev_rank": 75,
-    "delta": 1,
+    "keyword": "곰팡이제거제",
+    "prev_rank": 64,
+    "delta": -10,
     "is_new": false
    },
    {
     "rank": 75,
-    "keyword": "에프킬라",
-    "prev_rank": 51,
-    "delta": -24,
+    "keyword": "각티슈케이스",
+    "prev_rank": 74,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 76,
     "keyword": "백만봉키친타올",
-    "prev_rank": 84,
-    "delta": 8,
+    "prev_rank": 76,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 77,
-    "keyword": "깨끗한나라화장지",
-    "prev_rank": 81,
-    "delta": 4,
+    "keyword": "티슈케이스",
+    "prev_rank": 92,
+    "delta": 15,
     "is_new": false
    },
    {
     "rank": 78,
-    "keyword": "모기기피제",
-    "prev_rank": 61,
-    "delta": -17,
+    "keyword": "은나노스텝",
+    "prev_rank": 108,
+    "delta": 30,
     "is_new": false
    },
    {
     "rank": 79,
-    "keyword": "구성환섬유유연제",
-    "prev_rank": 100,
-    "delta": 21,
+    "keyword": "깨끗한나라",
+    "prev_rank": 102,
+    "delta": 23,
     "is_new": false
    },
    {
     "rank": 80,
-    "keyword": "홈캠",
-    "prev_rank": 85,
-    "delta": 5,
+    "keyword": "아스토니쉬",
+    "prev_rank": 104,
+    "delta": 24,
     "is_new": false
    },
    {
     "rank": 81,
-    "keyword": "침대모기장",
-    "prev_rank": 56,
-    "delta": -25,
+    "keyword": "홈캠",
+    "prev_rank": 80,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 82,
-    "keyword": "피에브고체탈취제",
-    "prev_rank": 72,
-    "delta": -10,
+    "keyword": "다이소세탁조클리너",
+    "prev_rank": 68,
+    "delta": -14,
     "is_new": false
    },
    {
     "rank": 83,
-    "keyword": "신기패",
-    "prev_rank": 65,
-    "delta": -18,
+    "keyword": "아스토니쉬곰팡이",
+    "prev_rank": 94,
+    "delta": 11,
     "is_new": false
    },
    {
     "rank": 84,
-    "keyword": "아우라섬유유연제",
-    "prev_rank": 90,
-    "delta": 6,
-    "is_new": false
-   },
-   {
-    "rank": 85,
-    "keyword": "유한락스욕실청소용",
-    "prev_rank": 86,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 86,
-    "keyword": "섬유항균제",
-    "prev_rank": 64,
-    "delta": -22,
-    "is_new": false
-   },
-   {
-    "rank": 87,
-    "keyword": "타포린백",
-    "prev_rank": 103,
-    "delta": 16,
-    "is_new": false
-   },
-   {
-    "rank": 88,
-    "keyword": "프로쉬식세기세제",
-    "prev_rank": 104,
-    "delta": 16,
-    "is_new": false
-   },
-   {
-    "rank": 89,
-    "keyword": "휴지30롤",
-    "prev_rank": 92,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 90,
-    "keyword": "다우니향기부스터",
-    "prev_rank": 106,
-    "delta": 16,
-    "is_new": false
-   },
-   {
-    "rank": 91,
-    "keyword": "빨래비누",
-    "prev_rank": 101,
-    "delta": 10,
-    "is_new": false
-   },
-   {
-    "rank": 92,
-    "keyword": "티슈케이스",
-    "prev_rank": 94,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 93,
-    "keyword": "장바구니카트",
-    "prev_rank": 91,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 94,
-    "keyword": "아스토니쉬곰팡이",
-    "prev_rank": 113,
-    "delta": 19,
-    "is_new": false
-   },
-   {
-    "rank": 95,
-    "keyword": "원터치모기장",
-    "prev_rank": 67,
+    "keyword": "브라이언세제",
+    "prev_rank": 56,
     "delta": -28,
     "is_new": false
    },
    {
+    "rank": 85,
+    "keyword": "쇼핑백",
+    "prev_rank": 135,
+    "delta": 50,
+    "is_new": false
+   },
+   {
+    "rank": 86,
+    "keyword": "빨래비누",
+    "prev_rank": 91,
+    "delta": 5,
+    "is_new": false
+   },
+   {
+    "rank": 87,
+    "keyword": "다우니향기부스터",
+    "prev_rank": 90,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 88,
+    "keyword": "시장바구니캐리어",
+    "prev_rank": 113,
+    "delta": 25,
+    "is_new": false
+   },
+   {
+    "rank": 89,
+    "keyword": "유한락스욕실청소용",
+    "prev_rank": 85,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 90,
+    "keyword": "장바구니카트",
+    "prev_rank": 93,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 91,
+    "keyword": "휴지30롤",
+    "prev_rank": 89,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 92,
+    "keyword": "방충망",
+    "prev_rank": 66,
+    "delta": -26,
+    "is_new": false
+   },
+   {
+    "rank": 93,
+    "keyword": "욕실의여왕탈취제",
+    "prev_rank": 253,
+    "delta": 160,
+    "is_new": false
+   },
+   {
+    "rank": 94,
+    "keyword": "리큐액체세제",
+    "prev_rank": 136,
+    "delta": 42,
+    "is_new": false
+   },
+   {
+    "rank": 95,
+    "keyword": "신기패",
+    "prev_rank": 83,
+    "delta": -12,
+    "is_new": false
+   },
+   {
     "rank": 96,
-    "keyword": "짐샌더슨롤링백",
-    "prev_rank": 79,
-    "delta": -17,
+    "keyword": "커클랜드휴지",
+    "prev_rank": 111,
+    "delta": 15,
     "is_new": false
    },
    {
     "rank": 97,
-    "keyword": "크리넥스각티슈",
-    "prev_rank": 107,
-    "delta": 10,
+    "keyword": "은나노스텝시즌4",
+    "prev_rank": 116,
+    "delta": 19,
     "is_new": false
    },
    {
     "rank": 98,
-    "keyword": "다이소곰팡이제거제",
-    "prev_rank": 116,
-    "delta": 18,
+    "keyword": "코스트코화장지",
+    "prev_rank": 114,
+    "delta": 16,
     "is_new": false
    },
    {
     "rank": 99,
-    "keyword": "위칙섬유유연제",
-    "prev_rank": 93,
-    "delta": -6,
+    "keyword": "테크액체세제",
+    "prev_rank": 112,
+    "delta": 13,
     "is_new": false
    },
    {
     "rank": 100,
-    "keyword": "프로쉬주방세제",
-    "prev_rank": 109,
-    "delta": 9,
+    "keyword": "초파리트랩",
+    "prev_rank": 51,
+    "delta": -49,
     "is_new": false
    }
   ],
   "주방용품": [
    {
     "rank": 1,
-    "keyword": "텀블러",
-    "prev_rank": 1,
-    "delta": 0,
+    "keyword": "식기건조대",
+    "prev_rank": 2,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 2,
-    "keyword": "식기건조대",
-    "prev_rank": 2,
-    "delta": 0,
+    "keyword": "텀블러",
+    "prev_rank": 1,
+    "delta": -1,
     "is_new": false
    },
    {
@@ -3571,205 +3571,205 @@
    },
    {
     "rank": 6,
-    "keyword": "저압냄비",
-    "prev_rank": 6,
-    "delta": 0,
+    "keyword": "타파웨어",
+    "prev_rank": 7,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 7,
-    "keyword": "타파웨어",
+    "keyword": "수저세트",
     "prev_rank": 9,
     "delta": 2,
     "is_new": false
    },
    {
     "rank": 8,
-    "keyword": "도마",
-    "prev_rank": 8,
-    "delta": 0,
+    "keyword": "짤순이",
+    "prev_rank": 15,
+    "delta": 7,
     "is_new": false
    },
    {
     "rank": 9,
-    "keyword": "수저세트",
-    "prev_rank": 7,
-    "delta": -2,
+    "keyword": "저압냄비",
+    "prev_rank": 6,
+    "delta": -3,
     "is_new": false
    },
    {
     "rank": 10,
-    "keyword": "스탠리텀블러",
-    "prev_rank": 10,
-    "delta": 0,
+    "keyword": "도마",
+    "prev_rank": 8,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 11,
-    "keyword": "풍년압력밥솥",
-    "prev_rank": 14,
-    "delta": 3,
+    "keyword": "스탠리텀블러",
+    "prev_rank": 10,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 12,
-    "keyword": "만능채칼",
-    "prev_rank": 12,
-    "delta": 0,
+    "keyword": "타파웨어반찬통",
+    "prev_rank": 19,
+    "delta": 7,
     "is_new": false
    },
    {
     "rank": 13,
-    "keyword": "스텐리텀블러",
-    "prev_rank": 13,
-    "delta": 0,
+    "keyword": "풍년압력밥솥",
+    "prev_rank": 11,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 14,
-    "keyword": "오이지짤순이",
-    "prev_rank": 11,
-    "delta": -3,
+    "keyword": "스텐리텀블러",
+    "prev_rank": 13,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 15,
-    "keyword": "짤순이",
-    "prev_rank": 34,
-    "delta": 19,
+    "keyword": "종이컵",
+    "prev_rank": 16,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 16,
-    "keyword": "종이컵",
-    "prev_rank": 15,
-    "delta": -1,
+    "keyword": "만능채칼",
+    "prev_rank": 12,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 17,
-    "keyword": "해피콜후라이팬",
-    "prev_rank": 18,
-    "delta": 1,
+    "keyword": "유청분리기",
+    "prev_rank": 23,
+    "delta": 6,
     "is_new": false
    },
    {
     "rank": 18,
-    "keyword": "수저통",
-    "prev_rank": 21,
-    "delta": 3,
+    "keyword": "해피콜후라이팬",
+    "prev_rank": 17,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 19,
-    "keyword": "타파웨어반찬통",
-    "prev_rank": 19,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 20,
     "keyword": "야채탈수기",
-    "prev_rank": 17,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 21,
-    "keyword": "테팔후라이팬",
     "prev_rank": 20,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 22,
-    "keyword": "노노지양배추채칼",
-    "prev_rank": 16,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 23,
-    "keyword": "유청분리기",
-    "prev_rank": 23,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 24,
-    "keyword": "냉동밥보관용기",
-    "prev_rank": 32,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 25,
-    "keyword": "프라이팬",
-    "prev_rank": 24,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 26,
-    "keyword": "휘슬러압력밥솥",
-    "prev_rank": 31,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 27,
-    "keyword": "냄비세트",
-    "prev_rank": 22,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 28,
-    "keyword": "양배추채칼",
-    "prev_rank": 25,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 29,
-    "keyword": "스텐도마",
-    "prev_rank": 30,
     "delta": 1,
     "is_new": false
    },
    {
-    "rank": 30,
-    "keyword": "트라이탄밀폐용기",
-    "prev_rank": 27,
+    "rank": 20,
+    "keyword": "테팔후라이팬",
+    "prev_rank": 21,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 21,
+    "keyword": "수저통",
+    "prev_rank": 18,
     "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 22,
+    "keyword": "코렐4인세트",
+    "prev_rank": 46,
+    "delta": 24,
+    "is_new": false
+   },
+   {
+    "rank": 23,
+    "keyword": "오이지짤순이",
+    "prev_rank": 14,
+    "delta": -9,
+    "is_new": false
+   },
+   {
+    "rank": 24,
+    "keyword": "프라이팬",
+    "prev_rank": 25,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 25,
+    "keyword": "보온도시락",
+    "prev_rank": 43,
+    "delta": 18,
+    "is_new": false
+   },
+   {
+    "rank": 26,
+    "keyword": "노노지양배추채칼",
+    "prev_rank": 22,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 27,
+    "keyword": "냉동밥보관용기",
+    "prev_rank": 24,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 28,
+    "keyword": "휘슬러압력밥솥",
+    "prev_rank": 26,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 29,
+    "keyword": "냄비세트",
+    "prev_rank": 27,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 30,
+    "keyword": "코렐",
+    "prev_rank": 44,
+    "delta": 14,
     "is_new": false
    },
    {
     "rank": 31,
-    "keyword": "음식짤순이",
-    "prev_rank": 28,
-    "delta": -3,
+    "keyword": "알텐바흐저압냄비",
+    "prev_rank": 39,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 32,
-    "keyword": "칼만저압냄비",
-    "prev_rank": 29,
-    "delta": -3,
+    "keyword": "음식짤순이",
+    "prev_rank": 31,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 33,
-    "keyword": "빌레로이앤보흐",
-    "prev_rank": 37,
-    "delta": 4,
+    "keyword": "스텐도마",
+    "prev_rank": 29,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 34,
-    "keyword": "압력솥",
-    "prev_rank": 26,
-    "delta": -8,
+    "keyword": "양념통",
+    "prev_rank": 41,
+    "delta": 7,
     "is_new": false
    },
    {
@@ -3781,30 +3781,30 @@
    },
    {
     "rank": 36,
-    "keyword": "알텐바흐저압",
-    "prev_rank": 36,
-    "delta": 0,
+    "keyword": "트라이탄밀폐용기",
+    "prev_rank": 30,
+    "delta": -6,
     "is_new": false
    },
    {
     "rank": 37,
-    "keyword": "보냉백",
-    "prev_rank": 38,
-    "delta": 1,
+    "keyword": "양배추채칼",
+    "prev_rank": 28,
+    "delta": -9,
     "is_new": false
    },
    {
     "rank": 38,
-    "keyword": "알레보유리밥용기",
-    "prev_rank": 33,
-    "delta": -5,
+    "keyword": "글라스락",
+    "prev_rank": 47,
+    "delta": 9,
     "is_new": false
    },
    {
     "rank": 39,
-    "keyword": "알텐바흐저압냄비",
-    "prev_rank": 43,
-    "delta": 4,
+    "keyword": "그릇세트",
+    "prev_rank": 50,
+    "delta": 11,
     "is_new": false
    },
    {
@@ -3816,422 +3816,422 @@
    },
    {
     "rank": 41,
-    "keyword": "양념통",
-    "prev_rank": 42,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 42,
-    "keyword": "도시락가방",
-    "prev_rank": 47,
-    "delta": 5,
-    "is_new": false
-   },
-   {
-    "rank": 43,
-    "keyword": "보온도시락",
-    "prev_rank": 39,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 44,
-    "keyword": "코렐",
-    "prev_rank": 53,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 45,
-    "keyword": "스텐찜기",
-    "prev_rank": 45,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 46,
-    "keyword": "코렐4인세트",
-    "prev_rank": 41,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 47,
-    "keyword": "글라스락",
-    "prev_rank": 49,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 48,
-    "keyword": "에피큐리언도마",
-    "prev_rank": 44,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 49,
-    "keyword": "찜기",
-    "prev_rank": 56,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 50,
-    "keyword": "그릇세트",
-    "prev_rank": 46,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 51,
-    "keyword": "웩유리용기",
-    "prev_rank": 52,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 52,
-    "keyword": "투썸텀블러",
-    "prev_rank": 48,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 53,
-    "keyword": "밀폐용기",
-    "prev_rank": 54,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 54,
-    "keyword": "미니텀블러",
-    "prev_rank": 51,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 55,
-    "keyword": "뚝배기",
-    "prev_rank": 63,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 56,
-    "keyword": "포트메리온",
-    "prev_rank": 62,
-    "delta": 6,
-    "is_new": false
-   },
-   {
-    "rank": 57,
-    "keyword": "락앤락반찬통",
-    "prev_rank": 59,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 58,
-    "keyword": "다이소유청분리기",
-    "prev_rank": 60,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 59,
-    "keyword": "보냉가방",
-    "prev_rank": 57,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 60,
-    "keyword": "밥상",
-    "prev_rank": 50,
-    "delta": -10,
-    "is_new": false
-   },
-   {
-    "rank": 61,
-    "keyword": "락앤락텀블러",
-    "prev_rank": 68,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 62,
-    "keyword": "프리파라밀폐용기",
-    "prev_rank": 55,
+    "keyword": "압력솥",
+    "prev_rank": 34,
     "delta": -7,
     "is_new": false
    },
    {
-    "rank": 63,
-    "keyword": "쌀통",
-    "prev_rank": 61,
-    "delta": -2,
+    "rank": 42,
+    "keyword": "포트메리온",
+    "prev_rank": 56,
+    "delta": 14,
     "is_new": false
    },
    {
-    "rank": 64,
-    "keyword": "미라네주방",
-    "prev_rank": 79,
-    "delta": 15,
+    "rank": 43,
+    "keyword": "에피큐리언도마",
+    "prev_rank": 48,
+    "delta": 5,
     "is_new": false
    },
    {
-    "rank": 65,
-    "keyword": "수세미",
-    "prev_rank": 64,
-    "delta": -1,
+    "rank": 44,
+    "keyword": "보냉백",
+    "prev_rank": 37,
+    "delta": -7,
     "is_new": false
    },
    {
-    "rank": 66,
-    "keyword": "라포레플레이팅팬",
-    "prev_rank": 69,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 67,
-    "keyword": "보냉도시락가방",
-    "prev_rank": 58,
+    "rank": 45,
+    "keyword": "알텐바흐저압",
+    "prev_rank": 36,
     "delta": -9,
     "is_new": false
    },
    {
+    "rank": 46,
+    "keyword": "쌀통",
+    "prev_rank": 63,
+    "delta": 17,
+    "is_new": false
+   },
+   {
+    "rank": 47,
+    "keyword": "도시락가방",
+    "prev_rank": 42,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 48,
+    "keyword": "전골냄비",
+    "prev_rank": 70,
+    "delta": 22,
+    "is_new": false
+   },
+   {
+    "rank": 49,
+    "keyword": "스텐찜기",
+    "prev_rank": 45,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 50,
+    "keyword": "웩유리용기",
+    "prev_rank": 51,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 51,
+    "keyword": "미니텀블러",
+    "prev_rank": 54,
+    "delta": 3,
+    "is_new": false
+   },
+   {
+    "rank": 52,
+    "keyword": "찜기",
+    "prev_rank": 49,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 53,
+    "keyword": "빌레로이앤보흐",
+    "prev_rank": 33,
+    "delta": -20,
+    "is_new": false
+   },
+   {
+    "rank": 54,
+    "keyword": "뚝배기",
+    "prev_rank": 55,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 55,
+    "keyword": "락앤락반찬통",
+    "prev_rank": 57,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 56,
+    "keyword": "다이소채칼",
+    "prev_rank": 90,
+    "delta": 34,
+    "is_new": false
+   },
+   {
+    "rank": 57,
+    "keyword": "코렐6인세트",
+    "prev_rank": 79,
+    "delta": 22,
+    "is_new": false
+   },
+   {
+    "rank": 58,
+    "keyword": "밀폐용기",
+    "prev_rank": 53,
+    "delta": -5,
+    "is_new": false
+   },
+   {
+    "rank": 59,
+    "keyword": "냄비",
+    "prev_rank": 97,
+    "delta": 38,
+    "is_new": false
+   },
+   {
+    "rank": 60,
+    "keyword": "에코센스히트락14종",
+    "prev_rank": 75,
+    "delta": 15,
+    "is_new": false
+   },
+   {
+    "rank": 61,
+    "keyword": "포트메리온머그컵",
+    "prev_rank": 84,
+    "delta": 23,
+    "is_new": false
+   },
+   {
+    "rank": 62,
+    "keyword": "다이소유청분리기",
+    "prev_rank": 58,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 63,
+    "keyword": "티타늄도마",
+    "prev_rank": 113,
+    "delta": 50,
+    "is_new": false
+   },
+   {
+    "rank": 64,
+    "keyword": "알레보유리밥용기",
+    "prev_rank": 38,
+    "delta": -26,
+    "is_new": false
+   },
+   {
+    "rank": 65,
+    "keyword": "휘슬러냄비세트",
+    "prev_rank": 73,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 66,
+    "keyword": "칼만저압냄비",
+    "prev_rank": 32,
+    "delta": -34,
+    "is_new": false
+   },
+   {
+    "rank": 67,
+    "keyword": "투썸텀블러",
+    "prev_rank": 52,
+    "delta": -15,
+    "is_new": false
+   },
+   {
     "rank": 68,
-    "keyword": "니트릴장갑",
-    "prev_rank": 67,
-    "delta": -1,
+    "keyword": "행주",
+    "prev_rank": 92,
+    "delta": 24,
     "is_new": false
    },
    {
     "rank": 69,
-    "keyword": "도루코후라이팬",
-    "prev_rank": 76,
-    "delta": 7,
+    "keyword": "미라네주방",
+    "prev_rank": 64,
+    "delta": -5,
     "is_new": false
    },
    {
     "rank": 70,
-    "keyword": "전골냄비",
-    "prev_rank": 74,
-    "delta": 4,
+    "keyword": "편수냄비",
+    "prev_rank": 76,
+    "delta": 6,
     "is_new": false
    },
    {
     "rank": 71,
-    "keyword": "바이탈플랜트롤팬",
-    "prev_rank": 71,
-    "delta": 0,
+    "keyword": "도루코후라이팬",
+    "prev_rank": 69,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 72,
-    "keyword": "도시락통",
-    "prev_rank": 72,
-    "delta": 0,
+    "keyword": "수세미",
+    "prev_rank": 65,
+    "delta": -7,
     "is_new": false
    },
    {
     "rank": 73,
-    "keyword": "휘슬러냄비세트",
-    "prev_rank": 86,
-    "delta": 13,
+    "keyword": "그릭요거트메이커",
+    "prev_rank": 81,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 74,
     "keyword": "다짜고짜짤순이",
-    "prev_rank": 93,
-    "delta": 19,
+    "prev_rank": 74,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 75,
-    "keyword": "에코센스히트락14종",
-    "prev_rank": 103,
-    "delta": 28,
+    "keyword": "플루딕짤순이",
+    "prev_rank": 88,
+    "delta": 13,
     "is_new": false
    },
    {
     "rank": 76,
-    "keyword": "편수냄비",
-    "prev_rank": 84,
-    "delta": 8,
+    "keyword": "밥상",
+    "prev_rank": 60,
+    "delta": -16,
     "is_new": false
    },
    {
     "rank": 77,
-    "keyword": "후라이팬정리대",
-    "prev_rank": 80,
-    "delta": 3,
+    "keyword": "후라이펜",
+    "prev_rank": 78,
+    "delta": 1,
     "is_new": false
    },
    {
     "rank": 78,
-    "keyword": "후라이펜",
-    "prev_rank": 90,
-    "delta": 12,
+    "keyword": "진공밀폐용기",
+    "prev_rank": 83,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 79,
-    "keyword": "코렐6인세트",
+    "keyword": "라포레플레이팅팬",
     "prev_rank": 66,
     "delta": -13,
     "is_new": false
    },
    {
     "rank": 80,
-    "keyword": "자동회전롤팬",
-    "prev_rank": 78,
-    "delta": -2,
-    "is_new": false
-   },
-   {
-    "rank": 81,
-    "keyword": "그릭요거트메이커",
-    "prev_rank": 75,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 82,
-    "keyword": "로얄코펜하겐",
-    "prev_rank": 91,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 83,
-    "keyword": "진공밀폐용기",
-    "prev_rank": 65,
-    "delta": -18,
-    "is_new": false
-   },
-   {
-    "rank": 84,
-    "keyword": "포트메리온머그컵",
-    "prev_rank": 99,
-    "delta": 15,
-    "is_new": false
-   },
-   {
-    "rank": 85,
-    "keyword": "라포레텀블러",
-    "prev_rank": 70,
-    "delta": -15,
-    "is_new": false
-   },
-   {
-    "rank": 86,
-    "keyword": "땡스소윤",
-    "prev_rank": 94,
-    "delta": 8,
-    "is_new": false
-   },
-   {
-    "rank": 87,
-    "keyword": "반찬통",
-    "prev_rank": 83,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 88,
-    "keyword": "플루딕짤순이",
-    "prev_rank": 85,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 89,
-    "keyword": "물병",
-    "prev_rank": 82,
-    "delta": -7,
-    "is_new": false
-   },
-   {
-    "rank": 90,
-    "keyword": "다이소채칼",
-    "prev_rank": 161,
-    "delta": 71,
-    "is_new": false
-   },
-   {
-    "rank": 91,
-    "keyword": "일회용수세미",
-    "prev_rank": 77,
-    "delta": -14,
-    "is_new": false
-   },
-   {
-    "rank": 92,
-    "keyword": "행주",
-    "prev_rank": 95,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 93,
-    "keyword": "다이소텀블러",
-    "prev_rank": 81,
+    "keyword": "니트릴장갑",
+    "prev_rank": 68,
     "delta": -12,
     "is_new": false
    },
    {
-    "rank": 94,
+    "rank": 81,
+    "keyword": "로얄코펜하겐",
+    "prev_rank": 82,
+    "delta": 1,
+    "is_new": false
+   },
+   {
+    "rank": 82,
+    "keyword": "자동회전롤팬",
+    "prev_rank": 80,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 83,
+    "keyword": "도시락통",
+    "prev_rank": 72,
+    "delta": -11,
+    "is_new": false
+   },
+   {
+    "rank": 84,
+    "keyword": "락앤락텀블러",
+    "prev_rank": 61,
+    "delta": -23,
+    "is_new": false
+   },
+   {
+    "rank": 85,
+    "keyword": "글로벌나이프",
+    "prev_rank": 114,
+    "delta": 29,
+    "is_new": false
+   },
+   {
+    "rank": 86,
+    "keyword": "살림공간",
+    "prev_rank": 168,
+    "delta": 82,
+    "is_new": false
+   },
+   {
+    "rank": 87,
+    "keyword": "보냉가방",
+    "prev_rank": 59,
+    "delta": -28,
+    "is_new": false
+   },
+   {
+    "rank": 88,
     "keyword": "오덴세텀블러",
-    "prev_rank": 100,
+    "prev_rank": 94,
     "delta": 6,
     "is_new": false
    },
    {
-    "rank": 95,
-    "keyword": "얼음트레이",
-    "prev_rank": 73,
+    "rank": 89,
+    "keyword": "보냉도시락가방",
+    "prev_rank": 67,
     "delta": -22,
     "is_new": false
    },
    {
+    "rank": 90,
+    "keyword": "테팔매직핸즈",
+    "prev_rank": 101,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 91,
+    "keyword": "바이탈플랜트롤팬",
+    "prev_rank": 71,
+    "delta": -20,
+    "is_new": false
+   },
+   {
+    "rank": 92,
+    "keyword": "사각후라이팬",
+    "prev_rank": 105,
+    "delta": 13,
+    "is_new": false
+   },
+   {
+    "rank": 93,
+    "keyword": "시모무라채칼",
+    "prev_rank": 99,
+    "delta": 6,
+    "is_new": false
+   },
+   {
+    "rank": 94,
+    "keyword": "반찬통",
+    "prev_rank": 87,
+    "delta": -7,
+    "is_new": false
+   },
+   {
+    "rank": 95,
+    "keyword": "나무도마",
+    "prev_rank": 100,
+    "delta": 5,
+    "is_new": false
+   },
+   {
     "rank": 96,
-    "keyword": "am저압냄비",
-    "prev_rank": 110,
-    "delta": 14,
+    "keyword": "계란보관함",
+    "prev_rank": 122,
+    "delta": 26,
     "is_new": false
    },
    {
     "rank": 97,
-    "keyword": "냄비",
-    "prev_rank": 101,
-    "delta": 4,
+    "keyword": "물병",
+    "prev_rank": 89,
+    "delta": -8,
     "is_new": false
    },
    {
     "rank": 98,
-    "keyword": "지퍼백",
-    "prev_rank": 88,
-    "delta": -10,
+    "keyword": "실리콘지퍼백",
+    "prev_rank": 107,
+    "delta": 9,
     "is_new": false
    },
    {
     "rank": 99,
-    "keyword": "시모무라채칼",
-    "prev_rank": 113,
-    "delta": 14,
+    "keyword": "후라이팬정리대",
+    "prev_rank": 77,
+    "delta": -22,
     "is_new": false
    },
    {
     "rank": 100,
-    "keyword": "나무도마",
-    "prev_rank": 96,
-    "delta": -4,
+    "keyword": "일회용수세미",
+    "prev_rank": 91,
+    "delta": -9,
     "is_new": false
    }
   ],
@@ -4245,695 +4245,695 @@
    },
    {
     "rank": 2,
-    "keyword": "크루즈여행",
-    "prev_rank": 2,
-    "delta": 0,
+    "keyword": "스페인여행",
+    "prev_rank": 7,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 3,
-    "keyword": "백두산여행",
-    "prev_rank": 3,
-    "delta": 0,
+    "keyword": "크루즈여행",
+    "prev_rank": 2,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 4,
     "keyword": "싱가포르여행",
-    "prev_rank": 6,
-    "delta": 2,
+    "prev_rank": 4,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 5,
-    "keyword": "몽골여행",
-    "prev_rank": 4,
-    "delta": -1,
+    "keyword": "백두산여행",
+    "prev_rank": 3,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 6,
-    "keyword": "땡처리투어",
-    "prev_rank": 5,
-    "delta": -1,
+    "keyword": "홍콩여행",
+    "prev_rank": 8,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 7,
-    "keyword": "스페인여행",
-    "prev_rank": 7,
-    "delta": 0,
+    "keyword": "몽골여행",
+    "prev_rank": 5,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 8,
-    "keyword": "홍콩여행",
-    "prev_rank": 8,
-    "delta": 0,
+    "keyword": "스위스여행",
+    "prev_rank": 12,
+    "delta": 4,
     "is_new": false
    },
    {
     "rank": 9,
-    "keyword": "호주여행",
-    "prev_rank": 9,
-    "delta": 0,
+    "keyword": "대만여행",
+    "prev_rank": 11,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 10,
-    "keyword": "소소버스투어",
-    "prev_rank": 18,
-    "delta": 8,
+    "keyword": "땡처리투어",
+    "prev_rank": 6,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 11,
-    "keyword": "대만여행",
-    "prev_rank": 10,
-    "delta": -1,
+    "keyword": "튀르키예여행",
+    "prev_rank": 13,
+    "delta": 2,
     "is_new": false
    },
    {
     "rank": 12,
-    "keyword": "스위스여행",
-    "prev_rank": 21,
-    "delta": 9,
+    "keyword": "소소버스투어",
+    "prev_rank": 10,
+    "delta": -2,
     "is_new": false
    },
    {
     "rank": 13,
-    "keyword": "튀르키예여행",
-    "prev_rank": 14,
-    "delta": 1,
+    "keyword": "호주여행",
+    "prev_rank": 9,
+    "delta": -4,
     "is_new": false
    },
    {
     "rank": 14,
-    "keyword": "대마도배편",
-    "prev_rank": 12,
-    "delta": -2,
+    "keyword": "이탈리아여행",
+    "prev_rank": 27,
+    "delta": 13,
     "is_new": false
    },
    {
     "rank": 15,
-    "keyword": "2박3일일본여행",
-    "prev_rank": 11,
-    "delta": -4,
+    "keyword": "일본골프여행",
+    "prev_rank": 22,
+    "delta": 7,
     "is_new": false
    },
    {
     "rank": 16,
-    "keyword": "발리여행",
-    "prev_rank": 15,
-    "delta": -1,
+    "keyword": "베트남여행천사",
+    "prev_rank": 21,
+    "delta": 5,
     "is_new": false
    },
    {
     "rank": 17,
-    "keyword": "대마도패키지",
-    "prev_rank": 13,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 18,
-    "keyword": "대마도여행",
-    "prev_rank": 17,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 19,
-    "keyword": "상해여행",
-    "prev_rank": 20,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 20,
-    "keyword": "베트남여행",
-    "prev_rank": 23,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 21,
-    "keyword": "베트남여행천사",
-    "prev_rank": 40,
-    "delta": 19,
-    "is_new": false
-   },
-   {
-    "rank": 22,
-    "keyword": "일본골프여행",
-    "prev_rank": 24,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 23,
     "keyword": "장가계패키지",
-    "prev_rank": 25,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 24,
-    "keyword": "땡처리여행",
-    "prev_rank": 19,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 25,
-    "keyword": "와쿠와쿠투어",
-    "prev_rank": 34,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 26,
-    "keyword": "북해도여행",
-    "prev_rank": 16,
-    "delta": -10,
-    "is_new": false
-   },
-   {
-    "rank": 27,
-    "keyword": "이탈리아여행",
-    "prev_rank": 33,
+    "prev_rank": 23,
     "delta": 6,
     "is_new": false
    },
    {
-    "rank": 28,
+    "rank": 18,
+    "keyword": "동유럽패키지",
+    "prev_rank": 29,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 19,
     "keyword": "유럽여행",
-    "prev_rank": 26,
+    "prev_rank": 28,
+    "delta": 9,
+    "is_new": false
+   },
+   {
+    "rank": 20,
+    "keyword": "대마도여행",
+    "prev_rank": 18,
     "delta": -2,
     "is_new": false
    },
    {
-    "rank": 29,
-    "keyword": "동유럽패키지",
-    "prev_rank": 32,
-    "delta": 3,
+    "rank": 21,
+    "keyword": "대마도배편",
+    "prev_rank": 14,
+    "delta": -7,
     "is_new": false
    },
    {
-    "rank": 30,
-    "keyword": "일본크루즈여행",
-    "prev_rank": 22,
+    "rank": 22,
+    "keyword": "2박3일일본여행",
+    "prev_rank": 15,
+    "delta": -7,
+    "is_new": false
+   },
+   {
+    "rank": 23,
+    "keyword": "베트남여행",
+    "prev_rank": 20,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 24,
+    "keyword": "발리여행",
+    "prev_rank": 16,
     "delta": -8,
     "is_new": false
    },
    {
+    "rank": 25,
+    "keyword": "상해여행",
+    "prev_rank": 19,
+    "delta": -6,
+    "is_new": false
+   },
+   {
+    "rank": 26,
+    "keyword": "와쿠와쿠투어",
+    "prev_rank": 25,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 27,
+    "keyword": "대마도패키지",
+    "prev_rank": 17,
+    "delta": -10,
+    "is_new": false
+   },
+   {
+    "rank": 28,
+    "keyword": "땡처리여행",
+    "prev_rank": 24,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 29,
+    "keyword": "북해도여행",
+    "prev_rank": 26,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 30,
+    "keyword": "후쿠오카여행",
+    "prev_rank": 38,
+    "delta": 8,
+    "is_new": false
+   },
+   {
     "rank": 31,
-    "keyword": "스페인포르투갈여행",
-    "prev_rank": 29,
-    "delta": -2,
+    "keyword": "장가계",
+    "prev_rank": 37,
+    "delta": 6,
     "is_new": false
    },
    {
     "rank": 32,
-    "keyword": "코타키나발루",
-    "prev_rank": 30,
-    "delta": -2,
+    "keyword": "스페인포르투갈여행",
+    "prev_rank": 31,
+    "delta": -1,
     "is_new": false
    },
    {
     "rank": 33,
     "keyword": "중국여행",
-    "prev_rank": 36,
-    "delta": 3,
+    "prev_rank": 33,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 34,
-    "keyword": "이심",
-    "prev_rank": 38,
-    "delta": 4,
+    "keyword": "동유럽여행",
+    "prev_rank": 42,
+    "delta": 8,
     "is_new": false
    },
    {
     "rank": 35,
-    "keyword": "크로아티아여행",
+    "keyword": "미야코지마",
     "prev_rank": 43,
     "delta": 8,
     "is_new": false
    },
    {
     "rank": 36,
-    "keyword": "중국태항산",
-    "prev_rank": 28,
-    "delta": -8,
+    "keyword": "뉴질랜드여행",
+    "prev_rank": 49,
+    "delta": 13,
     "is_new": false
    },
    {
     "rank": 37,
-    "keyword": "장가계",
-    "prev_rank": 49,
-    "delta": 12,
+    "keyword": "코타키나발루",
+    "prev_rank": 32,
+    "delta": -5,
     "is_new": false
    },
    {
     "rank": 38,
-    "keyword": "후쿠오카여행",
-    "prev_rank": 45,
-    "delta": 7,
+    "keyword": "크로아티아여행",
+    "prev_rank": 35,
+    "delta": -3,
     "is_new": false
    },
    {
     "rank": 39,
-    "keyword": "3박4일해외여행",
-    "prev_rank": 35,
-    "delta": -4,
+    "keyword": "이집트여행",
+    "prev_rank": 54,
+    "delta": 15,
     "is_new": false
    },
    {
     "rank": 40,
-    "keyword": "튀르키에패키지",
-    "prev_rank": 27,
-    "delta": -13,
+    "keyword": "동남아여행지추천",
+    "prev_rank": 57,
+    "delta": 17,
     "is_new": false
    },
    {
     "rank": 41,
-    "keyword": "백두산날씨",
-    "prev_rank": 31,
-    "delta": -10,
+    "keyword": "대구출발해외여행",
+    "prev_rank": 55,
+    "delta": 14,
     "is_new": false
    },
    {
     "rank": 42,
-    "keyword": "동유럽여행",
-    "prev_rank": 48,
-    "delta": 6,
-    "is_new": false
-   },
-   {
-    "rank": 43,
-    "keyword": "미야코지마",
-    "prev_rank": 71,
-    "delta": 28,
-    "is_new": false
-   },
-   {
-    "rank": 44,
-    "keyword": "코카서스3국여행",
-    "prev_rank": 47,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 45,
-    "keyword": "시모노세키배편",
-    "prev_rank": 42,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 46,
-    "keyword": "푸꾸옥",
-    "prev_rank": 41,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 47,
-    "keyword": "와이파이도시락",
-    "prev_rank": 46,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 48,
-    "keyword": "몽골패키지",
-    "prev_rank": 37,
-    "delta": -11,
-    "is_new": false
-   },
-   {
-    "rank": 49,
-    "keyword": "뉴질랜드여행",
-    "prev_rank": 51,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 50,
-    "keyword": "부산일본크루즈여행",
-    "prev_rank": 44,
-    "delta": -6,
-    "is_new": false
-   },
-   {
-    "rank": 51,
-    "keyword": "오사카여행",
-    "prev_rank": 50,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 52,
-    "keyword": "일본여행추천",
-    "prev_rank": 39,
-    "delta": -13,
-    "is_new": false
-   },
-   {
-    "rank": 53,
-    "keyword": "도쿄여행",
-    "prev_rank": 53,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 54,
-    "keyword": "이집트여행",
-    "prev_rank": 55,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 55,
-    "keyword": "대구출발해외여행",
-    "prev_rank": 64,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 56,
-    "keyword": "모두투어땡처리",
-    "prev_rank": 57,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 57,
-    "keyword": "동남아여행지추천",
-    "prev_rank": 52,
-    "delta": -5,
-    "is_new": false
-   },
-   {
-    "rank": 58,
-    "keyword": "캐나다여행",
-    "prev_rank": 60,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 59,
-    "keyword": "중국청도여행",
-    "prev_rank": 62,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 60,
-    "keyword": "중국구체구패키지",
-    "prev_rank": 67,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 61,
-    "keyword": "동남아여행",
-    "prev_rank": 58,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 62,
-    "keyword": "하나투어패키지",
-    "prev_rank": 61,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 63,
-    "keyword": "스페인포르투칼여행",
-    "prev_rank": 75,
-    "delta": 12,
-    "is_new": false
-   },
-   {
-    "rank": 64,
-    "keyword": "해외여행",
-    "prev_rank": 63,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 65,
-    "keyword": "다낭여행",
-    "prev_rank": 56,
-    "delta": -9,
-    "is_new": false
-   },
-   {
-    "rank": 66,
-    "keyword": "부산출발크루즈",
-    "prev_rank": 66,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 67,
-    "keyword": "다낭",
-    "prev_rank": 59,
+    "keyword": "이심",
+    "prev_rank": 34,
     "delta": -8,
     "is_new": false
    },
    {
-    "rank": 68,
-    "keyword": "서유럽",
-    "prev_rank": 122,
-    "delta": 54,
+    "rank": 43,
+    "keyword": "하나투어패키지",
+    "prev_rank": 62,
+    "delta": 19,
     "is_new": false
    },
    {
-    "rank": 69,
-    "keyword": "말레이시아여행",
-    "prev_rank": 65,
+    "rank": 44,
+    "keyword": "일본크루즈여행",
+    "prev_rank": 30,
+    "delta": -14,
+    "is_new": false
+   },
+   {
+    "rank": 45,
+    "keyword": "백두산날씨",
+    "prev_rank": 41,
     "delta": -4,
     "is_new": false
    },
    {
-    "rank": 70,
-    "keyword": "오키나와여행",
-    "prev_rank": 54,
-    "delta": -16,
-    "is_new": false
-   },
-   {
-    "rank": 71,
-    "keyword": "태국여행",
-    "prev_rank": 72,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 72,
-    "keyword": "북유럽여행",
-    "prev_rank": 76,
-    "delta": 4,
-    "is_new": false
-   },
-   {
-    "rank": 73,
-    "keyword": "일본온천여행",
-    "prev_rank": 73,
-    "delta": 0,
-    "is_new": false
-   },
-   {
-    "rank": 74,
-    "keyword": "푸꾸욱패키지",
-    "prev_rank": 81,
-    "delta": 7,
-    "is_new": false
-   },
-   {
-    "rank": 75,
-    "keyword": "대마도당일치기",
-    "prev_rank": 84,
-    "delta": 9,
-    "is_new": false
-   },
-   {
-    "rank": 76,
-    "keyword": "부산출발해외여행",
-    "prev_rank": 77,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 77,
-    "keyword": "홍콩마카오여행",
-    "prev_rank": 74,
-    "delta": -3,
-    "is_new": false
-   },
-   {
-    "rank": 78,
-    "keyword": "코카서스3국",
-    "prev_rank": 68,
-    "delta": -10,
-    "is_new": false
-   },
-   {
-    "rank": 79,
-    "keyword": "동유럽",
-    "prev_rank": 80,
-    "delta": 1,
-    "is_new": false
-   },
-   {
-    "rank": 80,
-    "keyword": "세부여행",
-    "prev_rank": 82,
-    "delta": 2,
-    "is_new": false
-   },
-   {
-    "rank": 81,
-    "keyword": "북유럽패키지",
-    "prev_rank": 69,
-    "delta": -12,
-    "is_new": false
-   },
-   {
-    "rank": 82,
-    "keyword": "후쿠오카배편",
-    "prev_rank": 78,
-    "delta": -4,
-    "is_new": false
-   },
-   {
-    "rank": 83,
-    "keyword": "2박3일해외여행",
-    "prev_rank": 103,
-    "delta": 20,
-    "is_new": false
-   },
-   {
-    "rank": 84,
-    "keyword": "일본와이파이도시락",
-    "prev_rank": 83,
-    "delta": -1,
-    "is_new": false
-   },
-   {
-    "rank": 85,
-    "keyword": "알뜰폰요금제",
-    "prev_rank": 88,
-    "delta": 3,
-    "is_new": false
-   },
-   {
-    "rank": 86,
-    "keyword": "나트랑산티아고투어",
-    "prev_rank": 106,
-    "delta": 20,
-    "is_new": false
-   },
-   {
-    "rank": 87,
-    "keyword": "중앙아시아여행",
-    "prev_rank": 92,
+    "rank": 46,
+    "keyword": "오사카여행",
+    "prev_rank": 51,
     "delta": 5,
     "is_new": false
    },
    {
-    "rank": 88,
-    "keyword": "괌여행",
-    "prev_rank": 70,
-    "delta": -18,
+    "rank": 47,
+    "keyword": "시모노세키배편",
+    "prev_rank": 45,
+    "delta": -2,
     "is_new": false
    },
    {
-    "rank": 89,
-    "keyword": "아이슬란드여행",
-    "prev_rank": 105,
-    "delta": 16,
-    "is_new": false
-   },
-   {
-    "rank": 90,
-    "keyword": "치앙마이여행",
-    "prev_rank": 89,
+    "rank": 48,
+    "keyword": "와이파이도시락",
+    "prev_rank": 47,
     "delta": -1,
     "is_new": false
    },
    {
+    "rank": 49,
+    "keyword": "캐나다여행",
+    "prev_rank": 58,
+    "delta": 9,
+    "is_new": false
+   },
+   {
+    "rank": 50,
+    "keyword": "3박4일해외여행",
+    "prev_rank": 39,
+    "delta": -11,
+    "is_new": false
+   },
+   {
+    "rank": 51,
+    "keyword": "도쿄여행",
+    "prev_rank": 53,
+    "delta": 2,
+    "is_new": false
+   },
+   {
+    "rank": 52,
+    "keyword": "중국태항산",
+    "prev_rank": 36,
+    "delta": -16,
+    "is_new": false
+   },
+   {
+    "rank": 53,
+    "keyword": "동유럽",
+    "prev_rank": 79,
+    "delta": 26,
+    "is_new": false
+   },
+   {
+    "rank": 54,
+    "keyword": "부산일본크루즈여행",
+    "prev_rank": 50,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 55,
+    "keyword": "푸꾸옥",
+    "prev_rank": 46,
+    "delta": -9,
+    "is_new": false
+   },
+   {
+    "rank": 56,
+    "keyword": "일본온천여행",
+    "prev_rank": 73,
+    "delta": 17,
+    "is_new": false
+   },
+   {
+    "rank": 57,
+    "keyword": "서유럽",
+    "prev_rank": 68,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 58,
+    "keyword": "태국여행",
+    "prev_rank": 71,
+    "delta": 13,
+    "is_new": false
+   },
+   {
+    "rank": 59,
+    "keyword": "코카서스3국여행",
+    "prev_rank": 44,
+    "delta": -15,
+    "is_new": false
+   },
+   {
+    "rank": 60,
+    "keyword": "말레이시아여행",
+    "prev_rank": 69,
+    "delta": 9,
+    "is_new": false
+   },
+   {
+    "rank": 61,
+    "keyword": "중국청도여행",
+    "prev_rank": 59,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 62,
+    "keyword": "북유럽패키지",
+    "prev_rank": 81,
+    "delta": 19,
+    "is_new": false
+   },
+   {
+    "rank": 63,
+    "keyword": "동남아여행",
+    "prev_rank": 61,
+    "delta": -2,
+    "is_new": false
+   },
+   {
+    "rank": 64,
+    "keyword": "치앙마이여행",
+    "prev_rank": 90,
+    "delta": 26,
+    "is_new": false
+   },
+   {
+    "rank": 65,
+    "keyword": "2박3일해외여행",
+    "prev_rank": 83,
+    "delta": 18,
+    "is_new": false
+   },
+   {
+    "rank": 66,
+    "keyword": "노랑풍선패키지",
+    "prev_rank": 107,
+    "delta": 41,
+    "is_new": false
+   },
+   {
+    "rank": 67,
+    "keyword": "스페인포르투칼여행",
+    "prev_rank": 63,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 68,
+    "keyword": "나트랑산티아고투어",
+    "prev_rank": 86,
+    "delta": 18,
+    "is_new": false
+   },
+   {
+    "rank": 69,
+    "keyword": "부산출발크루즈",
+    "prev_rank": 66,
+    "delta": -3,
+    "is_new": false
+   },
+   {
+    "rank": 70,
+    "keyword": "튀르키에패키지",
+    "prev_rank": 40,
+    "delta": -30,
+    "is_new": false
+   },
+   {
+    "rank": 71,
+    "keyword": "일본와이파이도시락",
+    "prev_rank": 84,
+    "delta": 13,
+    "is_new": false
+   },
+   {
+    "rank": 72,
+    "keyword": "홍콩마카오여행",
+    "prev_rank": 77,
+    "delta": 5,
+    "is_new": false
+   },
+   {
+    "rank": 73,
+    "keyword": "북유럽여행",
+    "prev_rank": 72,
+    "delta": -1,
+    "is_new": false
+   },
+   {
+    "rank": 74,
+    "keyword": "오키나와여행",
+    "prev_rank": 70,
+    "delta": -4,
+    "is_new": false
+   },
+   {
+    "rank": 75,
+    "keyword": "튀르키에패키지여행",
+    "prev_rank": 305,
+    "delta": 230,
+    "is_new": false
+   },
+   {
+    "rank": 76,
+    "keyword": "중앙아시아여행",
+    "prev_rank": 87,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 77,
+    "keyword": "시드니여행",
+    "prev_rank": 97,
+    "delta": 20,
+    "is_new": false
+   },
+   {
+    "rank": 78,
+    "keyword": "아이슬란드여행",
+    "prev_rank": 89,
+    "delta": 11,
+    "is_new": false
+   },
+   {
+    "rank": 79,
+    "keyword": "추석연휴여행",
+    "prev_rank": 175,
+    "delta": 96,
+    "is_new": false
+   },
+   {
+    "rank": 80,
+    "keyword": "터키여행",
+    "prev_rank": 101,
+    "delta": 21,
+    "is_new": false
+   },
+   {
+    "rank": 81,
+    "keyword": "다낭",
+    "prev_rank": 67,
+    "delta": -14,
+    "is_new": false
+   },
+   {
+    "rank": 82,
+    "keyword": "다낭여행",
+    "prev_rank": 65,
+    "delta": -17,
+    "is_new": false
+   },
+   {
+    "rank": 83,
+    "keyword": "해외여행",
+    "prev_rank": 64,
+    "delta": -19,
+    "is_new": false
+   },
+   {
+    "rank": 84,
+    "keyword": "포르투갈여행",
+    "prev_rank": 106,
+    "delta": 22,
+    "is_new": false
+   },
+   {
+    "rank": 85,
+    "keyword": "중국구체구패키지",
+    "prev_rank": 60,
+    "delta": -25,
+    "is_new": false
+   },
+   {
+    "rank": 86,
+    "keyword": "모두투어패키지",
+    "prev_rank": 94,
+    "delta": 8,
+    "is_new": false
+   },
+   {
+    "rank": 87,
+    "keyword": "대마도당일치기",
+    "prev_rank": 75,
+    "delta": -12,
+    "is_new": false
+   },
+   {
+    "rank": 88,
+    "keyword": "호주뉴질랜드여행",
+    "prev_rank": 126,
+    "delta": 38,
+    "is_new": false
+   },
+   {
+    "rank": 89,
+    "keyword": "일본여행추천",
+    "prev_rank": 52,
+    "delta": -37,
+    "is_new": false
+   },
+   {
+    "rank": 90,
+    "keyword": "프랑스여행",
+    "prev_rank": 148,
+    "delta": 58,
+    "is_new": false
+   },
+   {
     "rank": 91,
-    "keyword": "삿포로비에이투어",
-    "prev_rank": 135,
-    "delta": 44,
+    "keyword": "모두투어땡처리",
+    "prev_rank": 56,
+    "delta": -35,
     "is_new": false
    },
    {
     "rank": 92,
-    "keyword": "서유럽3국패키지",
-    "prev_rank": 104,
-    "delta": 12,
+    "keyword": "몽골패키지",
+    "prev_rank": 48,
+    "delta": -44,
     "is_new": false
    },
    {
     "rank": 93,
     "keyword": "홈쇼핑여행상품",
-    "prev_rank": 100,
-    "delta": 7,
+    "prev_rank": 93,
+    "delta": 0,
     "is_new": false
    },
    {
     "rank": 94,
-    "keyword": "모두투어패키지",
-    "prev_rank": 99,
-    "delta": 5,
+    "keyword": "대마도당일치기패키지",
+    "prev_rank": 110,
+    "delta": 16,
     "is_new": false
    },
    {
     "rank": 95,
-    "keyword": "나트랑패스트트랙",
-    "prev_rank": 90,
-    "delta": -5,
+    "keyword": "코카서스3국",
+    "prev_rank": 78,
+    "delta": -17,
     "is_new": false
    },
    {
     "rank": 96,
-    "keyword": "부관훼리",
-    "prev_rank": 86,
-    "delta": -10,
+    "keyword": "부산출발해외여행",
+    "prev_rank": 76,
+    "delta": -20,
     "is_new": false
    },
    {
     "rank": 97,
-    "keyword": "시드니여행",
-    "prev_rank": 116,
-    "delta": 19,
+    "keyword": "세부여행",
+    "prev_rank": 80,
+    "delta": -17,
     "is_new": false
    },
    {
     "rank": 98,
-    "keyword": "나트랑여행",
-    "prev_rank": 79,
-    "delta": -19,
+    "keyword": "3박4일대만여행",
+    "prev_rank": 123,
+    "delta": 25,
     "is_new": false
    },
    {
     "rank": 99,
-    "keyword": "마나도패키지",
-    "prev_rank": 97,
-    "delta": -2,
+    "keyword": "추석연휴해외여행",
+    "prev_rank": 217,
+    "delta": 118,
     "is_new": false
    },
    {
     "rank": 100,
-    "keyword": "오키나와",
-    "prev_rank": 91,
-    "delta": -9,
+    "keyword": "서유럽3국패키지",
+    "prev_rank": 92,
+    "delta": -8,
     "is_new": false
    }
   ],
@@ -4965,1870 +4965,1862 @@
    {
     "rank": 4,
     "keyword": "lg정수기렌탈",
-    "prev_rank": null,
-    "delta": null,
-    "is_new": true,
+    "prev_rank": 4,
+    "delta": 0,
+    "is_new": false,
     "source": "가전"
    }
   ]
  },
  "rising": [
   {
-   "category": "가전",
-   "rank": 44,
-   "keyword": "냉난방기",
-   "prev_rank": 415,
-   "delta": 371,
+   "category": "뷰티",
+   "rank": 119,
+   "keyword": "산타마리아노벨라",
+   "prev_rank": 469,
+   "delta": 350,
    "is_new": false
   },
   {
-   "category": "렌탈상품",
-   "rank": 4,
-   "keyword": "lg정수기렌탈",
+   "category": "뷰티",
+   "rank": 62,
+   "keyword": "산타마리아노벨라비누",
    "prev_rank": null,
    "delta": null,
    "is_new": true
   },
   {
+   "category": "가전",
+   "rank": 104,
+   "keyword": "매립형식기세척기",
+   "prev_rank": 438,
+   "delta": 334,
+   "is_new": false
+  },
+  {
    "category": "건강식품",
-   "rank": 192,
-   "keyword": "배도라지즙",
-   "prev_rank": 442,
-   "delta": 250,
+   "rank": 54,
+   "keyword": "비에마이",
+   "prev_rank": 350,
+   "delta": 296,
+   "is_new": false
+  },
+  {
+   "category": "일반식품",
+   "rank": 156,
+   "keyword": "건고추",
+   "prev_rank": 451,
+   "delta": 295,
+   "is_new": false
+  },
+  {
+   "category": "뷰티",
+   "rank": 217,
+   "keyword": "설화수윤조에센스120ml",
+   "prev_rank": 474,
+   "delta": 257,
+   "is_new": false
+  },
+  {
+   "category": "건강식품",
+   "rank": 163,
+   "keyword": "리포락틴유산균",
+   "prev_rank": 404,
+   "delta": 241,
    "is_new": false
   },
   {
    "category": "가전",
-   "rank": 260,
-   "keyword": "갤럭시워치9스트랩",
-   "prev_rank": 493,
+   "rank": 144,
+   "keyword": "아이피타임ax2004t기가공유기",
+   "prev_rank": 377,
    "delta": 233,
    "is_new": false
   },
   {
    "category": "여행",
-   "rank": 238,
-   "keyword": "모로코여행",
-   "prev_rank": 471,
+   "rank": 152,
+   "keyword": "도야마알펜루트",
+   "prev_rank": 385,
    "delta": 233,
    "is_new": false
   },
   {
    "category": "여행",
-   "rank": 278,
-   "keyword": "부산출발푸꾸옥",
+   "rank": 257,
+   "keyword": "아카미즈골프리조트",
    "prev_rank": 490,
+   "delta": 233,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 75,
+   "keyword": "튀르키에패키지여행",
+   "prev_rank": 305,
+   "delta": 230,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 237,
+   "keyword": "추석해외여행",
+   "prev_rank": 461,
+   "delta": 224,
+   "is_new": false
+  },
+  {
+   "category": "주방용품",
+   "rank": 265,
+   "keyword": "보온도시락통",
+   "prev_rank": 488,
+   "delta": 223,
+   "is_new": false
+  },
+  {
+   "category": "뷰티",
+   "rank": 199,
+   "keyword": "유피토스염색약",
+   "prev_rank": 416,
+   "delta": 217,
+   "is_new": false
+  },
+  {
+   "category": "생활용품",
+   "rank": 251,
+   "keyword": "금비기저귀",
+   "prev_rank": 464,
+   "delta": 213,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 199,
+   "keyword": "일본패키지3박4일",
+   "prev_rank": 412,
+   "delta": 213,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 226,
+   "keyword": "알펜루트패키지",
+   "prev_rank": 438,
    "delta": 212,
    "is_new": false
   },
   {
+   "category": "일반식품",
+   "rank": 73,
+   "keyword": "미미의남도김치",
+   "prev_rank": 284,
+   "delta": 211,
+   "is_new": false
+  },
+  {
    "category": "주방용품",
-   "rank": 168,
-   "keyword": "살림공간",
-   "prev_rank": 369,
-   "delta": 201,
-   "is_new": false
-  },
-  {
-   "category": "뷰티",
-   "rank": 143,
-   "keyword": "쿨링스프레이",
-   "prev_rank": 333,
-   "delta": 190,
-   "is_new": false
-  },
-  {
-   "category": "생활용품",
-   "rank": 289,
-   "keyword": "핑크스터프",
-   "prev_rank": 476,
-   "delta": 187,
-   "is_new": false
-  },
-  {
-   "category": "건강식품",
-   "rank": 293,
-   "keyword": "파세올로지",
-   "prev_rank": 474,
-   "delta": 181,
-   "is_new": false
-  },
-  {
-   "category": "뷰티",
-   "rank": 147,
-   "keyword": "닥터3립타투",
-   "prev_rank": 317,
-   "delta": 170,
-   "is_new": false
-  },
-  {
-   "category": "뷰티",
-   "rank": 291,
-   "keyword": "리더스아이백크림",
-   "prev_rank": 459,
-   "delta": 168,
-   "is_new": false
-  },
-  {
-   "category": "가전",
-   "rank": 235,
-   "keyword": "폴드8케이스",
-   "prev_rank": 403,
-   "delta": 168,
+   "rank": 205,
+   "keyword": "커피잔세트",
+   "prev_rank": 415,
+   "delta": 210,
    "is_new": false
   },
   {
    "category": "여행",
-   "rank": 208,
-   "keyword": "우즈베키스탄여행",
-   "prev_rank": 373,
-   "delta": 165,
+   "rank": 181,
+   "keyword": "여행",
+   "prev_rank": 390,
+   "delta": 209,
    "is_new": false
   },
   {
-   "category": "생활용품",
-   "rank": 286,
-   "keyword": "욕실의여왕",
-   "prev_rank": 447,
-   "delta": 161,
-   "is_new": false
-  },
-  {
-   "category": "생활용품",
-   "rank": 253,
-   "keyword": "욕실의여왕탈취제",
-   "prev_rank": 413,
-   "delta": 160,
-   "is_new": false
-  },
-  {
-   "category": "일반식품",
-   "rank": 226,
-   "keyword": "생크림",
-   "prev_rank": 383,
-   "delta": 157,
-   "is_new": false
-  },
-  {
-   "category": "가전",
-   "rank": 280,
-   "keyword": "핸드폰수화기",
-   "prev_rank": 428,
-   "delta": 148,
-   "is_new": false
-  },
-  {
-   "category": "생활용품",
-   "rank": 296,
-   "keyword": "다이소운동화클리너",
-   "prev_rank": 444,
-   "delta": 148,
-   "is_new": false
-  },
-  {
-   "category": "뷰티",
-   "rank": 113,
-   "keyword": "세인트프랑링클크림",
-   "prev_rank": 257,
-   "delta": 144,
-   "is_new": false
-  },
-  {
-   "category": "주방용품",
-   "rank": 259,
-   "keyword": "블루보틀텀블러",
-   "prev_rank": 402,
-   "delta": 143,
-   "is_new": false
-  },
-  {
-   "category": "일반식품",
-   "rank": 261,
-   "keyword": "브리오슈식빵",
-   "prev_rank": 398,
-   "delta": 137,
-   "is_new": false
-  },
-  {
-   "category": "주방용품",
-   "rank": 174,
-   "keyword": "미라네밀폐용기",
-   "prev_rank": 309,
-   "delta": 135,
-   "is_new": false
-  },
-  {
-   "category": "건강식품",
-   "rank": 300,
-   "keyword": "피에이치365",
-   "prev_rank": 434,
-   "delta": 134,
-   "is_new": false
-  },
-  {
-   "category": "가전",
-   "rank": 140,
-   "keyword": "z플립8케이스",
-   "prev_rank": 270,
-   "delta": 130,
-   "is_new": false
-  },
-  {
-   "category": "일반식품",
-   "rank": 297,
-   "keyword": "광동침향환",
-   "prev_rank": 426,
-   "delta": 129,
-   "is_new": false
-  },
-  {
-   "category": "건강식품",
-   "rank": 258,
-   "keyword": "뉴케어프로틴퍼펙트",
-   "prev_rank": 386,
-   "delta": 128,
-   "is_new": false
-  },
-  {
-   "category": "생활용품",
+   "category": "여행",
    "rank": 279,
-   "keyword": "부직포쇼핑백",
-   "prev_rank": 400,
-   "delta": 121,
+   "keyword": "후쿠오카버스투어",
+   "prev_rank": 484,
+   "delta": 205,
    "is_new": false
   },
   {
-   "category": "여행",
-   "rank": 220,
-   "keyword": "삿포로1일투어",
-   "prev_rank": 337,
-   "delta": 117,
+   "category": "뷰티",
+   "rank": 274,
+   "keyword": "무드매쳐립스틱",
+   "prev_rank": 477,
+   "delta": 203,
+   "is_new": false
+  },
+  {
+   "category": "가전",
+   "rank": 122,
+   "keyword": "식품건조기",
+   "prev_rank": 325,
+   "delta": 203,
    "is_new": false
   },
   {
    "category": "여행",
    "rank": 265,
-   "keyword": "산토리니",
-   "prev_rank": 382,
-   "delta": 117,
-   "is_new": false
-  },
-  {
-   "category": "가전",
-   "rank": 143,
-   "keyword": "갤럭시z플립8케이스",
-   "prev_rank": 258,
-   "delta": 115,
-   "is_new": false
-  },
-  {
-   "category": "건강식품",
-   "rank": 236,
-   "keyword": "조정석영양제",
-   "prev_rank": 347,
-   "delta": 111,
-   "is_new": false
-  },
-  {
-   "category": "주방용품",
-   "rank": 113,
-   "keyword": "티타늄도마",
-   "prev_rank": 219,
-   "delta": 106,
-   "is_new": false
-  },
-  {
-   "category": "여행",
-   "rank": 280,
-   "keyword": "일본골프",
-   "prev_rank": 384,
-   "delta": 104,
-   "is_new": false
-  },
-  {
-   "category": "건강식품",
-   "rank": 119,
-   "keyword": "dem",
-   "prev_rank": 221,
-   "delta": 102,
-   "is_new": false
-  },
-  {
-   "category": "뷰티",
-   "rank": 290,
-   "keyword": "나스컨실러",
-   "prev_rank": 392,
-   "delta": 102,
+   "keyword": "방콕여행",
+   "prev_rank": 467,
+   "delta": 202,
    "is_new": false
   },
   {
    "category": "일반식품",
-   "rank": 232,
-   "keyword": "생선파는며느리",
-   "prev_rank": 333,
-   "delta": 101,
+   "rank": 195,
+   "keyword": "국산고추가루1kg",
+   "prev_rank": 396,
+   "delta": 201,
    "is_new": false
   },
   {
-   "category": "주방용품",
-   "rank": 197,
-   "keyword": "라포레글라스팝",
-   "prev_rank": 293,
-   "delta": 96,
-   "is_new": false
-  },
-  {
-   "category": "건강식품",
-   "rank": 283,
-   "keyword": "여성질유산균추천",
-   "prev_rank": 377,
-   "delta": 94,
+   "category": "뷰티",
+   "rank": 258,
+   "keyword": "매스틱화장품",
+   "prev_rank": 459,
+   "delta": 201,
    "is_new": false
   },
   {
    "category": "여행",
-   "rank": 271,
-   "keyword": "추석패키지여행",
-   "prev_rank": 365,
-   "delta": 94,
+   "rank": 208,
+   "keyword": "일본도쿄여행",
+   "prev_rank": 407,
+   "delta": 199,
+   "is_new": false
+  },
+  {
+   "category": "생활용품",
+   "rank": 256,
+   "keyword": "가드싹",
+   "prev_rank": 448,
+   "delta": 192,
+   "is_new": false
+  },
+  {
+   "category": "가전",
+   "rank": 132,
+   "keyword": "무한잉크",
+   "prev_rank": 323,
+   "delta": 191,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 127,
+   "keyword": "추석여행패키지",
+   "prev_rank": 316,
+   "delta": 189,
+   "is_new": false
+  },
+  {
+   "category": "가전",
+   "rank": 141,
+   "keyword": "삼성공식파트너제이유",
+   "prev_rank": 329,
+   "delta": 188,
+   "is_new": false
+  },
+  {
+   "category": "건강식품",
+   "rank": 260,
+   "keyword": "황성주라이프밀",
+   "prev_rank": 446,
+   "delta": 186,
+   "is_new": false
+  },
+  {
+   "category": "주방용품",
+   "rank": 246,
+   "keyword": "은수저",
+   "prev_rank": 431,
+   "delta": 185,
+   "is_new": false
+  },
+  {
+   "category": "일반식품",
+   "rank": 223,
+   "keyword": "밤고구마",
+   "prev_rank": 407,
+   "delta": 184,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 232,
+   "keyword": "오타루버스투어",
+   "prev_rank": 416,
+   "delta": 184,
+   "is_new": false
+  },
+  {
+   "category": "여행",
+   "rank": 174,
+   "keyword": "중국망산여행",
+   "prev_rank": 349,
+   "delta": 175,
+   "is_new": false
+  },
+  {
+   "category": "주방용품",
+   "rank": 203,
+   "keyword": "실리콘뚜껑",
+   "prev_rank": 377,
+   "delta": 174,
+   "is_new": false
+  },
+  {
+   "category": "일반식품",
+   "rank": 180,
+   "keyword": "치아씨드",
+   "prev_rank": 352,
+   "delta": 172,
+   "is_new": false
+  },
+  {
+   "category": "가전",
+   "rank": 237,
+   "keyword": "갤럭시s26울트라필름",
+   "prev_rank": 409,
+   "delta": 172,
+   "is_new": false
+  },
+  {
+   "category": "건강식품",
+   "rank": 239,
+   "keyword": "레모젠",
+   "prev_rank": 409,
+   "delta": 170,
    "is_new": false
   }
  ],
  "rising_by_cat": {
   "일반식품": [
    {
-    "rank": 226,
-    "keyword": "생크림",
-    "prev_rank": 383,
-    "delta": 157,
+    "rank": 156,
+    "keyword": "건고추",
+    "prev_rank": 451,
+    "delta": 295,
     "is_new": false
    },
    {
-    "rank": 261,
-    "keyword": "브리오슈식빵",
-    "prev_rank": 398,
-    "delta": 137,
-    "is_new": false
-   },
-   {
-    "rank": 297,
-    "keyword": "광동침향환",
-    "prev_rank": 426,
-    "delta": 129,
-    "is_new": false
-   },
-   {
-    "rank": 232,
-    "keyword": "생선파는며느리",
-    "prev_rank": 333,
-    "delta": 101,
-    "is_new": false
-   },
-   {
-    "rank": 176,
-    "keyword": "포카리스웨트500",
-    "prev_rank": 267,
-    "delta": 91,
-    "is_new": false
-   },
-   {
-    "rank": 180,
-    "keyword": "인삼다당체",
-    "prev_rank": 265,
-    "delta": 85,
-    "is_new": false
-   },
-   {
-    "rank": 96,
-    "keyword": "홍고추10kg",
-    "prev_rank": 180,
-    "delta": 84,
-    "is_new": false
-   },
-   {
-    "rank": 211,
-    "keyword": "배추",
-    "prev_rank": 291,
-    "delta": 80,
-    "is_new": false
-   },
-   {
-    "rank": 213,
-    "keyword": "보말",
-    "prev_rank": 289,
-    "delta": 76,
-    "is_new": false
-   },
-   {
-    "rank": 299,
-    "keyword": "정호영손질왕낙지",
-    "prev_rank": 375,
-    "delta": 76,
-    "is_new": false
-   },
-   {
-    "rank": 231,
-    "keyword": "위건강엔매스틱",
-    "prev_rank": 300,
-    "delta": 69,
-    "is_new": false
-   },
-   {
-    "rank": 269,
-    "keyword": "알배추",
-    "prev_rank": 337,
-    "delta": 68,
-    "is_new": false
-   },
-   {
-    "rank": 285,
-    "keyword": "유기농레몬즙100%",
-    "prev_rank": 351,
-    "delta": 66,
-    "is_new": false
-   },
-   {
-    "rank": 88,
-    "keyword": "26년햇고추가루",
-    "prev_rank": 150,
-    "delta": 62,
-    "is_new": false
-   },
-   {
-    "rank": 284,
+    "rank": 73,
     "keyword": "미미의남도김치",
-    "prev_rank": 346,
-    "delta": 62,
+    "prev_rank": 284,
+    "delta": 211,
     "is_new": false
    },
    {
-    "rank": 161,
-    "keyword": "마누카꿀",
-    "prev_rank": 219,
-    "delta": 58,
-    "is_new": false
-   },
-   {
-    "rank": 197,
-    "keyword": "아몬드가루",
-    "prev_rank": 251,
-    "delta": 54,
-    "is_new": false
-   },
-   {
-    "rank": 262,
-    "keyword": "그린아세로라",
-    "prev_rank": 313,
-    "delta": 51,
-    "is_new": false
-   },
-   {
-    "rank": 273,
-    "keyword": "샤인머스켓",
-    "prev_rank": 324,
-    "delta": 51,
-    "is_new": false
-   },
-   {
-    "rank": 115,
-    "keyword": "포도",
-    "prev_rank": 163,
-    "delta": 48,
+    "rank": 195,
+    "keyword": "국산고추가루1kg",
+    "prev_rank": 396,
+    "delta": 201,
     "is_new": false
    },
    {
     "rank": 223,
-    "keyword": "임성근갈비탕",
-    "prev_rank": 270,
-    "delta": 47,
+    "keyword": "밤고구마",
+    "prev_rank": 407,
+    "delta": 184,
     "is_new": false
    },
    {
-    "rank": 173,
-    "keyword": "풀치",
-    "prev_rank": 218,
-    "delta": 45,
+    "rank": 180,
+    "keyword": "치아씨드",
+    "prev_rank": 352,
+    "delta": 172,
     "is_new": false
    },
    {
-    "rank": 267,
-    "keyword": "참송이버섯",
-    "prev_rank": 312,
-    "delta": 45,
-    "is_new": false
-   },
-   {
-    "rank": 263,
+    "rank": 102,
     "keyword": "올록담올리브3",
-    "prev_rank": 307,
-    "delta": 44,
+    "prev_rank": 263,
+    "delta": 161,
     "is_new": false
    },
    {
-    "rank": 155,
-    "keyword": "고춧가루",
-    "prev_rank": 197,
-    "delta": 42,
+    "rank": 149,
+    "keyword": "오미자",
+    "prev_rank": 309,
+    "delta": 160,
     "is_new": false
    },
    {
-    "rank": 172,
-    "keyword": "맥주효모",
-    "prev_rank": 213,
-    "delta": 41,
+    "rank": 131,
+    "keyword": "청귤",
+    "prev_rank": 288,
+    "delta": 157,
     "is_new": false
    },
    {
-    "rank": 171,
-    "keyword": "고등어",
-    "prev_rank": 209,
-    "delta": 38,
+    "rank": 103,
+    "keyword": "울한식된장",
+    "prev_rank": 256,
+    "delta": 153,
     "is_new": false
    },
    {
-    "rank": 293,
-    "keyword": "고래사어묵",
-    "prev_rank": 331,
-    "delta": 38,
+    "rank": 232,
+    "keyword": "기정떡",
+    "prev_rank": 378,
+    "delta": 146,
     "is_new": false
    },
    {
-    "rank": 235,
-    "keyword": "잣",
-    "prev_rank": 271,
-    "delta": 36,
+    "rank": 213,
+    "keyword": "아로니아",
+    "prev_rank": 355,
+    "delta": 142,
     "is_new": false
    },
    {
-    "rank": 280,
-    "keyword": "호박씨",
-    "prev_rank": 316,
-    "delta": 36,
+    "rank": 228,
+    "keyword": "더덕",
+    "prev_rank": 365,
+    "delta": 137,
+    "is_new": false
+   },
+   {
+    "rank": 128,
+    "keyword": "그린아세로라",
+    "prev_rank": 262,
+    "delta": 134,
+    "is_new": false
+   },
+   {
+    "rank": 187,
+    "keyword": "곱창김",
+    "prev_rank": 318,
+    "delta": 131,
+    "is_new": false
+   },
+   {
+    "rank": 104,
+    "keyword": "생크림",
+    "prev_rank": 226,
+    "delta": 122,
+    "is_new": false
+   },
+   {
+    "rank": 250,
+    "keyword": "표고버섯",
+    "prev_rank": 371,
+    "delta": 121,
+    "is_new": false
+   },
+   {
+    "rank": 184,
+    "keyword": "샘트리맛병아리콩",
+    "prev_rank": 296,
+    "delta": 112,
+    "is_new": false
+   },
+   {
+    "rank": 160,
+    "keyword": "알배추",
+    "prev_rank": 269,
+    "delta": 109,
+    "is_new": false
+   },
+   {
+    "rank": 80,
+    "keyword": "인삼다당체",
+    "prev_rank": 180,
+    "delta": 100,
+    "is_new": false
+   },
+   {
+    "rank": 176,
+    "keyword": "샤인머스켓",
+    "prev_rank": 273,
+    "delta": 97,
+    "is_new": false
+   },
+   {
+    "rank": 225,
+    "keyword": "관절보궁",
+    "prev_rank": 321,
+    "delta": 96,
+    "is_new": false
+   },
+   {
+    "rank": 254,
+    "keyword": "두리안",
+    "prev_rank": 347,
+    "delta": 93,
+    "is_new": false
+   },
+   {
+    "rank": 220,
+    "keyword": "브로콜리",
+    "prev_rank": 312,
+    "delta": 92,
+    "is_new": false
+   },
+   {
+    "rank": 273,
+    "keyword": "샘표양조간장701",
+    "prev_rank": 362,
+    "delta": 89,
+    "is_new": false
+   },
+   {
+    "rank": 240,
+    "keyword": "농심누룽지팝",
+    "prev_rank": 328,
+    "delta": 88,
+    "is_new": false
+   },
+   {
+    "rank": 246,
+    "keyword": "쪽파",
+    "prev_rank": 330,
+    "delta": 84,
+    "is_new": false
+   },
+   {
+    "rank": 284,
+    "keyword": "창억호박인절미",
+    "prev_rank": 367,
+    "delta": 83,
+    "is_new": false
+   },
+   {
+    "rank": 283,
+    "keyword": "쌀5kg",
+    "prev_rank": 358,
+    "delta": 75,
+    "is_new": false
+   },
+   {
+    "rank": 248,
+    "keyword": "새우",
+    "prev_rank": 322,
+    "delta": 74,
+    "is_new": false
+   },
+   {
+    "rank": 278,
+    "keyword": "블랙트러플하몽크래커",
+    "prev_rank": 350,
+    "delta": 72,
     "is_new": false
    }
   ],
   "건강식품": [
    {
-    "rank": 192,
-    "keyword": "배도라지즙",
-    "prev_rank": 442,
-    "delta": 250,
+    "rank": 54,
+    "keyword": "비에마이",
+    "prev_rank": 350,
+    "delta": 296,
     "is_new": false
    },
    {
-    "rank": 293,
-    "keyword": "파세올로지",
-    "prev_rank": 474,
-    "delta": 181,
-    "is_new": false
-   },
-   {
-    "rank": 300,
-    "keyword": "피에이치365",
-    "prev_rank": 434,
-    "delta": 134,
-    "is_new": false
-   },
-   {
-    "rank": 258,
-    "keyword": "뉴케어프로틴퍼펙트",
-    "prev_rank": 386,
-    "delta": 128,
-    "is_new": false
-   },
-   {
-    "rank": 236,
-    "keyword": "조정석영양제",
-    "prev_rank": 347,
-    "delta": 111,
-    "is_new": false
-   },
-   {
-    "rank": 119,
-    "keyword": "dem",
-    "prev_rank": 221,
-    "delta": 102,
-    "is_new": false
-   },
-   {
-    "rank": 283,
-    "keyword": "여성질유산균추천",
-    "prev_rank": 377,
-    "delta": 94,
-    "is_new": false
-   },
-   {
-    "rank": 181,
-    "keyword": "유기농마루",
-    "prev_rank": 263,
-    "delta": 82,
-    "is_new": false
-   },
-   {
-    "rank": 239,
-    "keyword": "하이퍼셀오메가-3",
-    "prev_rank": 315,
-    "delta": 76,
+    "rank": 163,
+    "keyword": "리포락틴유산균",
+    "prev_rank": 404,
+    "delta": 241,
     "is_new": false
    },
    {
     "rank": 260,
-    "keyword": "인사돌",
-    "prev_rank": 329,
-    "delta": 69,
+    "keyword": "황성주라이프밀",
+    "prev_rank": 446,
+    "delta": 186,
     "is_new": false
    },
    {
-    "rank": 234,
-    "keyword": "아이틱스",
-    "prev_rank": 302,
-    "delta": 68,
+    "rank": 239,
+    "keyword": "레모젠",
+    "prev_rank": 409,
+    "delta": 170,
     "is_new": false
    },
    {
-    "rank": 274,
-    "keyword": "황금이네",
-    "prev_rank": 342,
-    "delta": 68,
+    "rank": 279,
+    "keyword": "경옥고스틱",
+    "prev_rank": 438,
+    "delta": 159,
+    "is_new": false
+   },
+   {
+    "rank": 257,
+    "keyword": "혜민원인삼다당체",
+    "prev_rank": 403,
+    "delta": 146,
+    "is_new": false
+   },
+   {
+    "rank": 273,
+    "keyword": "정관장홍삼진고",
+    "prev_rank": 419,
+    "delta": 146,
+    "is_new": false
+   },
+   {
+    "rank": 205,
+    "keyword": "올록담",
+    "prev_rank": 337,
+    "delta": 132,
+    "is_new": false
+   },
+   {
+    "rank": 180,
+    "keyword": "지중해올리브오일",
+    "prev_rank": 297,
+    "delta": 117,
+    "is_new": false
+   },
+   {
+    "rank": 202,
+    "keyword": "여에스더멜라토닌",
+    "prev_rank": 316,
+    "delta": 114,
     "is_new": false
    },
    {
     "rank": 174,
-    "keyword": "메스틱",
-    "prev_rank": 240,
-    "delta": 66,
+    "keyword": "여에스더포스파티딜세린",
+    "prev_rank": 284,
+    "delta": 110,
+    "is_new": false
+   },
+   {
+    "rank": 216,
+    "keyword": "리프틴정",
+    "prev_rank": 326,
+    "delta": 110,
+    "is_new": false
+   },
+   {
+    "rank": 282,
+    "keyword": "칡즙",
+    "prev_rank": 391,
+    "delta": 109,
+    "is_new": false
+   },
+   {
+    "rank": 291,
+    "keyword": "잇몸유산균",
+    "prev_rank": 394,
+    "delta": 103,
+    "is_new": false
+   },
+   {
+    "rank": 246,
+    "keyword": "정관장홍삼원",
+    "prev_rank": 347,
+    "delta": 101,
+    "is_new": false
+   },
+   {
+    "rank": 233,
+    "keyword": "신현재다이어트가격",
+    "prev_rank": 324,
+    "delta": 91,
+    "is_new": false
+   },
+   {
+    "rank": 299,
+    "keyword": "아보카도꿀",
+    "prev_rank": 383,
+    "delta": 84,
+    "is_new": false
+   },
+   {
+    "rank": 179,
+    "keyword": "케라넷",
+    "prev_rank": 262,
+    "delta": 83,
     "is_new": false
    },
    {
     "rank": 219,
-    "keyword": "엘레나퀸질유산균",
-    "prev_rank": 279,
-    "delta": 60,
+    "keyword": "이시형마그네슘",
+    "prev_rank": 296,
+    "delta": 77,
     "is_new": false
    },
    {
-    "rank": 265,
-    "keyword": "이노시톨",
-    "prev_rank": 320,
-    "delta": 55,
+    "rank": 184,
+    "keyword": "인사돌",
+    "prev_rank": 260,
+    "delta": 76,
+    "is_new": false
+   },
+   {
+    "rank": 221,
+    "keyword": "파세올로지",
+    "prev_rank": 293,
+    "delta": 72,
     "is_new": false
    },
    {
     "rank": 143,
-    "keyword": "err731",
-    "prev_rank": 197,
-    "delta": 54,
+    "keyword": "여에스더마그네슘",
+    "prev_rank": 214,
+    "delta": 71,
     "is_new": false
    },
    {
-    "rank": 222,
-    "keyword": "헬리코컷부스터",
-    "prev_rank": 275,
-    "delta": 53,
-    "is_new": false
-   },
-   {
-    "rank": 241,
-    "keyword": "퓨렉신우로비콘",
-    "prev_rank": 293,
-    "delta": 52,
+    "rank": 153,
+    "keyword": "구기자",
+    "prev_rank": 224,
+    "delta": 71,
     "is_new": false
    },
    {
     "rank": 297,
-    "keyword": "지중해올리브오일",
-    "prev_rank": 349,
-    "delta": 52,
+    "keyword": "여에스더오메가3",
+    "prev_rank": 366,
+    "delta": 69,
     "is_new": false
    },
    {
-    "rank": 89,
-    "keyword": "례답",
-    "prev_rank": 132,
-    "delta": 43,
+    "rank": 213,
+    "keyword": "종근당콘드로이친",
+    "prev_rank": 279,
+    "delta": 66,
     "is_new": false
    },
    {
-    "rank": 256,
-    "keyword": "면역력영양제",
+    "rank": 278,
+    "keyword": "올인원영양제",
+    "prev_rank": 343,
+    "delta": 65,
+    "is_new": false
+   },
+   {
+    "rank": 148,
+    "keyword": "인삼다당체가격",
+    "prev_rank": 212,
+    "delta": 64,
+    "is_new": false
+   },
+   {
+    "rank": 224,
+    "keyword": "칼슘영양제",
+    "prev_rank": 288,
+    "delta": 64,
+    "is_new": false
+   },
+   {
+    "rank": 189,
+    "keyword": "두뇌엔닥터ps맥스",
+    "prev_rank": 250,
+    "delta": 61,
+    "is_new": false
+   },
+   {
+    "rank": 238,
+    "keyword": "셀로비스콘드로이친",
     "prev_rank": 299,
-    "delta": 43,
-    "is_new": false
-   },
-   {
-    "rank": 254,
-    "keyword": "콘드로이친추천",
-    "prev_rank": 296,
-    "delta": 42,
-    "is_new": false
-   },
-   {
-    "rank": 284,
-    "keyword": "여에스더포스파티딜세린",
-    "prev_rank": 326,
-    "delta": 42,
-    "is_new": false
-   },
-   {
-    "rank": 175,
-    "keyword": "여에스더콘드로이친",
-    "prev_rank": 215,
-    "delta": 40,
-    "is_new": false
-   },
-   {
-    "rank": 267,
-    "keyword": "비트즙",
-    "prev_rank": 306,
-    "delta": 39,
-    "is_new": false
-   },
-   {
-    "rank": 231,
-    "keyword": "명인황근",
-    "prev_rank": 268,
-    "delta": 37,
-    "is_new": false
-   },
-   {
-    "rank": 72,
-    "keyword": "오미자",
-    "prev_rank": 107,
-    "delta": 35,
-    "is_new": false
-   },
-   {
-    "rank": 281,
-    "keyword": "이영애효소",
-    "prev_rank": 312,
-    "delta": 31,
-    "is_new": false
-   },
-   {
-    "rank": 292,
-    "keyword": "텐텐영양제",
-    "prev_rank": 323,
-    "delta": 31,
-    "is_new": false
-   },
-   {
-    "rank": 95,
-    "keyword": "비피더스유산균",
-    "prev_rank": 125,
-    "delta": 30,
+    "delta": 61,
     "is_new": false
    }
   ],
   "뷰티": [
    {
-    "rank": 143,
-    "keyword": "쿨링스프레이",
-    "prev_rank": 333,
-    "delta": 190,
+    "rank": 119,
+    "keyword": "산타마리아노벨라",
+    "prev_rank": 469,
+    "delta": 350,
     "is_new": false
    },
    {
-    "rank": 147,
-    "keyword": "닥터3립타투",
-    "prev_rank": 317,
-    "delta": 170,
+    "rank": 62,
+    "keyword": "산타마리아노벨라비누",
+    "prev_rank": null,
+    "delta": null,
+    "is_new": true
+   },
+   {
+    "rank": 217,
+    "keyword": "설화수윤조에센스120ml",
+    "prev_rank": 474,
+    "delta": 257,
     "is_new": false
    },
    {
-    "rank": 291,
-    "keyword": "리더스아이백크림",
+    "rank": 199,
+    "keyword": "유피토스염색약",
+    "prev_rank": 416,
+    "delta": 217,
+    "is_new": false
+   },
+   {
+    "rank": 274,
+    "keyword": "무드매쳐립스틱",
+    "prev_rank": 477,
+    "delta": 203,
+    "is_new": false
+   },
+   {
+    "rank": 258,
+    "keyword": "매스틱화장품",
     "prev_rank": 459,
-    "delta": 168,
+    "delta": 201,
     "is_new": false
    },
    {
-    "rank": 113,
-    "keyword": "세인트프랑링클크림",
-    "prev_rank": 257,
-    "delta": 144,
+    "rank": 195,
+    "keyword": "트리트먼트",
+    "prev_rank": 361,
+    "delta": 166,
     "is_new": false
    },
    {
-    "rank": 290,
-    "keyword": "나스컨실러",
-    "prev_rank": 392,
-    "delta": 102,
-    "is_new": false
-   },
-   {
-    "rank": 285,
-    "keyword": "바세린바디로션",
-    "prev_rank": 373,
-    "delta": 88,
-    "is_new": false
-   },
-   {
-    "rank": 198,
-    "keyword": "세포랩블랙라벨",
-    "prev_rank": 283,
-    "delta": 85,
-    "is_new": false
-   },
-   {
-    "rank": 216,
-    "keyword": "투크아이브로우",
-    "prev_rank": 294,
-    "delta": 78,
-    "is_new": false
-   },
-   {
-    "rank": 162,
-    "keyword": "조성아대왕쿠션",
-    "prev_rank": 236,
-    "delta": 74,
-    "is_new": false
-   },
-   {
-    "rank": 227,
-    "keyword": "블랑로더립타투틴트",
-    "prev_rank": 299,
-    "delta": 72,
-    "is_new": false
-   },
-   {
-    "rank": 237,
-    "keyword": "세타필바디로션",
-    "prev_rank": 302,
-    "delta": 65,
+    "rank": 218,
+    "keyword": "사이오스트리트먼트",
+    "prev_rank": 372,
+    "delta": 154,
     "is_new": false
    },
    {
     "rank": 257,
-    "keyword": "도미나스쿠션",
-    "prev_rank": 322,
-    "delta": 65,
+    "keyword": "오휘립스틱",
+    "prev_rank": 411,
+    "delta": 154,
     "is_new": false
    },
    {
-    "rank": 246,
-    "keyword": "바세린",
-    "prev_rank": 310,
-    "delta": 64,
+    "rank": 262,
+    "keyword": "때필링",
+    "prev_rank": 407,
+    "delta": 145,
     "is_new": false
    },
    {
-    "rank": 196,
-    "keyword": "이데셀크림",
-    "prev_rank": 258,
-    "delta": 62,
+    "rank": 278,
+    "keyword": "참존기초세트",
+    "prev_rank": 419,
+    "delta": 141,
     "is_new": false
    },
    {
-    "rank": 282,
-    "keyword": "쿤달샴푸",
-    "prev_rank": 341,
-    "delta": 59,
+    "rank": 290,
+    "keyword": "바니스뉴욕쿠션",
+    "prev_rank": 429,
+    "delta": 139,
     "is_new": false
    },
    {
-    "rank": 249,
-    "keyword": "바데콜린앰플",
-    "prev_rank": 306,
-    "delta": 57,
+    "rank": 244,
+    "keyword": "설화수자음생2종세트",
+    "prev_rank": 381,
+    "delta": 137,
     "is_new": false
    },
    {
-    "rank": 211,
-    "keyword": "구달청귤비타c",
-    "prev_rank": 267,
-    "delta": 56,
+    "rank": 107,
+    "keyword": "타투스티커",
+    "prev_rank": 242,
+    "delta": 135,
     "is_new": false
    },
    {
-    "rank": 94,
-    "keyword": "마카루트크림",
-    "prev_rank": 148,
-    "delta": 54,
+    "rank": 296,
+    "keyword": "나스블러셔",
+    "prev_rank": 430,
+    "delta": 134,
     "is_new": false
    },
    {
-    "rank": 177,
-    "keyword": "유세린아이크림",
-    "prev_rank": 231,
-    "delta": 54,
+    "rank": 284,
+    "keyword": "하라즈샴푸염색약",
+    "prev_rank": 414,
+    "delta": 130,
     "is_new": false
    },
    {
-    "rank": 112,
-    "keyword": "설화수클렌징오일",
-    "prev_rank": 160,
-    "delta": 48,
+    "rank": 215,
+    "keyword": "수려한기초세트",
+    "prev_rank": 343,
+    "delta": 128,
     "is_new": false
    },
    {
-    "rank": 148,
-    "keyword": "프라이머",
-    "prev_rank": 194,
-    "delta": 46,
+    "rank": 298,
+    "keyword": "헤라폼클렌징",
+    "prev_rank": 415,
+    "delta": 117,
     "is_new": false
    },
    {
-    "rank": 269,
-    "keyword": "데코르테리포솜",
-    "prev_rank": 315,
-    "delta": 46,
+    "rank": 287,
+    "keyword": "리엔흑모비책",
+    "prev_rank": 399,
+    "delta": 112,
     "is_new": false
    },
    {
-    "rank": 161,
-    "keyword": "흑진주클렌징",
-    "prev_rank": 205,
-    "delta": 44,
+    "rank": 95,
+    "keyword": "달바미스트",
+    "prev_rank": 204,
+    "delta": 109,
+    "is_new": false
+   },
+   {
+    "rank": 214,
+    "keyword": "파우더팩트",
+    "prev_rank": 320,
+    "delta": 106,
     "is_new": false
    },
    {
     "rank": 121,
-    "keyword": "설화수쿠션",
-    "prev_rank": 164,
-    "delta": 43,
+    "keyword": "록시땅핸드크림",
+    "prev_rank": 225,
+    "delta": 104,
     "is_new": false
    },
    {
-    "rank": 283,
-    "keyword": "아이라이너",
+    "rank": 204,
+    "keyword": "립밤",
+    "prev_rank": 305,
+    "delta": 101,
+    "is_new": false
+   },
+   {
+    "rank": 225,
+    "keyword": "아로셀마스크팩",
     "prev_rank": 326,
-    "delta": 43,
+    "delta": 101,
     "is_new": false
    },
    {
-    "rank": 184,
-    "keyword": "호호바오일",
-    "prev_rank": 226,
-    "delta": 42,
+    "rank": 137,
+    "keyword": "세타필바디로션",
+    "prev_rank": 237,
+    "delta": 100,
     "is_new": false
    },
    {
-    "rank": 174,
-    "keyword": "라라츄헤어쿠션",
-    "prev_rank": 214,
-    "delta": 40,
+    "rank": 216,
+    "keyword": "미국산도브비누",
+    "prev_rank": 316,
+    "delta": 100,
     "is_new": false
    },
    {
-    "rank": 233,
-    "keyword": "참존콘트롤크림",
-    "prev_rank": 273,
-    "delta": 40,
+    "rank": 286,
+    "keyword": "메디올염색약",
+    "prev_rank": 380,
+    "delta": 94,
     "is_new": false
    },
    {
-    "rank": 281,
-    "keyword": "바이오더마클렌징워터",
-    "prev_rank": 321,
-    "delta": 40,
+    "rank": 251,
+    "keyword": "셀비아앰플",
+    "prev_rank": 342,
+    "delta": 91,
     "is_new": false
    },
    {
-    "rank": 133,
-    "keyword": "해피바스바디워시",
-    "prev_rank": 172,
-    "delta": 39,
+    "rank": 242,
+    "keyword": "라니쥬밤쿠션",
+    "prev_rank": 330,
+    "delta": 88,
+    "is_new": false
+   },
+   {
+    "rank": 126,
+    "keyword": "고혼진",
+    "prev_rank": 213,
+    "delta": 87,
     "is_new": false
    }
   ],
   "가전": [
    {
-    "rank": 44,
-    "keyword": "냉난방기",
-    "prev_rank": 415,
-    "delta": 371,
+    "rank": 104,
+    "keyword": "매립형식기세척기",
+    "prev_rank": 438,
+    "delta": 334,
     "is_new": false
    },
    {
-    "rank": 260,
-    "keyword": "갤럭시워치9스트랩",
-    "prev_rank": 493,
+    "rank": 144,
+    "keyword": "아이피타임ax2004t기가공유기",
+    "prev_rank": 377,
     "delta": 233,
     "is_new": false
    },
    {
-    "rank": 235,
-    "keyword": "폴드8케이스",
-    "prev_rank": 403,
-    "delta": 168,
+    "rank": 122,
+    "keyword": "식품건조기",
+    "prev_rank": 325,
+    "delta": 203,
+    "is_new": false
+   },
+   {
+    "rank": 132,
+    "keyword": "무한잉크",
+    "prev_rank": 323,
+    "delta": 191,
+    "is_new": false
+   },
+   {
+    "rank": 141,
+    "keyword": "삼성공식파트너제이유",
+    "prev_rank": 329,
+    "delta": 188,
+    "is_new": false
+   },
+   {
+    "rank": 237,
+    "keyword": "갤럭시s26울트라필름",
+    "prev_rank": 409,
+    "delta": 172,
+    "is_new": false
+   },
+   {
+    "rank": 268,
+    "keyword": "넥스코nc-5300k블루",
+    "prev_rank": 431,
+    "delta": 163,
+    "is_new": false
+   },
+   {
+    "rank": 275,
+    "keyword": "쿠쿠밥솥6인용",
+    "prev_rank": 421,
+    "delta": 146,
     "is_new": false
    },
    {
     "rank": 280,
-    "keyword": "핸드폰수화기",
-    "prev_rank": 428,
-    "delta": 148,
+    "keyword": "리큅식품건조기",
+    "prev_rank": 417,
+    "delta": 137,
     "is_new": false
    },
    {
-    "rank": 140,
-    "keyword": "z플립8케이스",
-    "prev_rank": 270,
+    "rank": 125,
+    "keyword": "갤럭시워치9스트랩",
+    "prev_rank": 260,
+    "delta": 135,
+    "is_new": false
+   },
+   {
+    "rank": 205,
+    "keyword": "갤럭시워치7",
+    "prev_rank": 335,
     "delta": 130,
     "is_new": false
    },
    {
-    "rank": 143,
-    "keyword": "갤럭시z플립8케이스",
-    "prev_rank": 258,
-    "delta": 115,
+    "rank": 277,
+    "keyword": "키친아트계란찜기",
+    "prev_rank": 396,
+    "delta": 119,
     "is_new": false
    },
    {
-    "rank": 38,
-    "keyword": "청호나이스정수기",
-    "prev_rank": 131,
-    "delta": 93,
+    "rank": 269,
+    "keyword": "린나이가스레인지",
+    "prev_rank": 382,
+    "delta": 113,
     "is_new": false
    },
    {
-    "rank": 107,
-    "keyword": "갤럭시워치9",
-    "prev_rank": 193,
+    "rank": 214,
+    "keyword": "캐리어냉장고",
+    "prev_rank": 318,
+    "delta": 104,
+    "is_new": false
+   },
+   {
+    "rank": 300,
+    "keyword": "발뮤다토스터기",
+    "prev_rank": 388,
+    "delta": 88,
+    "is_new": false
+   },
+   {
+    "rank": 274,
+    "keyword": "lg냉장고2도어",
+    "prev_rank": 361,
+    "delta": 87,
+    "is_new": false
+   },
+   {
+    "rank": 218,
+    "keyword": "cd플레이어",
+    "prev_rank": 304,
     "delta": 86,
     "is_new": false
    },
    {
-    "rank": 245,
-    "keyword": "노트북거치대",
+    "rank": 162,
+    "keyword": "lg공기청정기",
+    "prev_rank": 244,
+    "delta": 82,
+    "is_new": false
+   },
+   {
+    "rank": 258,
+    "keyword": "삼성건조기",
+    "prev_rank": 340,
+    "delta": 82,
+    "is_new": false
+   },
+   {
+    "rank": 252,
+    "keyword": "전기그릴",
     "prev_rank": 331,
-    "delta": 86,
+    "delta": 79,
     "is_new": false
    },
    {
-    "rank": 148,
-    "keyword": "두피마사지기",
-    "prev_rank": 233,
-    "delta": 85,
+    "rank": 189,
+    "keyword": "게이트맨도어락",
+    "prev_rank": 267,
+    "delta": 78,
     "is_new": false
    },
    {
-    "rank": 93,
-    "keyword": "무한잉크복합기",
-    "prev_rank": 174,
-    "delta": 81,
+    "rank": 281,
+    "keyword": "테팔무선청소기",
+    "prev_rank": 359,
+    "delta": 78,
     "is_new": false
    },
    {
-    "rank": 206,
-    "keyword": "2도어냉장고",
-    "prev_rank": 272,
-    "delta": 66,
+    "rank": 230,
+    "keyword": "갤럭시폴드8케이스",
+    "prev_rank": 305,
+    "delta": 75,
     "is_new": false
    },
    {
-    "rank": 180,
-    "keyword": "애플워치스트랩",
-    "prev_rank": 242,
-    "delta": 62,
+    "rank": 242,
+    "keyword": "드롱기전기포트",
+    "prev_rank": 315,
+    "delta": 73,
     "is_new": false
    },
    {
-    "rank": 284,
-    "keyword": "엘지세탁기",
-    "prev_rank": 346,
-    "delta": 62,
+    "rank": 147,
+    "keyword": "계란삶는기계",
+    "prev_rank": 219,
+    "delta": 72,
     "is_new": false
    },
    {
-    "rank": 172,
-    "keyword": "정인빔프로젝터",
-    "prev_rank": 231,
-    "delta": 59,
+    "rank": 201,
+    "keyword": "삼성인덕션3구",
+    "prev_rank": 273,
+    "delta": 72,
     "is_new": false
    },
    {
-    "rank": 224,
-    "keyword": "모니터받침대",
-    "prev_rank": 281,
-    "delta": 57,
+    "rank": 202,
+    "keyword": "쿠쿠정수기",
+    "prev_rank": 274,
+    "delta": 72,
     "is_new": false
    },
    {
-    "rank": 194,
-    "keyword": "삼성로봇청소기",
-    "prev_rank": 250,
-    "delta": 56,
-    "is_new": false
-   },
-   {
-    "rank": 259,
-    "keyword": "쿠쿠3인용밥솥",
-    "prev_rank": 313,
-    "delta": 54,
-    "is_new": false
-   },
-   {
-    "rank": 176,
-    "keyword": "갤럭시케이스",
-    "prev_rank": 229,
-    "delta": 53,
-    "is_new": false
-   },
-   {
-    "rank": 286,
-    "keyword": "쿠쿠압력밥솥3인용",
-    "prev_rank": 336,
-    "delta": 50,
-    "is_new": false
-   },
-   {
-    "rank": 163,
-    "keyword": "아이엠듀lab",
-    "prev_rank": 211,
-    "delta": 48,
+    "rank": 219,
+    "keyword": "스타일러",
+    "prev_rank": 291,
+    "delta": 72,
     "is_new": false
    },
    {
     "rank": 282,
-    "keyword": "lg세탁기",
-    "prev_rank": 330,
-    "delta": 48,
+    "keyword": "갤럭시탭s11필름",
+    "prev_rank": 353,
+    "delta": 71,
     "is_new": false
    },
    {
-    "rank": 289,
-    "keyword": "삼성통돌이세탁기",
-    "prev_rank": 335,
-    "delta": 46,
-    "is_new": false
-   },
-   {
-    "rank": 211,
-    "keyword": "에어프라이어추천",
-    "prev_rank": 255,
-    "delta": 44,
-    "is_new": false
-   },
-   {
-    "rank": 273,
-    "keyword": "삼성인덕션3구",
-    "prev_rank": 317,
-    "delta": 44,
-    "is_new": false
-   },
-   {
-    "rank": 246,
-    "keyword": "메디큐브",
-    "prev_rank": 289,
-    "delta": 43,
-    "is_new": false
-   },
-   {
-    "rank": 195,
-    "keyword": "전기면도기",
-    "prev_rank": 237,
-    "delta": 42,
-    "is_new": false
-   },
-   {
-    "rank": 244,
-    "keyword": "lg공기청정기",
-    "prev_rank": 286,
-    "delta": 42,
-    "is_new": false
-   },
-   {
-    "rank": 256,
-    "keyword": "jbl스피커",
-    "prev_rank": 296,
-    "delta": 40,
-    "is_new": false
-   },
-   {
-    "rank": 267,
-    "keyword": "게이트맨도어락",
-    "prev_rank": 306,
-    "delta": 39,
+    "rank": 71,
+    "keyword": "z플립8케이스",
+    "prev_rank": 140,
+    "delta": 69,
     "is_new": false
    }
   ],
   "생활용품": [
    {
-    "rank": 289,
-    "keyword": "핑크스터프",
-    "prev_rank": 476,
-    "delta": 187,
+    "rank": 251,
+    "keyword": "금비기저귀",
+    "prev_rank": 464,
+    "delta": 213,
     "is_new": false
    },
    {
-    "rank": 286,
-    "keyword": "욕실의여왕",
-    "prev_rank": 447,
+    "rank": 256,
+    "keyword": "가드싹",
+    "prev_rank": 448,
+    "delta": 192,
+    "is_new": false
+   },
+   {
+    "rank": 267,
+    "keyword": "에어캡",
+    "prev_rank": 437,
+    "delta": 170,
+    "is_new": false
+   },
+   {
+    "rank": 246,
+    "keyword": "비트세제",
+    "prev_rank": 407,
     "delta": 161,
     "is_new": false
    },
    {
-    "rank": 253,
+    "rank": 93,
     "keyword": "욕실의여왕탈취제",
-    "prev_rank": 413,
+    "prev_rank": 253,
     "delta": 160,
     "is_new": false
    },
    {
-    "rank": 296,
-    "keyword": "다이소운동화클리너",
-    "prev_rank": 444,
+    "rank": 226,
+    "keyword": "키퍼cctv",
+    "prev_rank": 386,
+    "delta": 160,
+    "is_new": false
+   },
+   {
+    "rank": 270,
+    "keyword": "암앤헤머세제",
+    "prev_rank": 430,
+    "delta": 160,
+    "is_new": false
+   },
+   {
+    "rank": 159,
+    "keyword": "가드싹후기",
+    "prev_rank": 307,
     "delta": 148,
     "is_new": false
    },
    {
-    "rank": 279,
+    "rank": 250,
+    "keyword": "em원액",
+    "prev_rank": 393,
+    "delta": 143,
+    "is_new": false
+   },
+   {
+    "rank": 114,
+    "keyword": "3개얼룩제거제탑스텝",
+    "prev_rank": 255,
+    "delta": 141,
+    "is_new": false
+   },
+   {
+    "rank": 211,
+    "keyword": "호신용품",
+    "prev_rank": 349,
+    "delta": 138,
+    "is_new": false
+   },
+   {
+    "rank": 210,
+    "keyword": "비트세탁세제",
+    "prev_rank": 341,
+    "delta": 131,
+    "is_new": false
+   },
+   {
+    "rank": 204,
+    "keyword": "유한젠",
+    "prev_rank": 331,
+    "delta": 127,
+    "is_new": false
+   },
+   {
+    "rank": 295,
+    "keyword": "리핀고체탈취제",
+    "prev_rank": 417,
+    "delta": 122,
+    "is_new": false
+   },
+   {
+    "rank": 286,
+    "keyword": "템포",
+    "prev_rank": 403,
+    "delta": 117,
+    "is_new": false
+   },
+   {
+    "rank": 118,
+    "keyword": "비트캡슐세제",
+    "prev_rank": 232,
+    "delta": 114,
+    "is_new": false
+   },
+   {
+    "rank": 148,
+    "keyword": "실속텀블러닥터오렌지",
+    "prev_rank": 261,
+    "delta": 113,
+    "is_new": false
+   },
+   {
+    "rank": 249,
+    "keyword": "크린콜",
+    "prev_rank": 357,
+    "delta": 108,
+    "is_new": false
+   },
+   {
+    "rank": 254,
+    "keyword": "모락셀라섬유유연제",
+    "prev_rank": 356,
+    "delta": 102,
+    "is_new": false
+   },
+   {
+    "rank": 253,
+    "keyword": "롤휴지케이스",
+    "prev_rank": 351,
+    "delta": 98,
+    "is_new": false
+   },
+   {
+    "rank": 103,
+    "keyword": "커클랜드캡슐세제",
+    "prev_rank": 198,
+    "delta": 95,
+    "is_new": false
+   },
+   {
+    "rank": 222,
+    "keyword": "동구밭설거지바",
+    "prev_rank": 310,
+    "delta": 88,
+    "is_new": false
+   },
+   {
+    "rank": 219,
+    "keyword": "크린바바버블왕",
+    "prev_rank": 305,
+    "delta": 86,
+    "is_new": false
+   },
+   {
+    "rank": 134,
+    "keyword": "헤르츠아뜰리에",
+    "prev_rank": 219,
+    "delta": 85,
+    "is_new": false
+   },
+   {
+    "rank": 196,
     "keyword": "부직포쇼핑백",
-    "prev_rank": 400,
-    "delta": 121,
+    "prev_rank": 279,
+    "delta": 83,
     "is_new": false
    },
    {
-    "rank": 271,
+    "rank": 191,
     "keyword": "올리브영타포린백",
-    "prev_rank": 364,
-    "delta": 93,
-    "is_new": false
-   },
-   {
-    "rank": 284,
-    "keyword": "깨끗한나라휴지",
-    "prev_rank": 373,
-    "delta": 89,
-    "is_new": false
-   },
-   {
-    "rank": 154,
-    "keyword": "카포드캡슐세제",
-    "prev_rank": 234,
+    "prev_rank": 271,
     "delta": 80,
     "is_new": false
    },
    {
-    "rank": 280,
-    "keyword": "크리넥스위생행주",
-    "prev_rank": 357,
-    "delta": 77,
+    "rank": 186,
+    "keyword": "섬유탈취제",
+    "prev_rank": 265,
+    "delta": 79,
     "is_new": false
    },
    {
-    "rank": 105,
-    "keyword": "커클랜드세제",
-    "prev_rank": 181,
-    "delta": 76,
-    "is_new": false
-   },
-   {
-    "rank": 216,
-    "keyword": "라코세정제",
-    "prev_rank": 292,
-    "delta": 76,
-    "is_new": false
-   },
-   {
-    "rank": 214,
-    "keyword": "세탁비누",
-    "prev_rank": 289,
+    "rank": 223,
+    "keyword": "곰인형휴지케이스",
+    "prev_rank": 298,
     "delta": 75,
     "is_new": false
    },
    {
-    "rank": 106,
-    "keyword": "다이소물때제거제",
-    "prev_rank": 175,
-    "delta": 69,
+    "rank": 276,
+    "keyword": "암웨이디쉬드랍스",
+    "prev_rank": 348,
+    "delta": 72,
     "is_new": false
    },
    {
-    "rank": 218,
-    "keyword": "프로쉬",
+    "rank": 214,
+    "keyword": "깨끗한나라휴지",
     "prev_rank": 284,
-    "delta": 66,
-    "is_new": false
-   },
-   {
-    "rank": 285,
-    "keyword": "성인기저귀",
-    "prev_rank": 351,
-    "delta": 66,
-    "is_new": false
-   },
-   {
-    "rank": 138,
-    "keyword": "노마크세정티슈",
-    "prev_rank": 199,
-    "delta": 61,
-    "is_new": false
-   },
-   {
-    "rank": 248,
-    "keyword": "이지드롭리필",
-    "prev_rank": 304,
-    "delta": 56,
-    "is_new": false
-   },
-   {
-    "rank": 268,
-    "keyword": "이지드롭변기크리너",
-    "prev_rank": 322,
-    "delta": 54,
-    "is_new": false
-   },
-   {
-    "rank": 250,
-    "keyword": "멜라루카주방세제",
-    "prev_rank": 301,
-    "delta": 51,
-    "is_new": false
-   },
-   {
-    "rank": 195,
-    "keyword": "지네퇴치약",
-    "prev_rank": 243,
-    "delta": 48,
-    "is_new": false
-   },
-   {
-    "rank": 229,
-    "keyword": "페브리즈섬유탈취제",
-    "prev_rank": 276,
-    "delta": 47,
-    "is_new": false
-   },
-   {
-    "rank": 260,
-    "keyword": "whiff탈취제",
-    "prev_rank": 306,
-    "delta": 46,
-    "is_new": false
-   },
-   {
-    "rank": 269,
-    "keyword": "피존섬유유연제",
-    "prev_rank": 314,
-    "delta": 45,
-    "is_new": false
-   },
-   {
-    "rank": 121,
-    "keyword": "다이소얼룩제거제",
-    "prev_rank": 162,
-    "delta": 41,
-    "is_new": false
-   },
-   {
-    "rank": 172,
-    "keyword": "핸드타올5000매",
-    "prev_rank": 212,
-    "delta": 40,
-    "is_new": false
-   },
-   {
-    "rank": 241,
-    "keyword": "계란장바구니",
-    "prev_rank": 280,
-    "delta": 39,
-    "is_new": false
-   },
-   {
-    "rank": 287,
-    "keyword": "가루세제",
-    "prev_rank": 326,
-    "delta": 39,
-    "is_new": false
-   },
-   {
-    "rank": 238,
-    "keyword": "카트",
-    "prev_rank": 275,
-    "delta": 37,
-    "is_new": false
-   },
-   {
-    "rank": 47,
-    "keyword": "쇼핑카트",
-    "prev_rank": 83,
-    "delta": 36,
-    "is_new": false
-   },
-   {
-    "rank": 234,
-    "keyword": "입는생리대",
-    "prev_rank": 270,
-    "delta": 36,
+    "delta": 70,
     "is_new": false
    }
   ],
   "주방용품": [
    {
-    "rank": 168,
-    "keyword": "살림공간",
-    "prev_rank": 369,
-    "delta": 201,
+    "rank": 265,
+    "keyword": "보온도시락통",
+    "prev_rank": 488,
+    "delta": 223,
     "is_new": false
    },
    {
-    "rank": 259,
-    "keyword": "블루보틀텀블러",
-    "prev_rank": 402,
-    "delta": 143,
+    "rank": 205,
+    "keyword": "커피잔세트",
+    "prev_rank": 415,
+    "delta": 210,
     "is_new": false
    },
    {
-    "rank": 174,
-    "keyword": "미라네밀폐용기",
-    "prev_rank": 309,
-    "delta": 135,
-    "is_new": false
-   },
-   {
-    "rank": 113,
-    "keyword": "티타늄도마",
-    "prev_rank": 219,
-    "delta": 106,
-    "is_new": false
-   },
-   {
-    "rank": 197,
-    "keyword": "라포레글라스팝",
-    "prev_rank": 293,
-    "delta": 96,
-    "is_new": false
-   },
-   {
-    "rank": 291,
-    "keyword": "로얄알버트커피잔",
-    "prev_rank": 379,
-    "delta": 88,
-    "is_new": false
-   },
-   {
-    "rank": 251,
-    "keyword": "렌지메이트",
-    "prev_rank": 335,
-    "delta": 84,
-    "is_new": false
-   },
-   {
-    "rank": 295,
-    "keyword": "글라스락렌지쿡",
-    "prev_rank": 371,
-    "delta": 76,
-    "is_new": false
-   },
-   {
-    "rank": 282,
-    "keyword": "모비엘냄비",
-    "prev_rank": 357,
-    "delta": 75,
-    "is_new": false
-   },
-   {
-    "rank": 189,
-    "keyword": "프로그고무장갑",
-    "prev_rank": 263,
-    "delta": 74,
-    "is_new": false
-   },
-   {
-    "rank": 90,
-    "keyword": "다이소채칼",
-    "prev_rank": 161,
-    "delta": 71,
-    "is_new": false
-   },
-   {
-    "rank": 147,
-    "keyword": "포트메리온후라이팬",
-    "prev_rank": 214,
-    "delta": 67,
-    "is_new": false
-   },
-   {
-    "rank": 206,
-    "keyword": "에바솔로조리도구",
-    "prev_rank": 267,
-    "delta": 61,
-    "is_new": false
-   },
-   {
-    "rank": 245,
-    "keyword": "데비마이어",
-    "prev_rank": 306,
-    "delta": 61,
-    "is_new": false
-   },
-   {
-    "rank": 292,
-    "keyword": "행주건조대",
-    "prev_rank": 352,
-    "delta": 60,
-    "is_new": false
-   },
-   {
-    "rank": 287,
-    "keyword": "시라쿠스세트",
-    "prev_rank": 344,
-    "delta": 57,
-    "is_new": false
-   },
-   {
-    "rank": 214,
-    "keyword": "인덕션냄비세트",
-    "prev_rank": 269,
-    "delta": 55,
-    "is_new": false
-   },
-   {
-    "rank": 225,
-    "keyword": "실리만실리콘찜기",
-    "prev_rank": 279,
-    "delta": 54,
-    "is_new": false
-   },
-   {
-    "rank": 252,
-    "keyword": "감자강판",
-    "prev_rank": 304,
-    "delta": 52,
-    "is_new": false
-   },
-   {
-    "rank": 288,
-    "keyword": "레고트텀블러",
-    "prev_rank": 340,
-    "delta": 52,
-    "is_new": false
-   },
-   {
-    "rank": 228,
-    "keyword": "스테니식기건조대",
-    "prev_rank": 278,
-    "delta": 50,
+    "rank": 246,
+    "keyword": "은수저",
+    "prev_rank": 431,
+    "delta": 185,
     "is_new": false
    },
    {
     "rank": 203,
-    "keyword": "주방가위",
-    "prev_rank": 252,
-    "delta": 49,
+    "keyword": "실리콘뚜껑",
+    "prev_rank": 377,
+    "delta": 174,
     "is_new": false
    },
    {
-    "rank": 227,
-    "keyword": "데비마이어그린박스",
-    "prev_rank": 274,
-    "delta": 47,
+    "rank": 143,
+    "keyword": "미라클통",
+    "prev_rank": 301,
+    "delta": 158,
     "is_new": false
    },
    {
-    "rank": 267,
-    "keyword": "포트메리온수저통",
-    "prev_rank": 312,
-    "delta": 45,
+    "rank": 188,
+    "keyword": "순수티타늄도마",
+    "prev_rank": 338,
+    "delta": 150,
     "is_new": false
    },
    {
-    "rank": 247,
-    "keyword": "내열유리밥용기",
-    "prev_rank": 289,
-    "delta": 42,
+    "rank": 117,
+    "keyword": "김용빈에코센스",
+    "prev_rank": 255,
+    "delta": 138,
     "is_new": false
    },
    {
-    "rank": 242,
-    "keyword": "히트락트라이탄",
-    "prev_rank": 282,
-    "delta": 40,
+    "rank": 291,
+    "keyword": "밀폐양념통",
+    "prev_rank": 423,
+    "delta": 132,
     "is_new": false
    },
    {
-    "rank": 169,
-    "keyword": "천연수세미",
-    "prev_rank": 207,
-    "delta": 38,
+    "rank": 224,
+    "keyword": "가정용제면기",
+    "prev_rank": 352,
+    "delta": 128,
     "is_new": false
    },
    {
-    "rank": 213,
-    "keyword": "아이넥스식기건조대",
-    "prev_rank": 250,
-    "delta": 37,
+    "rank": 284,
+    "keyword": "암웨이수세미",
+    "prev_rank": 412,
+    "delta": 128,
+    "is_new": false
+   },
+   {
+    "rank": 173,
+    "keyword": "글라스락렌지쿡",
+    "prev_rank": 295,
+    "delta": 122,
+    "is_new": false
+   },
+   {
+    "rank": 148,
+    "keyword": "휘슬러수저세트",
+    "prev_rank": 268,
+    "delta": 120,
+    "is_new": false
+   },
+   {
+    "rank": 177,
+    "keyword": "휘슬러후라이팬",
+    "prev_rank": 286,
+    "delta": 109,
+    "is_new": false
+   },
+   {
+    "rank": 215,
+    "keyword": "김그릇",
+    "prev_rank": 322,
+    "delta": 107,
+    "is_new": false
+   },
+   {
+    "rank": 287,
+    "keyword": "포토메리온세트",
+    "prev_rank": 393,
+    "delta": 106,
     "is_new": false
    },
    {
     "rank": 300,
-    "keyword": "스타우브냄비",
-    "prev_rank": 337,
-    "delta": 37,
+    "keyword": "램프쿡",
+    "prev_rank": 402,
+    "delta": 102,
     "is_new": false
    },
    {
-    "rank": 120,
-    "keyword": "플레이팅팬",
-    "prev_rank": 155,
-    "delta": 35,
+    "rank": 158,
+    "keyword": "렌지메이트",
+    "prev_rank": 251,
+    "delta": 93,
+    "is_new": false
+   },
+   {
+    "rank": 267,
+    "keyword": "웍후라이팬",
+    "prev_rank": 357,
+    "delta": 90,
+    "is_new": false
+   },
+   {
+    "rank": 240,
+    "keyword": "코렐머그컵",
+    "prev_rank": 328,
+    "delta": 88,
+    "is_new": false
+   },
+   {
+    "rank": 290,
+    "keyword": "계량스푼",
+    "prev_rank": 378,
+    "delta": 88,
+    "is_new": false
+   },
+   {
+    "rank": 131,
+    "keyword": "코렐그릇",
+    "prev_rank": 218,
+    "delta": 87,
+    "is_new": false
+   },
+   {
+    "rank": 86,
+    "keyword": "살림공간",
+    "prev_rank": 168,
+    "delta": 82,
+    "is_new": false
+   },
+   {
+    "rank": 272,
+    "keyword": "글라스락밥용기",
+    "prev_rank": 353,
+    "delta": 81,
+    "is_new": false
+   },
+   {
+    "rank": 223,
+    "keyword": "스타우브냄비",
+    "prev_rank": 300,
+    "delta": 77,
+    "is_new": false
+   },
+   {
+    "rank": 244,
+    "keyword": "전자레인지찜기",
+    "prev_rank": 319,
+    "delta": 75,
+    "is_new": false
+   },
+   {
+    "rank": 145,
+    "keyword": "주전자",
+    "prev_rank": 212,
+    "delta": 67,
+    "is_new": false
+   },
+   {
+    "rank": 286,
+    "keyword": "웨지우드커피잔",
+    "prev_rank": 350,
+    "delta": 64,
+    "is_new": false
+   },
+   {
+    "rank": 257,
+    "keyword": "램프쿡회전냄비",
+    "prev_rank": 320,
+    "delta": 63,
+    "is_new": false
+   },
+   {
+    "rank": 184,
+    "keyword": "에코센스히트락",
+    "prev_rank": 246,
+    "delta": 62,
+    "is_new": false
+   },
+   {
+    "rank": 167,
+    "keyword": "스테니식기건조대",
+    "prev_rank": 228,
+    "delta": 61,
     "is_new": false
    }
   ],
   "여행": [
    {
-    "rank": 238,
-    "keyword": "모로코여행",
-    "prev_rank": 471,
+    "rank": 152,
+    "keyword": "도야마알펜루트",
+    "prev_rank": 385,
     "delta": 233,
     "is_new": false
    },
    {
-    "rank": 278,
-    "keyword": "부산출발푸꾸옥",
+    "rank": 257,
+    "keyword": "아카미즈골프리조트",
     "prev_rank": 490,
+    "delta": 233,
+    "is_new": false
+   },
+   {
+    "rank": 75,
+    "keyword": "튀르키에패키지여행",
+    "prev_rank": 305,
+    "delta": 230,
+    "is_new": false
+   },
+   {
+    "rank": 237,
+    "keyword": "추석해외여행",
+    "prev_rank": 461,
+    "delta": 224,
+    "is_new": false
+   },
+   {
+    "rank": 199,
+    "keyword": "일본패키지3박4일",
+    "prev_rank": 412,
+    "delta": 213,
+    "is_new": false
+   },
+   {
+    "rank": 226,
+    "keyword": "알펜루트패키지",
+    "prev_rank": 438,
     "delta": 212,
     "is_new": false
    },
    {
-    "rank": 208,
-    "keyword": "우즈베키스탄여행",
-    "prev_rank": 373,
-    "delta": 165,
-    "is_new": false
-   },
-   {
-    "rank": 220,
-    "keyword": "삿포로1일투어",
-    "prev_rank": 337,
-    "delta": 117,
-    "is_new": false
-   },
-   {
-    "rank": 265,
-    "keyword": "산토리니",
-    "prev_rank": 382,
-    "delta": 117,
-    "is_new": false
-   },
-   {
-    "rank": 280,
-    "keyword": "일본골프",
-    "prev_rank": 384,
-    "delta": 104,
-    "is_new": false
-   },
-   {
-    "rank": 271,
-    "keyword": "추석패키지여행",
-    "prev_rank": 365,
-    "delta": 94,
-    "is_new": false
-   },
-   {
-    "rank": 210,
-    "keyword": "대마도렌트카",
-    "prev_rank": 299,
-    "delta": 89,
-    "is_new": false
-   },
-   {
-    "rank": 172,
-    "keyword": "도쿄미술관투어",
-    "prev_rank": 260,
-    "delta": 88,
-    "is_new": false
-   },
-   {
-    "rank": 299,
-    "keyword": "베트남다낭이심",
-    "prev_rank": 381,
-    "delta": 82,
-    "is_new": false
-   },
-   {
-    "rank": 216,
-    "keyword": "일본알펜루트패키지",
-    "prev_rank": 294,
-    "delta": 78,
-    "is_new": false
-   },
-   {
-    "rank": 215,
-    "keyword": "삿포로샤코탄투어",
-    "prev_rank": 292,
-    "delta": 77,
-    "is_new": false
-   },
-   {
-    "rank": 187,
-    "keyword": "장가계여행",
-    "prev_rank": 263,
-    "delta": 76,
-    "is_new": false
-   },
-   {
-    "rank": 136,
-    "keyword": "푸켓여행",
-    "prev_rank": 210,
-    "delta": 74,
-    "is_new": false
-   },
-   {
-    "rank": 256,
-    "keyword": "나트랑달랏투어",
-    "prev_rank": 322,
-    "delta": 66,
-    "is_new": false
-   },
-   {
-    "rank": 175,
-    "keyword": "추석연휴여행",
-    "prev_rank": 240,
-    "delta": 65,
-    "is_new": false
-   },
-   {
-    "rank": 230,
-    "keyword": "카자흐스탄여행",
-    "prev_rank": 295,
-    "delta": 65,
+    "rank": 181,
+    "keyword": "여행",
+    "prev_rank": 390,
+    "delta": 209,
     "is_new": false
    },
    {
     "rank": 279,
-    "keyword": "호주뉴질랜드패키지",
-    "prev_rank": 344,
-    "delta": 65,
+    "keyword": "후쿠오카버스투어",
+    "prev_rank": 484,
+    "delta": 205,
     "is_new": false
    },
    {
-    "rank": 207,
-    "keyword": "아프리카여행",
-    "prev_rank": 271,
-    "delta": 64,
+    "rank": 265,
+    "keyword": "방콕여행",
+    "prev_rank": 467,
+    "delta": 202,
     "is_new": false
    },
    {
-    "rank": 218,
-    "keyword": "대구출발패키지",
-    "prev_rank": 281,
-    "delta": 63,
+    "rank": 208,
+    "keyword": "일본도쿄여행",
+    "prev_rank": 407,
+    "delta": 199,
     "is_new": false
    },
    {
-    "rank": 183,
-    "keyword": "서유럽여행",
-    "prev_rank": 244,
-    "delta": 61,
+    "rank": 127,
+    "keyword": "추석여행패키지",
+    "prev_rank": 316,
+    "delta": 189,
     "is_new": false
    },
    {
-    "rank": 236,
-    "keyword": "조지아여행",
-    "prev_rank": 297,
-    "delta": 61,
+    "rank": 232,
+    "keyword": "오타루버스투어",
+    "prev_rank": 416,
+    "delta": 184,
     "is_new": false
    },
    {
-    "rank": 194,
-    "keyword": "돌로미티트레킹",
-    "prev_rank": 251,
-    "delta": 57,
+    "rank": 174,
+    "keyword": "중국망산여행",
+    "prev_rank": 349,
+    "delta": 175,
     "is_new": false
    },
    {
-    "rank": 68,
-    "keyword": "서유럽",
-    "prev_rank": 122,
-    "delta": 54,
-    "is_new": false
-   },
-   {
-    "rank": 115,
-    "keyword": "체코여행",
-    "prev_rank": 168,
-    "delta": 53,
-    "is_new": false
-   },
-   {
-    "rank": 212,
-    "keyword": "태국골프여행",
-    "prev_rank": 264,
-    "delta": 52,
-    "is_new": false
-   },
-   {
-    "rank": 231,
-    "keyword": "남미여행",
-    "prev_rank": 282,
-    "delta": 51,
-    "is_new": false
-   },
-   {
-    "rank": 274,
-    "keyword": "보홀",
-    "prev_rank": 323,
-    "delta": 49,
-    "is_new": false
-   },
-   {
-    "rank": 282,
-    "keyword": "간사이조이패스",
+    "rank": 164,
+    "keyword": "동유럽3국패키지",
     "prev_rank": 331,
-    "delta": 49,
+    "delta": 167,
     "is_new": false
    },
    {
-    "rank": 240,
-    "keyword": "세부",
-    "prev_rank": 288,
-    "delta": 48,
+    "rank": 133,
+    "keyword": "추석여행",
+    "prev_rank": 292,
+    "delta": 159,
+    "is_new": false
+   },
+   {
+    "rank": 141,
+    "keyword": "그리스여행",
+    "prev_rank": 294,
+    "delta": 153,
+    "is_new": false
+   },
+   {
+    "rank": 264,
+    "keyword": "로밍도깨비",
+    "prev_rank": 404,
+    "delta": 140,
+    "is_new": false
+   },
+   {
+    "rank": 295,
+    "keyword": "2박3일여행지",
+    "prev_rank": 435,
+    "delta": 140,
+    "is_new": false
+   },
+   {
+    "rank": 245,
+    "keyword": "일본소도시패키지",
+    "prev_rank": 370,
+    "delta": 125,
+    "is_new": false
+   },
+   {
+    "rank": 125,
+    "keyword": "다카마쓰여행",
+    "prev_rank": 248,
+    "delta": 123,
+    "is_new": false
+   },
+   {
+    "rank": 289,
+    "keyword": "호주여행패키지",
+    "prev_rank": 409,
+    "delta": 120,
+    "is_new": false
+   },
+   {
+    "rank": 291,
+    "keyword": "베네룩스3국",
+    "prev_rank": 410,
+    "delta": 119,
+    "is_new": false
+   },
+   {
+    "rank": 99,
+    "keyword": "추석연휴해외여행",
+    "prev_rank": 217,
+    "delta": 118,
+    "is_new": false
+   },
+   {
+    "rank": 161,
+    "keyword": "호주뉴질랜드패키지",
+    "prev_rank": 279,
+    "delta": 118,
+    "is_new": false
+   },
+   {
+    "rank": 239,
+    "keyword": "오로라여행",
+    "prev_rank": 348,
+    "delta": 109,
+    "is_new": false
+   },
+   {
+    "rank": 262,
+    "keyword": "상해패키지여행",
+    "prev_rank": 369,
+    "delta": 107,
+    "is_new": false
+   },
+   {
+    "rank": 267,
+    "keyword": "추석일본여행패키지",
+    "prev_rank": 372,
+    "delta": 105,
+    "is_new": false
+   },
+   {
+    "rank": 294,
+    "keyword": "치앙마이골프",
+    "prev_rank": 399,
+    "delta": 105,
+    "is_new": false
+   },
+   {
+    "rank": 128,
+    "keyword": "카자흐스탄여행",
+    "prev_rank": 230,
+    "delta": 102,
+    "is_new": false
+   },
+   {
+    "rank": 252,
+    "keyword": "하노이여행",
+    "prev_rank": 352,
+    "delta": 100,
     "is_new": false
    }
   ],
-  "렌탈상품": [
-   {
-    "rank": 4,
-    "keyword": "lg정수기렌탈",
-    "prev_rank": null,
-    "delta": null,
-    "is_new": true
-   }
-  ]
+  "렌탈상품": []
  },
  "hype": {},
  "hype_ymd": null,
  "insights": {
   "generated": true,
-  "summary": "이번 주 5060 여성 트렌드 헤드라인 : 계절 가전 「냉난방기」 검색 폭발(delta 371) → 환절기 대비 수요 급증 / 건강식품(배도라지즙·침향환·시니어단백질)의 구조적 강세 지속. 뷰티는 안티에이징 아이·링클 크림, 생활은 욕실 청소·탈취제가 시연형 수요로 동반 상승. 검색 급상승 × 5060 소구력이 겹치는 지점은 건강식품/계절가전/청소용품 3축으로 요약된다.",
+  "summary": "이번 주 5060 여성 트렌드는 「추석·김장 시즌 식품」/「해외 패키지여행」/「홈뷰티·염색」 3축으로 압축된다. 검색 급상승과 실구매 신호가 겹치는 지점은 건고추·고춧가루→김치(미미의남도김치)로 이어지는 가을 식자재 흐름/일본·튀르키에 중심 추석 해외여행이다. 산타마리아노벨라 비누가 신규 진입(62위)하며 수입 홈뷰티 관심도 부상했고, 유피토스염색약·식품건조기는 시연형 편성에 적합한 상승세를 보인다.",
   "candidates": [
    {
-    "name": "「냉난방기」 이동식·스탠드형",
-    "category": "가전",
-    "reason": "delta 371로 이번 주 최대 급상승 → 환절기 냉난방 겸용 수요. 시연·객단가 모두 홈쇼핑 최적, 편성 이력 有.",
-    "hmall_status": "편성 이력 有",
-    "score": 1
-   },
-   {
-    "name": "「광동침향환」·「배도라지즙」 건강즙",
-    "category": "건강식품",
-    "reason": "침향환·배도라지즙(delta 250) 동반 상승 → 5060 여성 핵심 소구. 스테디 편성 자산, 정기구매 유인책 강함.",
+    "name": "「가을 김장 식자재 세트」(건고추·국산고춧가루·미미의남도김치)",
+    "category": "일반식품",
+    "reason": "건고추/국산고추가루1kg/미미의남도김치 동반 급상승 → 김장 시즌 구조적 수요, 5060 여성 핵심 소구.",
     "hmall_status": "유사상품 보유",
     "score": 1
    },
    {
-    "name": "「욕실의여왕」 탈취제·「핑크스터프」 세정제",
-    "category": "생활용품",
-    "reason": "욕실의여왕/탈취제/핑크스터프 청소라인 동시 급상승 → 실사용 시연 소구 강력. 미보유 갭 최우선 가점.",
-    "hmall_status": "방송상품 미보유",
+    "name": "「추석 해외 패키지여행」(일본 알펜루트·튀르키에)",
+    "category": "여행",
+    "reason": "추석여행패키지/튀르키에/일본3박4일/알펜루트 다수 동시 상승 → 시즌성 뚜렷, 객단가 높고 편성 인프라 有.",
+    "hmall_status": "편성 이력 有",
     "score": 2
    },
    {
-    "name": "시니어 단백질 「뉴케어프로틴퍼펙트」",
-    "category": "건강식품",
-    "reason": "delta 128, 시니어 단백질 시장 구조적 성장 → 지속성 높음. 정기배송·세트 구성 적합.",
+    "name": "「유피토스 셀프염색약」",
+    "category": "뷰티",
+    "reason": "염색약 217계단 상승 → 5060 여성 반복구매재, 시연형 데이터방송 시간대 적합.",
     "hmall_status": "유사상품 보유",
+    "score": 2
+   },
+   {
+    "name": "「식품건조기」",
+    "category": "가전",
+    "reason": "식품건조기 203계단 상승 → 수확·건고추 시즌과 맞물린 시연형 소구, 객단가 확보.",
+    "hmall_status": "미확인",
     "score": 3
    },
    {
-    "name": "안티에이징 아이·링클 크림 「세인트프랑」·「리더스아이백크림」",
+    "name": "「산타마리아노벨라 비누·홈뷰티」",
     "category": "뷰티",
-    "reason": "링클크림(delta 144)·아이백크림 동반 상승 → 5060 안티에이징 소구. Before/After 시연형 편성 적합.",
-    "hmall_status": "유사상품 보유",
-    "score": 3
+    "reason": "비누 신규 62위 진입+브랜드 350계단 급등 → 수입 홈뷰티 갭, 다만 가격·희소성으로 소구층 한정.",
+    "hmall_status": "방송상품 미보유",
+    "score": 4
    }
   ]
  }
